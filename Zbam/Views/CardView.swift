@@ -11,6 +11,7 @@ import SwiftData
 struct CardView: View {
     let card: Card
     @State private var answer: String
+    @State private var isPresentingEditView: Bool = false
     
     init(card: Card) {
         self.card = card
@@ -19,9 +20,22 @@ struct CardView: View {
     
     var body: some View {
         VStack {
-            Text(answer)
-            Button(action: flip) {
-                Text("Show answer")
+            NavigationStack {
+                Text(answer)
+                Button(action: flip) {
+                    Text("Show answer")
+                }
+                .toolbar {
+                    Button("Edit") {
+                        isPresentingEditView = true
+                    }
+                }
+                .sheet(isPresented: $isPresentingEditView) {
+                    NavigationStack {
+                        CardEditView(card: card)
+                            .navigationTitle("Card")
+                    }
+                }
             }
         }
     }
