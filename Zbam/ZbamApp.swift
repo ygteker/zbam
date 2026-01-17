@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct ZbamApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreateCardView()
         }
+        .modelContainer(for: [Card.self])
     }
 }
