@@ -10,31 +10,38 @@ import SwiftData
 
 struct CreateCardView: View {
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.dismiss) private var dismiss
 
     @State private var frontValue: String = ""
     @State private var backValue: String = ""
 
     var body: some View {
-        VStack {
-            Text("Front")
-            TextField(
-                "Front",
-                text: $frontValue
-            )
-            .textInputAutocapitalization(.never)
-            .border(.secondary)
-            Text("Back")
-            TextField(
-                "Back",
-                text: $backValue
-            )
-            .textInputAutocapitalization(.never)
-            .border(.secondary)
-            Button(action: submitValues) {
-                Text("Submit")
+        Form{
+            VStack(alignment: .leading, spacing: 20) {
+                TextField("Front", text: $frontValue)
+                    .autocorrectionDisabled(true)
+                    .textInputAutocapitalization(.never)
+                TextField("Back", text: $backValue)
+                    .autocorrectionDisabled(true)
+                    .textInputAutocapitalization(.never)
+                    .textInputAutocapitalization(.never)
             }
         }
-        .padding()
+        .navigationTitle("Create New Card")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button("Cancel") {
+                    dismiss()
+                }
+            }
+            ToolbarItem(placement: .confirmationAction) {
+                Button("Save") {
+                    submitValues()
+                    dismiss()
+                }
+            }
+        }
     }
     
     func submitValues() {
@@ -47,6 +54,8 @@ struct CreateCardView: View {
 }
 
 #Preview {
-    CreateCardView()
-        .modelContainer(for: [Card.self], inMemory: true)
+    NavigationStack {
+        CreateCardView()
+            .modelContainer(for: [Card.self], inMemory: true)
+    }
 }

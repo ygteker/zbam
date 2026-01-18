@@ -15,44 +15,58 @@ struct CardEditView: View {
     @State private var back: String
     
     @State private var isEditing = false
+    @State private var creating: Bool = false
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var modelContext
     
-    init(card: Card) {
+    init(card: Card, creating: Bool = false) {
         self.card = card
         self.back = card.back
         self.front = card.front
+        self.creating = creating
     }
     
     var body: some View {
         Form {
-            HStack {
-                TextField("Front", text: $front)
-                    .autocorrectionDisabled(true)
-                    .autocapitalization(.none)
-                if !front.isEmpty {
-                    Button {
-                        front = ""
-                    } label: {
-                        Image(systemName: "xmark.circle.fill")
-                            .foregroundStyle(.secondary)
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Front")
+                    .font(.headline)
+                    .foregroundStyle(.cyan)
+                HStack {
+                    TextField("Front", text: $front)
+                        .autocorrectionDisabled(true)
+                        .autocapitalization(.none)
+                    if !front.isEmpty {
+                        Button {
+                            front = ""
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .foregroundStyle(.secondary)
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel("Clear front")
                     }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel("Clear front")
                 }
             }
-            HStack {
-                TextField("Back", text: $back)
-                    .autocorrectionDisabled(true)
-                    .autocapitalization(.none)
-                if !back.isEmpty {
-                    Button {
-                        back = ""
-                    } label: {
-                        Image(systemName: "xmark.circle.fill")
-                            .foregroundStyle(.secondary)
+            
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Back")
+                    .font(.headline)
+                    .foregroundStyle(.cyan)
+                HStack {
+                    TextField("Back", text: $back)
+                        .autocorrectionDisabled(true)
+                        .autocapitalization(.none)
+                    if !back.isEmpty {
+                        Button {
+                            back = ""
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .foregroundStyle(.secondary)
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel("Clear back")
                     }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel("Clear back")
                 }
             }
         }
@@ -73,6 +87,11 @@ struct CardEditView: View {
         }
     }
     private func saveCard() {
+        if front.isEmpty && back.isEmpty {
+            modelContext.delete(card)
+            return
+        }
+        // Editing existing card
         card.front = front
         card.back = back
     }

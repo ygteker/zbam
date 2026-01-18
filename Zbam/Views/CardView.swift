@@ -38,6 +38,12 @@ struct CardView: View {
                 }
             }
         }
+        // Refresh UI after the sheet is dismissed
+        .onChange(of: isPresentingEditView) { _, isPresented in
+            if !isPresented {
+                answer = card.front
+            }
+        }
     }
     
     func flip() {

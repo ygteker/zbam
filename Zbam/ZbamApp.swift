@@ -12,7 +12,7 @@ import SwiftData
 struct ZbamApp: App {
     var body: some Scene {
         WindowGroup {
-            CreateCardView()
+            CardsListView()
         }
         .modelContainer(for: [Card.self])
     }
