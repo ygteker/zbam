@@ -23,7 +23,7 @@ struct CardView: View {
             NavigationStack {
                 VStack {
                     Spacer()
-                    ZStack() {
+                    ZStack {
                         Text(card.front)
                             .placedOnCard(Color.yellow)
                             .flipRotate(flipDegrees)
@@ -33,6 +33,9 @@ struct CardView: View {
                             .flipRotate(-180 + flipDegrees)
                             .opacity(flipped ? 1.0 : 0.0)
                     }
+                    // Add margins around the card area
+                    .padding(.horizontal, 64)
+                    .padding(.vertical, 56)
                     .animation(.easeInOut(duration: 0.8), value: flipped)
                     .onTapGesture {
                         flipped.toggle()
@@ -64,24 +67,21 @@ extension View {
         return padding(5)
             .fontDesign(.serif)
             .font(.system(size: 54))
-            .scaledToFit()
             .lineLimit(2)
-            .minimumScaleFactor(0.01)
-            .containerRelativeFrame([.vertical, .horizontal])
+            .minimumScaleFactor(0.4)
+            .frame(maxWidth: 600, maxHeight: 600)
             .background(color)
             .cornerRadius(12.0)
             .shadow(radius: 12)
-            .border(.black)
-            
     }
 }
 
 #Preview(Card.sampleData.first?.front ?? "Card Preview", traits: .cardSampleData) {
     // Use the first sample card
-//    if let first = Card.sampleData.first {
-//        CardView(card: first)
-//    } else {
+    if let first = Card.sampleData.first {
+        CardView(card: first)
+    } else {
         // Fallback if sample data is empty
-        CardView(card: Card(front: "Frontjasdasdsadsdasdsad", back: "Back"))
-//    }
+        CardView(card: Card(front: "Frontjasdasdsadssdasdasdasddasdsad", back: "Back"))
+    }
 }
