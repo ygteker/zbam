@@ -45,6 +45,7 @@ struct SwipeableCardsView: View {
     var body: some View {
         GeometryReader { geometry in
             if model.unswipedCards.isEmpty && model.swipedCards.isEmpty {
+                
                 emptyCardsView
                     .frame(width: geometry.size.width, height: geometry.size.height)
             } else if model.unswipedCards.isEmpty {
@@ -123,6 +124,19 @@ struct SwipeableCardsView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
+//            Button(action: {
+//                NavigationLink(destination: CardsListView) {
+//                    EmptyView()
+//                }
+//                .hidden
+//            }) {
+//                Text("Return to List")
+//                    .font(.headline)
+//                    .frame(width: 200, height: 50)
+//                    .background(Color.accentColor)
+//                    .foregroundColor(.white)
+//                    .cornerRadius(10)
+//            }
         }
     }
 }
