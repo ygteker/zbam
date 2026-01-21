@@ -14,7 +14,7 @@ struct CardView: View {
     }
     
     struct Model: Identifiable, Equatable {
-        let id = UUID()
+        let id: UUID
         let front: String
         let back: String
         var swipeDirection: SwipeDirection = .none

@@ -34,9 +34,12 @@ struct SwipeableCardsView: View {
     }
     
     @ObservedObject var model: Model
+    @Environment(\.modelContext) private var context
     @State private var dragState = CGSize.zero
     @State private var cardRotation: Double = 0
-    
+    @State private var store: CardStore? = nil
+    @State private var pendingSwipes: [(UUID, CardView.SwipeDirection)] = []
+
     private let swipeThreshold: CGFloat = 100.0
     private let rotationFactor: Double = 35.0 // This remains constant and should be fine
     
@@ -54,7 +57,7 @@ struct SwipeableCardsView: View {
             } else {
                 ZStack {
                     Color.white.ignoresSafeArea()
-                    ForEach(model.unswipedCards.reversed()) { card in
+                    ForEach(model.unswipedCards.reversed(), id: \.id) { card in
                         let isTop = card == model.unswipedCards.first
                         let isSecond = card == model.unswipedCards.dropFirst().first
                         
@@ -84,6 +87,7 @@ struct SwipeableCardsView: View {
                                             self.model.removeTopCard()
                                             self.dragState = .zero
                                         }
+                                        pendingSwipes.append((card.id, swipeDirection))
                                     } else {
                                         withAnimation(.spring()) {
                                             self.dragState = .zero
@@ -97,6 +101,15 @@ struct SwipeableCardsView: View {
                 }
                 .padding()
             }
+        }
+        .onAppear {
+            if store == nil { store = CardStore(context: context) }
+        }
+        .onDisappear() {
+            for (id, direction) in pendingSwipes {
+                store?.swipe(cardId: id, direction: direction)
+            }
+            pendingSwipes.removeAll()
         }
     }
     

@@ -29,7 +29,7 @@ struct CardsListView: View {
                         }
                 }
                 .onDelete(perform: deleteCard)
-                let newCards = cards.map { CardView.Model(front: $0.front, back: $0.back)}
+                let newCards = cards.map { CardView.Model(id: $0.id, front: $0.front, back: $0.back)}
                 let model = SwipeableCardsView.Model(cards: newCards)
                 NavigationLink("Start Swiping") {
                     SwipeableCardsView(model: model) { model in
