@@ -20,7 +20,7 @@ class Card: Identifiable {
         didSet {
             if capacity < 1 { capacity = 1 }
             if lastSwipes.count > capacity {
-                lastSwipes.removeFirst(lastSwipes.count = capacity)
+                lastSwipes.removeFirst(lastSwipes.count - capacity)
             }
         }
     }
