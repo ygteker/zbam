@@ -11,23 +11,27 @@ import Charts
 
 struct StatsView: View {
     @Query private var cards: [Card]
-    @State private var selectedSector: String? = nil
+    @State private var selectedSector: SwipeSector? = nil
     
-    private var swipeStats: (right: Int, left: Int) {
-        var rightCount = 0
-        var leftCount = 0
+    enum SwipeSector: String {
+        case right, left
         
-        for card in cards {
-            for swipe in card.lastSwipes {
-                if swipe == "r" {
-                    rightCount += 1
-                } else if swipe == "l" {
-                    leftCount += 1
-                }
-            }
+        var color: Color {
+            self == .right ? .green : .red
         }
         
-        return (rightCount, leftCount)
+        var character: String {
+            self == .right ? "r" : "l"
+        }
+    }
+    
+    private var swipeStats: (right: Int, left: Int) {
+        cards.reduce(into: (right: 0, left: 0)) { result, card in
+            for swipe in card.lastSwipes {
+                if swipe == "r" { result.right += 1 }
+                else if swipe == "l" { result.left += 1 }
+            }
+        }
     }
     
     var body: some View {
@@ -43,95 +47,10 @@ struct StatsView: View {
                             description: Text("Start swiping cards to see statistics")
                         )
                     } else {
-                        ZStack {
-                            Chart {
-                                SectorMark(
-                                    angle: .value("Count", stats.right),
-                                    innerRadius: .ratio(0.5),
-                                    angularInset: 4
-                                )
-                                .foregroundStyle(.green)
-                                .cornerRadius(6)
-                                .opacity(selectedSector == "left" ? 0.5 : 1.0)
-                                .annotation(position: .overlay) {
-                                    Text("\(stats.right)")
-                                        .font(.headline)
-                                        .foregroundStyle(.white)
-                                }
-                                
-                                
-                                SectorMark(
-                                    angle: .value("Count", stats.left),
-                                    innerRadius: .ratio(0.5),
-                                    angularInset: 4
-                                )
-                                .foregroundStyle(.red)
-                                .cornerRadius(6)
-                                .opacity(selectedSector == "right" ? 0.5 : 1.0)
-                                .annotation(position: .overlay) {
-                                    Text("\(stats.left)")
-                                        .font(.headline)
-                                        .foregroundStyle(.white)
-                                }
-                            }
-                            .frame(height: 300)
-                            .padding()
-                            .background {
-                                RoundedRectangle(cornerRadius: 20)
-                                    .fill(.ultraThinMaterial)
-                            }
-                            .scaleEffect(selectedSector != nil ? 1.05 : 1.0)
-                            
-                            // Invisible tap areas
-                            HStack(spacing: 0) {
-                                Color.clear
-                                    .contentShape(Rectangle())
-                                    .onTapGesture {
-                                        withAnimation {
-                                            toggleSector("left")
-                                        }
-                                    }
-                                
-                                Color.clear
-                                    .contentShape(Rectangle())
-                                    .onTapGesture {
-                                        withAnimation {
-                                            toggleSector("right")
-                                        }
-                                    }
-                            }
-                            .frame(height: 300)
-                            .padding()
-                        }
-                        .padding()
+                        chartView(stats: stats)
                         
-                        // Show list when sector is selected
                         if let sector = selectedSector {
-                            VStack(alignment: .leading, spacing: 8) {
-                                Text("\(sector.capitalized) Swipes Details")
-                                    .font(.headline)
-                                    .padding(.horizontal)
-                                
-                                ForEach(cardsForSector(sector), id: \.id) { card in
-                                    HStack {
-                                        VStack(alignment: .leading) {
-                                            Text(card.front)
-                                                .font(.headline)
-                                            Text(card.back)
-                                                .font(.subheadline)
-                                                .foregroundStyle(.secondary)
-                                        }
-                                        Spacer()
-                                        Text("\(countSwipes(for: card, sector: sector))")
-                                            .font(.title3)
-                                            .bold()
-                                            .foregroundStyle(sector == "right" ? .green : .red)
-                                    }
-                                    .padding(.horizontal)
-                                    .padding(.vertical, 8)
-                                }
-                            }
-                            .transition(.move(edge: .bottom).combined(with: .opacity))
+                            detailsList(for: sector)
                         }
                     }
                 }
@@ -141,24 +60,105 @@ struct StatsView: View {
         }
     }
     
-    private func toggleSector(_ sector: String) {
-        if selectedSector == sector {
-            selectedSector = nil
-        } else {
-            selectedSector = sector
+    // MARK: - Chart View
+    
+    private func chartView(stats: (right: Int, left: Int)) -> some View {
+        ZStack {
+            Chart {
+                sectorMark(count: stats.right, sector: .right)
+                sectorMark(count: stats.left, sector: .left)
+            }
+            .frame(height: 300)
+            .padding()
+            .background {
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(.ultraThinMaterial)
+            }
+            .scaleEffect(selectedSector != nil ? 1.05 : 1.0)
+            
+            tapAreas()
+        }
+        .padding()
+    }
+    
+    private func sectorMark(count: Int, sector: SwipeSector) -> some ChartContent {
+        SectorMark(
+            angle: .value("Count", count),
+            innerRadius: .ratio(0.5),
+            angularInset: 4
+        )
+        .foregroundStyle(sector.color)
+        .cornerRadius(6)
+        .opacity(selectedSector != nil && selectedSector != sector ? 0.5 : 1.0)
+        .annotation(position: .overlay) {
+            Text("\(count)")
+                .font(.headline)
+                .foregroundStyle(.white)
         }
     }
     
-    private func cardsForSector(_ sector: String) -> [Card] {
-        return cards.filter { card in
-            let swipeChar = sector == "right" ? "r" : "l"
-            return card.lastSwipes.contains(swipeChar)
+    private func tapAreas() -> some View {
+        HStack(spacing: 0) {
+            tapArea(for: .left)
+            tapArea(for: .right)
         }
+        .frame(height: 300)
+        .padding()
     }
     
-    private func countSwipes(for card: Card, sector: String) -> Int {
-        let swipeChar = sector == "right" ? "r" : "l"
-        return card.lastSwipes.filter { $0 == swipeChar }.count
+    private func tapArea(for sector: SwipeSector) -> some View {
+        Color.clear
+            .contentShape(Rectangle())
+            .onTapGesture {
+                withAnimation {
+                    selectedSector = selectedSector == sector ? nil : sector
+                }
+            }
+    }
+    
+    // MARK: - Details List
+    
+    private func detailsList(for sector: SwipeSector) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("\(sector.rawValue.capitalized) Swipes Details")
+                .font(.headline)
+                .padding(.horizontal)
+            
+            ForEach(cardsWithSwipes(for: sector), id: \.card.id) { item in
+                cardRow(card: item.card, count: item.count, sector: sector)
+            }
+        }
+        .transition(.move(edge: .bottom).combined(with: .opacity))
+    }
+    
+    private func cardRow(card: Card, count: Int, sector: SwipeSector) -> some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text(card.front)
+                    .font(.headline)
+                Text(card.back)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            Text("\(count)")
+                .font(.title3)
+                .bold()
+                .foregroundStyle(sector.color)
+        }
+        .padding(.horizontal)
+        .padding(.vertical, 8)
+    }
+    
+    // MARK: - Data Helpers
+    
+    private func cardsWithSwipes(for sector: SwipeSector) -> [(card: Card, count: Int)] {
+        cards
+            .compactMap { card in
+                let count = card.lastSwipes.filter { $0 == sector.character }.count
+                return count > 0 ? (card, count) : nil
+            }
+            .sorted { $0.count > $1.count }
     }
 }
 #Preview {
