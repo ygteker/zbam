@@ -40,6 +40,12 @@ struct ContentView: View {
             .tag(1)
 
             // Placeholder settings tab
+            StatsView()
+                .tabItem {
+                    Image(systemName: "chart.pie.fill")
+                    Text("Stats")
+                }
+                .tag(2)
             NavigationStack {
                 List {
                     Section("General") {
@@ -52,7 +58,7 @@ struct ContentView: View {
                 Image(systemName: "gear")
                 Text("Settings")
             }
-            .tag(2)
+            .tag(3)
         }
     }
 }
