@@ -1,10 +1,3 @@
-//
-//  CardView.swift
-//  Zbam
-//
-//  Created by Yagiz Gunes Teker on 17.01.26.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -12,68 +5,116 @@ struct CardView: View {
     enum SwipeDirection {
         case left, right, none
     }
-    
+
     struct Model: Identifiable, Equatable {
         let id: UUID
         let front: String
         let back: String
         var swipeDirection: SwipeDirection = .none
     }
-    
-    @State private var flipped: Bool = false
-    
+
+    @State private var isFlipped: Bool = false
+
     var model: Model
     var size: CGSize
     var dragOffset: CGSize
     var isTopCard: Bool
     var isSecondCard: Bool
-    
-    var body: some View {
-        let flipDegrees = flipped ? 180.0 : 0
-        ZStack {
-            Text(model.front)
-                .frame(width: size.width * 0.8, height: size.height * 0.6)
-                .background(Color(red: 247/255, green: 245/255, blue: 245/255))
-                .cornerRadius(12.0)
-                .shadow(color: isTopCard ? getShadowColor() : (isSecondCard && dragOffset.width != 0 ? Color.gray.opacity(0.2) : Color.clear), radius: 10, x: 0, y: 12)
-                .foregroundColor(.black)
-                .font(.largeTitle)
-                .padding()
-                .flipRotate(flipDegrees)
-                .opacity(isTopCard ? flipped ? 0.0 : 1.0 : 0.0)
-            Text(model.back)
-                .frame(width: size.width * 0.8, height: size.height * 0.6)
-                .background(Color(red: 247/255, green: 245/255, blue: 245/255))
-                .cornerRadius(12.0)
-                .shadow(color: isTopCard ? getShadowColor() : (isSecondCard && dragOffset.width != 0 ? Color.gray.opacity(0.2) : Color.clear), radius: 10, x: 0, y: 3)
-                .foregroundColor(.black)
-                .font(.largeTitle)
-                .padding()
-                .flipRotate(-180 + flipDegrees)
-                .opacity(flipped ? 1.0 : 0.0)
-        }
-        .animation(.easeInOut(duration: 0.5), value: flipped)
-        .onTapGesture {
-            flipped.toggle()
+
+    private var borderColor: Color {
+        if dragOffset.width > 0 {
+            return Color.green.opacity(0.6)
+        } else if dragOffset.width < 0 {
+            return Color.red.opacity(0.6)
+        } else {
+            return isFlipped ? Color.green.opacity(0.3) : Color.accentColor.opacity(0.3)
         }
     }
-    
-    private func getShadowColor() -> Color {
+
+    private var shadowColor: Color {
         if dragOffset.width > 0 {
-            return Color.green.opacity(0.5)
+            return Color.green.opacity(0.4)
         } else if dragOffset.width < 0 {
-            return Color.red.opacity(0.5)
+            return Color.red.opacity(0.4)
         } else {
-            return Color.gray.opacity(0.2)
+            return Color.black.opacity(0.1)
+        }
+    }
+
+    var body: some View {
+        ZStack {
+            // Front
+            SwipeCardFace(
+                text: model.front,
+                isFront: true,
+                size: size,
+                borderColor: borderColor,
+                shadowColor: isTopCard ? shadowColor : (isSecondCard && dragOffset.width != 0 ? Color.gray.opacity(0.2) : Color.clear)
+            )
+            .opacity(isFlipped ? 0 : 1)
+
+            // Back
+            SwipeCardFace(
+                text: model.back,
+                isFront: false,
+                size: size,
+                borderColor: borderColor,
+                shadowColor: isTopCard ? shadowColor : (isSecondCard && dragOffset.width != 0 ? Color.gray.opacity(0.2) : Color.clear)
+            )
+            .opacity(isFlipped ? 1 : 0)
+            .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+        }
+        .rotation3DEffect(
+            .degrees(isFlipped ? 180 : 0),
+            axis: (x: 0, y: 1, z: 0)
+        )
+        .animation(.spring(response: 0.5, dampingFraction: 0.7), value: isFlipped)
+        .onTapGesture {
+            isFlipped.toggle()
         }
     }
 }
 
-extension View {
-    func flipRotate(_ degrees: Double) -> some View {
-        return rotation3DEffect(Angle(degrees: degrees), axis: (x: 0.0, y: 1.0, z: 0.0))
+// MARK: - Swipe Card Face
+
+private struct SwipeCardFace: View {
+    let text: String
+    let isFront: Bool
+    let size: CGSize
+    let borderColor: Color
+    let shadowColor: Color
+
+    var body: some View {
+        VStack {
+            Spacer()
+
+            Text(text)
+                .font(.title2)
+                .fontWeight(.semibold)
+                .multilineTextAlignment(.center)
+                .foregroundStyle(.primary)
+                .padding(.horizontal)
+
+            Spacer()
+
+            Text(isFront ? "Front" : "Back")
+                .font(.caption2)
+                .foregroundStyle(.tertiary)
+                .padding(.bottom, 12)
+        }
+        .frame(width: size.width * 0.8, height: size.height * 0.55)
+        .background(
+            RoundedRectangle(cornerRadius: 16)
+                .fill(Color(.systemBackground))
+                .shadow(color: shadowColor, radius: 12, x: 0, y: 6)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 16)
+                .stroke(borderColor, lineWidth: 2)
+        )
     }
 }
+
 #Preview("Top Card - No Drag") {
     CardView(
         model: CardView.Model(
@@ -115,4 +156,3 @@ extension View {
         isSecondCard: false
     )
 }
-

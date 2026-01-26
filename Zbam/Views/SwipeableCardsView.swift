@@ -7,13 +7,13 @@ struct SwipeableCardsView: View {
         private var originalCards: [CardView.Model]
         @Published var unswipedCards: [CardView.Model]
         @Published var swipedCards: [CardView.Model]
-        
+
         init(cards: [CardView.Model]) {
             self.originalCards = cards
             self.unswipedCards = cards
             self.swipedCards = []
         }
-        
+
         func removeTopCard() {
             if !unswipedCards.isEmpty {
                 guard let card = unswipedCards.first else { return }
@@ -21,19 +21,19 @@ struct SwipeableCardsView: View {
                 swipedCards.append(card)
             }
         }
-        
+
         func updateTopCardSwipeDirection(_ direction: CardView.SwipeDirection) {
             if !unswipedCards.isEmpty {
                 unswipedCards[0].swipeDirection = direction
             }
         }
-        
+
         func reset() {
             unswipedCards = originalCards
             swipedCards = []
         }
     }
-    
+
     @ObservedObject var model: Model
     @Environment(\.modelContext) private var context
     @State private var dragState = CGSize.zero
@@ -42,33 +42,42 @@ struct SwipeableCardsView: View {
     @State private var pendingSwipes: [(UUID, CardView.SwipeDirection)] = []
 
     private let swipeThreshold: CGFloat = 100.0
-    private let rotationFactor: Double = 35.0 // This remains constant and should be fine
-    
+    private let rotationFactor: Double = 35.0
+
     var action: (Model) -> Void
-    
+
     var body: some View {
         GeometryReader { geometry in
-            LinearGradient(
-                colors: [Color(red: 255/255, green: 228/255, blue:229/255),
-                        Color(red: 0/255, green: 91/255, blue: 95/255),],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-            if model.unswipedCards.isEmpty && model.swipedCards.isEmpty {
-                
-                emptyCardsView
-                    .frame(width: geometry.size.width, height: geometry.size.height)
-            } else if model.unswipedCards.isEmpty {
-                swipingCompletionView
-                    .frame(width: geometry.size.width, height: geometry.size.height)
-            } else {
-                ZStack {
-                    Color.clear
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+            ZStack {
+                // Background
+                Color(.systemGroupedBackground)
+                    .ignoresSafeArea()
+
+                if model.unswipedCards.isEmpty && model.swipedCards.isEmpty {
+                    emptyCardsView
+                        .frame(width: geometry.size.width, height: geometry.size.height)
+                } else if model.unswipedCards.isEmpty {
+                    swipingCompletionView
+                        .frame(width: geometry.size.width, height: geometry.size.height)
+                } else {
+                    // Card counter
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Text("\(model.swipedCards.count + 1)")
+                                .fontWeight(.bold)
+                            Text("of \(model.swipedCards.count + model.unswipedCards.count)")
+                        }
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                        .padding(.bottom, 40)
+                    }
+
+                    // Card stack
                     ForEach(model.unswipedCards.reversed(), id: \.id) { card in
                         let isTop = card == model.unswipedCards.first
                         let isSecond = card == model.unswipedCards.dropFirst().first
-                        
+
                         CardView(
                             model: card,
                             size: geometry.size,
@@ -105,10 +114,19 @@ struct SwipeableCardsView: View {
                                 }
                         )
                     }
+
+                    // Swipe hints
+                    HStack {
+                        SwipeHintView(direction: .left, isActive: dragState.width < -30)
+                        Spacer()
+                        SwipeHintView(direction: .right, isActive: dragState.width > 30)
+                    }
+                    .padding(.horizontal, 24)
+                    .padding(.top, 60)
+                    .frame(maxHeight: .infinity, alignment: .top)
                 }
             }
         }
-        .ignoresSafeArea()
         .onAppear {
             if store == nil { store = CardStore(context: context) }
         }
@@ -119,34 +137,83 @@ struct SwipeableCardsView: View {
             pendingSwipes.removeAll()
         }
     }
-    
+
     var emptyCardsView: some View {
-        VStack {
-            Text("No Cards")
-                .font(.title)
-                .padding(.bottom, 20)
-                .foregroundStyle(.gray)
+        VStack(spacing: 16) {
+            Image(systemName: "rectangle.stack.badge.plus")
+                .font(.system(size: 56))
+                .foregroundStyle(.secondary)
+
+            Text("No Cards Yet")
+                .font(.title2)
+                .fontWeight(.semibold)
+
+            Text("Add some cards to start practicing")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
         }
     }
-    
+
     var swipingCompletionView: some View {
-        VStack {
-            Text("Finished Swiping")
-                .font(.title)
-                .padding(.bottom, 20)
-            Button(action: {
-                action(model)
-            }) {
-                Text("Reset")
-                    .font(.headline)
-                    .frame(width: 200, height: 50)
-                    .background(Color.accentColor)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
+        VStack(spacing: 24) {
+            Image(systemName: "checkmark.circle.fill")
+                .font(.system(size: 64))
+                .foregroundStyle(.green)
+
+            VStack(spacing: 8) {
+                Text("Well Done!")
+                    .font(.title)
+                    .fontWeight(.bold)
+
+                Text("You've reviewed all \(model.swipedCards.count) cards")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
             }
+
+            Button {
+                action(model)
+            } label: {
+                HStack {
+                    Image(systemName: "arrow.counterclockwise")
+                    Text("Practice Again")
+                }
+                .font(.headline)
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.accentColor)
+                .foregroundStyle(.white)
+                .clipShape(RoundedRectangle(cornerRadius: 14))
+            }
+            .padding(.horizontal, 40)
+            .padding(.top, 8)
         }
     }
 }
+
+private struct SwipeHintView: View {
+    enum Direction {
+        case left, right
+    }
+
+    let direction: Direction
+    let isActive: Bool
+
+    var body: some View {
+        VStack(spacing: 4) {
+            Image(systemName: direction == .left ? "xmark" : "checkmark")
+                .font(.title2)
+                .fontWeight(.bold)
+
+            Text(direction == .left ? "Still Learning" : "Got It")
+                .font(.caption2)
+                .fontWeight(.medium)
+        }
+        .foregroundStyle(direction == .left ? Color.red : Color.green)
+        .opacity(isActive ? 1.0 : 0.3)
+        .animation(.easeInOut(duration: 0.2), value: isActive)
+    }
+}
+
 #Preview {
     SwipeableCardsView(model: SwipeableCardsView.Model(cards: [
         CardView.Model(id: UUID(), front: "What is SwiftUI?", back: "A declarative framework for building UIs"),
@@ -158,3 +225,7 @@ struct SwipeableCardsView: View {
     .modelContainer(for: [Card.self], inMemory: true)
 }
 
+#Preview("Empty State") {
+    SwipeableCardsView(model: SwipeableCardsView.Model(cards: [])) { _ in }
+        .modelContainer(for: [Card.self], inMemory: true)
+}
