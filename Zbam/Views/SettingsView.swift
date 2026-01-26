@@ -17,7 +17,7 @@ struct SettingsView: View {
         NavigationStack {
             List {
                 Section("General") {
-                    Toggle("Example toggle", isOn: .constant(true))
+                    Toggle("Dark mode", isOn: $darkMode)
                     
                     Button("Delete all cards", role: .destructive) {
                         showDeleteAllCardsConfirmation = true
@@ -26,10 +26,6 @@ struct SettingsView: View {
                     Button("Reset stats", role: .destructive) {
                         showResetStatsConfirmation = true
                     }
-                }
-                
-                Section("Appearance") {
-                    Toggle("Dark mode", isOn: $darkMode)
                 }
                 
                 Section("About") {
