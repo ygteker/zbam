@@ -1,10 +1,3 @@
-//
-//  StatsView.swift
-//  Zbam
-//
-//  Created by Yagiz Gunes Teker on 22.01.26.
-//
-
 import SwiftUI
 import SwiftData
 import Charts
@@ -12,6 +5,7 @@ import Charts
 struct StatsView: View {
     @Query private var cards: [Card]
     @State private var selectedSector: SwipeSector? = nil
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     
     enum SwipeSector: String {
         case right, left
@@ -96,6 +90,7 @@ struct StatsView: View {
             Text("\(count)")
                 .font(.headline)
                 .foregroundStyle(.white)
+                .accessibilityLabel("\(sector.rawValue) swipes: \(count)")
         }
     }
     
@@ -111,8 +106,10 @@ struct StatsView: View {
     private func tapArea(for sector: SwipeSector) -> some View {
         Color.clear
             .contentShape(Rectangle())
+            .accessibilityLabel("Select \(sector.rawValue) swipes")
+            .accessibilityHint(selectedSector == sector ? "Tap to deselect" : "Tap to view details")
             .onTapGesture {
-                withAnimation {
+                withAnimation(reduceMotion ? .none : .default) {
                     selectedSector = selectedSector == sector ? nil : sector
                 }
             }
@@ -124,6 +121,7 @@ struct StatsView: View {
         HStack(spacing: 8) {
             Image(systemName: "hand.tap")
                 .foregroundStyle(.secondary)
+                .accessibilityHidden(true)
             Text("Tap on the chart to see detailed statistics")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
@@ -143,6 +141,7 @@ struct StatsView: View {
             Text("\(sector.rawValue.capitalized) Swipes Details")
                 .font(.headline)
                 .padding(.horizontal)
+                .accessibilityAddTraits(.isHeader)
             
             ForEach(cardsWithSwipes(for: sector), id: \.card.id) { item in
                 cardRow(card: item.card, count: item.count, sector: sector)

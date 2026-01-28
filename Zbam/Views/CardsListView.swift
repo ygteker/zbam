@@ -1,15 +1,9 @@
-//
-//  CardsView.swift
-//  Zbam
-//
-//  Created by Yagiz Gunes Teker on 17.01.26.
-//
-
 import SwiftUI
 import SwiftData
 
 struct CardsListView: View {
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Query(sort: \Card.front) private var cards: [Card]
     @State private var isAddingCard: Bool = false
     @State private var editingCard: Card? = nil
@@ -23,7 +17,7 @@ struct CardsListView: View {
                         card: card,
                         isExpanded: expandedCardId == card.id,
                         onTap: {
-                            withAnimation(.easeInOut(duration: 0.25)) {
+                            withAnimation(reduceMotion ? .none : .easeInOut(duration: 0.25)) {
                                 if expandedCardId == card.id {
                                     expandedCardId = nil
                                 } else {
@@ -37,18 +31,18 @@ struct CardsListView: View {
                     )
                 }
                 .onDelete(perform: deleteCard)
-                //todo remove
-                let newCards = cards.map { CardView.Model(id: $0.id, front: $0.front, back: $0.back)}
             }
             
             .navigationTitle("Cards")
             .toolbar {
                 Button(action: {
-                    isAddingCard = true
+                    DispatchQueue.main.async {
+                        isAddingCard = true
+                    }
                 }) {
                     Image(systemName: "plus")
                 }
-                .accessibilityLabel("New Scrum")
+                .accessibilityLabel("Add new card")
             }
             .sheet(isPresented: $isAddingCard) {
                 NavigationStack {
@@ -117,9 +111,12 @@ struct CardRowView: View {
                 Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
                     .foregroundStyle(.secondary)
                     .imageScale(.small)
+                    .accessibilityHidden(true)
             }
             .animation(nil, value: isExpanded)  // Prevent animation on main text
             .contentShape(Rectangle())
+            .accessibilityLabel("\(card.front), \(card.back)")
+            .accessibilityHint(isExpanded ? "Collapse card details" : "Expand card details")
             .onTapGesture {
                 onTap()
             }
@@ -143,18 +140,20 @@ struct CardRowView: View {
                             Text("Swipe History")
                                 .font(.caption)
                                 .foregroundStyle(.secondary)
+                                .accessibilityAddTraits(.isHeader)
                             
                             // Right swipes bar
                             HStack(spacing: 8) {
                                 Image(systemName: "hand.thumbsup.fill")
                                     .foregroundStyle(.green)
-                                    .frame(width: 20)
+                                    .frame(width: 44, height: 44)
+                                    .accessibilityLabel("Correct swipes: \(stats.right)")
                                 
                                 GeometryReader { geometry in
                                     ZStack(alignment: .leading) {
                                         // Background bar
                                         RoundedRectangle(cornerRadius: 4)
-                                            .fill(Color.gray.opacity(0.2))
+                                            .fill(Color.gray.opacity(0.3))
                                             .frame(height: 20)
                                         
                                         // Filled bar
@@ -178,13 +177,14 @@ struct CardRowView: View {
                             HStack(spacing: 8) {
                                 Image(systemName: "hand.thumbsdown.fill")
                                     .foregroundStyle(.red)
-                                    .frame(width: 20)
+                                    .frame(width: 44, height: 44)
+                                    .accessibilityLabel("Incorrect swipes: \(stats.left)")
                                 
                                 GeometryReader { geometry in
                                     ZStack(alignment: .leading) {
                                         // Background bar
                                         RoundedRectangle(cornerRadius: 4)
-                                            .fill(Color.gray.opacity(0.2))
+                                            .fill(Color.gray.opacity(0.3))
                                             .frame(height: 20)
                                         
                                         // Filled bar
