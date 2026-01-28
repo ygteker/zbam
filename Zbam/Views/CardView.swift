@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 struct CardView: View {
     enum SwipeDirection {
@@ -14,6 +15,7 @@ struct CardView: View {
     }
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @AppStorage("hapticsEnabled") private var hapticsEnabled: Bool = true
     @State private var isFlipped: Bool = false
 
     var model: Model
@@ -73,6 +75,10 @@ struct CardView: View {
         .accessibilityLabel(isFlipped ? "Card back: \(model.back)" : "Card front: \(model.front)")
         .accessibilityHint("Tap to flip card")
         .onTapGesture {
+            if hapticsEnabled {
+                let haptic = UIImpactFeedbackGenerator(style: .soft)
+                haptic.impactOccurred(intensity: 0.4)
+            }
             isFlipped.toggle()
         }
     }

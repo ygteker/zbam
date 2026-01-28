@@ -4,6 +4,7 @@ import SwiftData
 struct SettingsView: View {
     @Environment(\.modelContext) private var modelContext
     @AppStorage("darkMode") private var darkMode: Bool = false
+    @AppStorage("hapticsEnabled") private var hapticsEnabled: Bool = true
     @State private var showDeleteAllCardsConfirmation = false
     @State private var showResetStatsConfirmation = false
     
@@ -12,7 +13,8 @@ struct SettingsView: View {
             List {
                 Section("General") {
                     Toggle("Dark mode", isOn: $darkMode)
-                    
+                    Toggle("Haptic feedback", isOn: $hapticsEnabled)
+
                     Button("Delete all cards", role: .destructive) {
                         showDeleteAllCardsConfirmation = true
                     }

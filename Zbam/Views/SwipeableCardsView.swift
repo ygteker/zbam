@@ -1,6 +1,7 @@
 import SwiftUI
 import Combine
 import SwiftData
+import UIKit
 
 struct SwipeableCardsView: View {
     class Model: ObservableObject {
@@ -37,13 +38,19 @@ struct SwipeableCardsView: View {
     @ObservedObject var model: Model
     @Environment(\.modelContext) private var context
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @AppStorage("hapticsEnabled") private var hapticsEnabled: Bool = true
     @State private var dragState = CGSize.zero
     @State private var cardRotation: Double = 0
     @State private var store: CardStore? = nil
     @State private var pendingSwipes: [(UUID, CardView.SwipeDirection)] = []
+    @State private var lastHapticPosition: CGFloat = 0
 
     private let swipeThreshold: CGFloat = 100.0
     private let rotationFactor: Double = 35.0
+    private let hapticInterval: CGFloat = 20.0  // Haptic every 20 points of movement
+    private let hapticSoft = UIImpactFeedbackGenerator(style: .soft)
+    private let hapticMedium = UIImpactFeedbackGenerator(style: .medium)
+    private let hapticSuccess = UINotificationFeedbackGenerator()
 
     var action: (Model) -> Void
 
@@ -93,10 +100,31 @@ struct SwipeableCardsView: View {
                                 .onChanged { gesture in
                                     self.dragState = gesture.translation
                                     self.cardRotation = Double(gesture.translation.width) / rotationFactor
+
+                                    // Continuous haptic feedback while dragging (before threshold)
+                                    if hapticsEnabled && abs(gesture.translation.width) < swipeThreshold {
+                                        let currentPosition = abs(gesture.translation.width)
+                                        if abs(currentPosition - lastHapticPosition) >= hapticInterval {
+                                            hapticSoft.impactOccurred(intensity: 0.4)
+                                            lastHapticPosition = currentPosition
+                                        }
+                                    }
                                 }
                                 .onEnded { _ in
+                                    // Reset haptic position tracking
+                                    lastHapticPosition = 0
                                     if abs(self.dragState.width) > swipeThreshold {
                                         let swipeDirection: CardView.SwipeDirection = self.dragState.width > 0 ? .right : .left
+
+                                        // Haptic feedback based on swipe direction
+                                        if hapticsEnabled {
+                                            if swipeDirection == .right {
+                                                hapticSoft.impactOccurred(intensity: 0.5)
+                                            } else {
+                                                hapticSoft.impactOccurred(intensity: 0.5)
+                                            }
+                                        }
+
                                         model.updateTopCardSwipeDirection(swipeDirection)
                                         withAnimation(reduceMotion ? .none : .easeOut(duration: 0.5)) {
                                             self.dragState.width = self.dragState.width > 0 ? 1000 : -1000
