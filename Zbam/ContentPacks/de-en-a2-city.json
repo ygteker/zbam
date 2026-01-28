@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-city",
+    "name": "German A2: City & Places",
+    "description": "City locations and places vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "building.2.fill",
+    "tags": [
+      "Travel"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-ci-001",
+      "packId": "de-en-a2-city",
+      "front": "city",
+      "back": "die Stadt",
+      "tags": [
+        "city",
+        "place"
+      ],
+      "hint": "Feminine noun (die), plural: die Städte",
+      "example": "Die Stadt ist sehr schön."
+    },
+    {
+      "id": "de-en-a2-ci-002",
+      "packId": "de-en-a2-city",
+      "front": "street",
+      "back": "die Straße",
+      "tags": [
+        "city",
+        "place"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Straße ist lang."
+    },
+    {
+      "id": "de-en-a2-ci-003",
+      "packId": "de-en-a2-city",
+      "front": "bank",
+      "back": "die Bank",
+      "tags": [
+        "city",
+        "building"
+      ],
+      "hint": "Feminine noun (die) - also means bench",
+      "example": "Ich gehe zur Bank."
+    },
+    {
+      "id": "de-en-a2-ci-004",
+      "packId": "de-en-a2-city",
+      "front": "post office",
+      "back": "die Post",
+      "tags": [
+        "city",
+        "building"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich bringe das Paket zur Post."
+    },
+    {
+      "id": "de-en-a2-ci-005",
+      "packId": "de-en-a2-city",
+      "front": "church",
+      "back": "die Kirche",
+      "tags": [
+        "city",
+        "building"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Kirche ist sehr alt."
+    },
+    {
+      "id": "de-en-a2-ci-006",
+      "packId": "de-en-a2-city",
+      "front": "museum",
+      "back": "das Museum",
+      "tags": [
+        "city",
+        "building"
+      ],
+      "hint": "Neuter noun (das), plural: die Museen",
+      "example": "Wir besuchen das Museum."
+    },
+    {
+      "id": "de-en-a2-ci-007",
+      "packId": "de-en-a2-city",
+      "front": "park",
+      "back": "der Park",
+      "tags": [
+        "city",
+        "place"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Wir gehen in den Park."
+    },
+    {
+      "id": "de-en-a2-ci-008",
+      "packId": "de-en-a2-city",
+      "front": "restaurant",
+      "back": "das Restaurant",
+      "tags": [
+        "city",
+        "building"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Restaurant ist um die Ecke."
+    },
+    {
+      "id": "de-en-a2-ci-009",
+      "packId": "de-en-a2-city",
+      "front": "library",
+      "back": "die Bibliothek",
+      "tags": [
+        "city",
+        "building"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich lese in der Bibliothek."
+    },
+    {
+      "id": "de-en-a2-ci-010",
+      "packId": "de-en-a2-city",
+      "front": "bridge",
+      "back": "die Brücke",
+      "tags": [
+        "city",
+        "structure"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Wir gehen über die Brücke."
+    },
+    {
+      "id": "de-en-a2-ci-011",
+      "packId": "de-en-a2-city",
+      "front": "square / plaza",
+      "back": "der Platz",
+      "tags": [
+        "city",
+        "place"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Wir treffen uns auf dem Platz."
+    },
+    {
+      "id": "de-en-a2-ci-012",
+      "packId": "de-en-a2-city",
+      "front": "traffic light",
+      "back": "die Ampel",
+      "tags": [
+        "city",
+        "traffic"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Ampel ist rot."
+    },
+    {
+      "id": "de-en-a2-ci-013",
+      "packId": "de-en-a2-city",
+      "front": "bus stop",
+      "back": "die Bushaltestelle",
+      "tags": [
+        "city",
+        "transport"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Bushaltestelle ist dort."
+    },
+    {
+      "id": "de-en-a2-ci-014",
+      "packId": "de-en-a2-city",
+      "front": "cinema",
+      "back": "das Kino",
+      "tags": [
+        "city",
+        "entertainment"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Wir gehen ins Kino."
+    },
+    {
+      "id": "de-en-a2-ci-015",
+      "packId": "de-en-a2-city",
+      "front": "market",
+      "back": "der Markt",
+      "tags": [
+        "city",
+        "place"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Am Samstag gehe ich zum Markt."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-family",
+    "name": "German A1: Family & People",
+    "description": "Family members and common words for people.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "person.3.fill",
+    "tags": [
+      "People"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-fm-001",
+      "packId": "de-en-a1-family",
+      "front": "mother",
+      "back": "die Mutter",
+      "tags": [
+        "family",
+        "parent"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Meine Mutter kocht gut."
+    },
+    {
+      "id": "de-en-a1-fm-002",
+      "packId": "de-en-a1-family",
+      "front": "father",
+      "back": "der Vater",
+      "tags": [
+        "family",
+        "parent"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Mein Vater arbeitet viel."
+    },
+    {
+      "id": "de-en-a1-fm-003",
+      "packId": "de-en-a1-family",
+      "front": "brother",
+      "back": "der Bruder",
+      "tags": [
+        "family",
+        "sibling"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Mein Bruder ist älter."
+    },
+    {
+      "id": "de-en-a1-fm-004",
+      "packId": "de-en-a1-family",
+      "front": "sister",
+      "back": "die Schwester",
+      "tags": [
+        "family",
+        "sibling"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Meine Schwester studiert."
+    },
+    {
+      "id": "de-en-a1-fm-005",
+      "packId": "de-en-a1-family",
+      "front": "grandmother",
+      "back": "die Großmutter / die Oma",
+      "tags": [
+        "family",
+        "grandparent"
+      ],
+      "hint": "Feminine noun (die), Oma is informal",
+      "example": "Meine Oma backt Kuchen."
+    },
+    {
+      "id": "de-en-a1-fm-006",
+      "packId": "de-en-a1-family",
+      "front": "grandfather",
+      "back": "der Großvater / der Opa",
+      "tags": [
+        "family",
+        "grandparent"
+      ],
+      "hint": "Masculine noun (der), Opa is informal",
+      "example": "Mein Opa liest die Zeitung."
+    },
+    {
+      "id": "de-en-a1-fm-007",
+      "packId": "de-en-a1-family",
+      "front": "child",
+      "back": "das Kind",
+      "tags": [
+        "family",
+        "people"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Kind spielt im Garten."
+    },
+    {
+      "id": "de-en-a1-fm-008",
+      "packId": "de-en-a1-family",
+      "front": "woman",
+      "back": "die Frau",
+      "tags": [
+        "people",
+        "adult"
+      ],
+      "hint": "Feminine noun (die), also means 'wife'",
+      "example": "Die Frau liest ein Buch."
+    },
+    {
+      "id": "de-en-a1-fm-009",
+      "packId": "de-en-a1-family",
+      "front": "man",
+      "back": "der Mann",
+      "tags": [
+        "people",
+        "adult"
+      ],
+      "hint": "Masculine noun (der), also means 'husband'",
+      "example": "Der Mann arbeitet im Büro."
+    },
+    {
+      "id": "de-en-a1-fm-010",
+      "packId": "de-en-a1-family",
+      "front": "boy",
+      "back": "der Junge",
+      "tags": [
+        "people",
+        "child"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Junge spielt Fußball."
+    },
+    {
+      "id": "de-en-a1-fm-011",
+      "packId": "de-en-a1-family",
+      "front": "girl",
+      "back": "das Mädchen",
+      "tags": [
+        "people",
+        "child"
+      ],
+      "hint": "Neuter noun (das) - all -chen diminutives are neuter",
+      "example": "Das Mädchen tanzt."
+    },
+    {
+      "id": "de-en-a1-fm-012",
+      "packId": "de-en-a1-family",
+      "front": "friend (male)",
+      "back": "der Freund",
+      "tags": [
+        "people",
+        "social"
+      ],
+      "hint": "Masculine noun (der), also means 'boyfriend'",
+      "example": "Mein Freund kommt aus Berlin."
+    },
+    {
+      "id": "de-en-a1-fm-013",
+      "packId": "de-en-a1-family",
+      "front": "friend (female)",
+      "back": "die Freundin",
+      "tags": [
+        "people",
+        "social"
+      ],
+      "hint": "Feminine noun (die), also means 'girlfriend'",
+      "example": "Meine Freundin ist nett."
+    },
+    {
+      "id": "de-en-a1-fm-014",
+      "packId": "de-en-a1-family",
+      "front": "baby",
+      "back": "das Baby",
+      "tags": [
+        "family",
+        "child"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Baby schläft."
+    },
+    {
+      "id": "de-en-a1-fm-015",
+      "packId": "de-en-a1-family",
+      "front": "family",
+      "back": "die Familie",
+      "tags": [
+        "family",
+        "group"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Meine Familie ist groß."
+    }
+  ]
+}

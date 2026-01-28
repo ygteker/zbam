@@ -1,31 +1,389 @@
 {
   "packs": [
     {
-      "id": "german-a1-basics",
-      "name": "German A1 Basics",
-      "description": "Essential everyday German words and phrases for beginners. Perfect for starting your German learning journey.",
-      "category": "basics",
-      "difficultyLevel": "beginner",
-      "cardCount": 20,
-      "iconName": "star.fill"
-    },
-    {
-      "id": "german-a1-verbs",
-      "name": "German A1 Verbs",
-      "description": "Common German verbs with conjugations. Master the most frequently used verbs in everyday conversation.",
-      "category": "verbs",
+      "id": "de-en-a1-animals",
+      "name": "German A1: Animals",
+      "description": "Common animals and pets vocabulary.",
       "difficultyLevel": "beginner",
       "cardCount": 15,
-      "iconName": "arrow.triangle.2.circlepath"
+      "iconName": "pawprint.fill",
+      "tags": [
+        "Nature"
+      ]
     },
     {
-      "id": "german-a2-vocabulary",
-      "name": "German A2 Vocabulary",
-      "description": "Expand your German vocabulary with intermediate-level words for daily life, work, and travel.",
-      "category": "vocabulary",
+      "id": "de-en-a1-body",
+      "name": "German A1: Body Parts",
+      "description": "Parts of the human body.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "figure.stand",
+      "tags": [
+        "Health"
+      ]
+    },
+    {
+      "id": "de-en-a1-clothing",
+      "name": "German A1: Clothing",
+      "description": "Common clothing and accessories.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "tshirt.fill",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-en-a1-colors-numbers",
+      "name": "German A1: Colors & Numbers",
+      "description": "Basic colors and numbers from 1-100.",
+      "difficultyLevel": "beginner",
+      "cardCount": 20,
+      "iconName": "paintpalette.fill",
+      "tags": [
+        "Nature"
+      ]
+    },
+    {
+      "id": "de-en-a1-everyday",
+      "name": "German A1: Everyday Items",
+      "description": "Common household objects and everyday items for beginners.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "house.fill",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-en-a1-family",
+      "name": "German A1: Family & People",
+      "description": "Family members and common words for people.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "person.3.fill",
+      "tags": [
+        "People"
+      ]
+    },
+    {
+      "id": "de-en-a1-food",
+      "name": "German A1: Food & Drinks",
+      "description": "Essential food and beverage vocabulary for daily life.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "fork.knife",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-en-a1-greetings",
+      "name": "German A1: Greetings & Phrases",
+      "description": "Essential greetings and everyday phrases.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "hand.wave.fill",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-en-a1-school",
+      "name": "German A1: School",
+      "description": "School-related vocabulary and classroom items.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "graduationcap.fill",
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "id": "de-en-a1-time",
+      "name": "German A1: Time & Days",
+      "description": "Days of the week, months, and time expressions.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "clock.fill",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-en-a2-city",
+      "name": "German A2: City & Places",
+      "description": "City locations and places vocabulary.",
       "difficultyLevel": "elementary",
-      "cardCount": 25,
-      "iconName": "text.book.closed.fill"
+      "cardCount": 15,
+      "iconName": "building.2.fill",
+      "tags": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "de-en-a2-communication",
+      "name": "German A2: Communication",
+      "description": "Communication and conversation vocabulary.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "bubble.left.and.bubble.right.fill",
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "id": "de-en-a2-emotions",
+      "name": "German A2: Emotions",
+      "description": "Emotions and feelings vocabulary.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "face.smiling.fill",
+      "tags": [
+        "People"
+      ]
+    },
+    {
+      "id": "de-en-a2-health",
+      "name": "German A2: Health",
+      "description": "Health, medical, and wellness vocabulary.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "heart.fill",
+      "tags": [
+        "Health"
+      ]
+    },
+    {
+      "id": "de-en-a2-hobbies",
+      "name": "German A2: Hobbies & Leisure",
+      "description": "Hobbies, sports, and free time activities.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "sportscourt.fill",
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "id": "de-en-a2-home",
+      "name": "German A2: Home & Living",
+      "description": "Home, rooms, and furniture vocabulary.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "sofa.fill",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-en-a2-shopping",
+      "name": "German A2: Shopping",
+      "description": "Shopping and retail vocabulary.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "cart.fill",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-en-a2-travel",
+      "name": "German A2: Travel & Transport",
+      "description": "Vocabulary for traveling and transportation.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "airplane",
+      "tags": [
+        "Travel"
+      ]
+    },
+    {
+      "id": "de-en-a2-weather",
+      "name": "German A2: Weather & Nature",
+      "description": "Weather conditions and nature vocabulary.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "cloud.sun.fill",
+      "tags": [
+        "Nature"
+      ]
+    },
+    {
+      "id": "de-en-a2-work",
+      "name": "German A2: Work & Office",
+      "description": "Workplace and office vocabulary.",
+      "difficultyLevel": "elementary",
+      "cardCount": 15,
+      "iconName": "briefcase.fill",
+      "tags": [
+        "Career"
+      ]
+    },
+    {
+      "id": "de-en-b1-business",
+      "name": "German B1: Business",
+      "description": "Business and professional vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "chart.line.uptrend.xyaxis",
+      "tags": [
+        "Career"
+      ]
+    },
+    {
+      "id": "de-en-b1-culture",
+      "name": "German B1: Culture & Arts",
+      "description": "Culture, arts, and history vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "theatermasks.fill",
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "id": "de-en-b1-education",
+      "name": "German B1: Higher Education",
+      "description": "University and academic vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "book.fill",
+      "tags": [
+        "Education"
+      ]
+    },
+    {
+      "id": "de-en-b1-environment",
+      "name": "German B1: Environment",
+      "description": "Environmental and ecological vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "leaf.fill",
+      "tags": [
+        "Nature"
+      ]
+    },
+    {
+      "id": "de-en-b1-law",
+      "name": "German B1: Law & Government",
+      "description": "Legal and governmental vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "building.columns.fill",
+      "tags": [
+        "Society"
+      ]
+    },
+    {
+      "id": "de-en-b1-media",
+      "name": "German B1: Media & Entertainment",
+      "description": "Media, news, and entertainment vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "play.tv.fill",
+      "tags": [
+        "Culture"
+      ]
+    },
+    {
+      "id": "de-en-b1-relationships",
+      "name": "German B1: Relationships",
+      "description": "Social relationships and interactions.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "heart.circle.fill",
+      "tags": [
+        "People"
+      ]
+    },
+    {
+      "id": "de-en-b1-science",
+      "name": "German B1: Science",
+      "description": "Scientific and research vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "atom",
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "id": "de-en-b1-society",
+      "name": "German B1: Politics & Society",
+      "description": "Political and social vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "globe.europe.africa.fill",
+      "tags": [
+        "Society"
+      ]
+    },
+    {
+      "id": "de-en-b1-technology",
+      "name": "German B1: Technology",
+      "description": "Technology and digital vocabulary.",
+      "difficultyLevel": "intermediate",
+      "cardCount": 15,
+      "iconName": "desktopcomputer",
+      "tags": [
+        "Science"
+      ]
+    },
+    {
+      "id": "de-tr-a1-animals",
+      "name": "Almanca A1: Hayvanlar",
+      "description": "Yaygın hayvanlar ve evcil hayvan kelimeleri.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "pawprint.fill",
+      "tags": [
+        "Nature"
+      ]
+    },
+    {
+      "id": "de-tr-a1-colors-numbers",
+      "name": "Almanca A1: Renkler ve Sayılar",
+      "description": "Temel renkler ve 1-100 arası sayılar.",
+      "difficultyLevel": "beginner",
+      "cardCount": 20,
+      "iconName": "paintpalette.fill",
+      "tags": [
+        "Nature"
+      ]
+    },
+    {
+      "id": "de-tr-a1-everyday",
+      "name": "Almanca A1: Günlük Eşyalar",
+      "description": "Yeni başlayanlar için günlük ev eşyaları.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "house.fill",
+      "tags": [
+        "Daily Life"
+      ]
+    },
+    {
+      "id": "de-tr-a1-family",
+      "name": "Almanca A1: Aile ve İnsanlar",
+      "description": "Aile üyeleri ve insanlarla ilgili kelimeler.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "person.3.fill",
+      "tags": [
+        "People"
+      ]
+    },
+    {
+      "id": "de-tr-a1-food",
+      "name": "Almanca A1: Yiyecek ve İçecek",
+      "description": "Günlük hayat için temel yiyecek ve içecek kelimeleri.",
+      "difficultyLevel": "beginner",
+      "cardCount": 15,
+      "iconName": "fork.knife",
+      "tags": [
+        "Daily Life"
+      ]
     }
   ]
 }

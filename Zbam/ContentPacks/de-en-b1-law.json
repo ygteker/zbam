@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-law",
+    "name": "German B1: Law & Government",
+    "description": "Legal and governmental vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "building.columns.fill",
+    "tags": [
+      "Society"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-la-001",
+      "packId": "de-en-b1-law",
+      "front": "court",
+      "back": "das Gericht",
+      "tags": [
+        "law",
+        "institution"
+      ],
+      "hint": "Neuter noun (das) - also means 'dish' (food)",
+      "example": "Der Fall kommt vor Gericht."
+    },
+    {
+      "id": "de-en-b1-la-002",
+      "packId": "de-en-b1-law",
+      "front": "judge",
+      "back": "der Richter / die Richterin",
+      "tags": [
+        "law",
+        "person"
+      ],
+      "hint": "der Richter (male) / die Richterin (female)",
+      "example": "Der Richter hat entschieden."
+    },
+    {
+      "id": "de-en-b1-la-003",
+      "packId": "de-en-b1-law",
+      "front": "lawyer",
+      "back": "der Anwalt / die Anwältin",
+      "tags": [
+        "law",
+        "person"
+      ],
+      "hint": "der Anwalt (male) / die Anwältin (female)",
+      "example": "Ich brauche einen Anwalt."
+    },
+    {
+      "id": "de-en-b1-la-004",
+      "packId": "de-en-b1-law",
+      "front": "crime",
+      "back": "das Verbrechen / die Straftat",
+      "tags": [
+        "law",
+        "offense"
+      ],
+      "hint": "Verbrechen (crime), Straftat (criminal offense)",
+      "example": "Das Verbrechen wurde aufgeklärt."
+    },
+    {
+      "id": "de-en-b1-la-005",
+      "packId": "de-en-b1-law",
+      "front": "police",
+      "back": "die Polizei",
+      "tags": [
+        "law",
+        "institution"
+      ],
+      "hint": "Feminine noun (die), no plural form",
+      "example": "Rufen Sie die Polizei!"
+    },
+    {
+      "id": "de-en-b1-la-006",
+      "packId": "de-en-b1-law",
+      "front": "punishment / penalty",
+      "back": "die Strafe",
+      "tags": [
+        "law",
+        "consequence"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Strafe war hart."
+    },
+    {
+      "id": "de-en-b1-la-007",
+      "packId": "de-en-b1-law",
+      "front": "witness",
+      "back": "der Zeuge / die Zeugin",
+      "tags": [
+        "law",
+        "person"
+      ],
+      "hint": "der Zeuge (male) / die Zeugin (female)",
+      "example": "Der Zeuge hat alles gesehen."
+    },
+    {
+      "id": "de-en-b1-la-008",
+      "packId": "de-en-b1-law",
+      "front": "guilty",
+      "back": "schuldig",
+      "tags": [
+        "law",
+        "adjective"
+      ],
+      "hint": "Adjective",
+      "example": "Er wurde schuldig gesprochen."
+    },
+    {
+      "id": "de-en-b1-la-009",
+      "packId": "de-en-b1-law",
+      "front": "innocent",
+      "back": "unschuldig",
+      "tags": [
+        "law",
+        "adjective"
+      ],
+      "hint": "Adjective",
+      "example": "Sie ist unschuldig."
+    },
+    {
+      "id": "de-en-b1-la-010",
+      "packId": "de-en-b1-law",
+      "front": "constitution",
+      "back": "das Grundgesetz / die Verfassung",
+      "tags": [
+        "law",
+        "document"
+      ],
+      "hint": "Grundgesetz (German constitution), Verfassung (general)",
+      "example": "Das Grundgesetz schützt die Grundrechte."
+    },
+    {
+      "id": "de-en-b1-la-011",
+      "packId": "de-en-b1-law",
+      "front": "parliament",
+      "back": "das Parlament / der Bundestag",
+      "tags": [
+        "law",
+        "institution"
+      ],
+      "hint": "Bundestag is the German parliament",
+      "example": "Der Bundestag hat abgestimmt."
+    },
+    {
+      "id": "de-en-b1-la-012",
+      "packId": "de-en-b1-law",
+      "front": "regulation / rule",
+      "back": "die Vorschrift / die Regelung",
+      "tags": [
+        "law",
+        "rule"
+      ],
+      "hint": "Vorschrift (regulation), Regelung (arrangement)",
+      "example": "Die Vorschriften müssen beachtet werden."
+    },
+    {
+      "id": "de-en-b1-la-013",
+      "packId": "de-en-b1-law",
+      "front": "to forbid / to prohibit",
+      "back": "verbieten",
+      "tags": [
+        "law",
+        "verb"
+      ],
+      "hint": "Strong verb: verbieten, verbot, verboten",
+      "example": "Rauchen ist hier verboten."
+    },
+    {
+      "id": "de-en-b1-la-014",
+      "packId": "de-en-b1-law",
+      "front": "to allow / to permit",
+      "back": "erlauben",
+      "tags": [
+        "law",
+        "verb"
+      ],
+      "hint": "Regular verb",
+      "example": "Das ist nicht erlaubt."
+    },
+    {
+      "id": "de-en-b1-la-015",
+      "packId": "de-en-b1-law",
+      "front": "justice",
+      "back": "die Gerechtigkeit",
+      "tags": [
+        "law",
+        "concept"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Gerechtigkeit ist ein wichtiger Wert."
+    }
+  ]
+}

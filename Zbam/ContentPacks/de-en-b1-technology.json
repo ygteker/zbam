@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-technology",
+    "name": "German B1: Technology",
+    "description": "Technology and digital vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "desktopcomputer",
+    "tags": [
+      "Science"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-te-001",
+      "packId": "de-en-b1-technology",
+      "front": "computer",
+      "back": "der Computer / der Rechner",
+      "tags": [
+        "technology",
+        "device"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Computer ist neu."
+    },
+    {
+      "id": "de-en-b1-te-002",
+      "packId": "de-en-b1-technology",
+      "front": "smartphone",
+      "back": "das Smartphone / das Handy",
+      "tags": [
+        "technology",
+        "device"
+      ],
+      "hint": "Handy is the common German word for mobile phone",
+      "example": "Mein Handy ist kaputt."
+    },
+    {
+      "id": "de-en-b1-te-003",
+      "packId": "de-en-b1-technology",
+      "front": "internet",
+      "back": "das Internet",
+      "tags": [
+        "technology",
+        "digital"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich brauche das Internet für die Arbeit."
+    },
+    {
+      "id": "de-en-b1-te-004",
+      "packId": "de-en-b1-technology",
+      "front": "website",
+      "back": "die Webseite / die Website",
+      "tags": [
+        "technology",
+        "digital"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Webseite ist benutzerfreundlich."
+    },
+    {
+      "id": "de-en-b1-te-005",
+      "packId": "de-en-b1-technology",
+      "front": "software",
+      "back": "die Software",
+      "tags": [
+        "technology",
+        "digital"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Software muss aktualisiert werden."
+    },
+    {
+      "id": "de-en-b1-te-006",
+      "packId": "de-en-b1-technology",
+      "front": "password",
+      "back": "das Passwort / das Kennwort",
+      "tags": [
+        "technology",
+        "security"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Vergiss dein Passwort nicht."
+    },
+    {
+      "id": "de-en-b1-te-007",
+      "packId": "de-en-b1-technology",
+      "front": "data",
+      "back": "die Daten",
+      "tags": [
+        "technology",
+        "digital"
+      ],
+      "hint": "Plural noun (die), singular rarely used",
+      "example": "Die Daten sind gespeichert."
+    },
+    {
+      "id": "de-en-b1-te-008",
+      "packId": "de-en-b1-technology",
+      "front": "screen / display",
+      "back": "der Bildschirm",
+      "tags": [
+        "technology",
+        "device"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Bildschirm ist groß."
+    },
+    {
+      "id": "de-en-b1-te-009",
+      "packId": "de-en-b1-technology",
+      "front": "to download",
+      "back": "herunterladen",
+      "tags": [
+        "technology",
+        "verb"
+      ],
+      "hint": "Separable verb: Ich lade die Datei herunter.",
+      "example": "Ich lade die App herunter."
+    },
+    {
+      "id": "de-en-b1-te-010",
+      "packId": "de-en-b1-technology",
+      "front": "to upload",
+      "back": "hochladen",
+      "tags": [
+        "technology",
+        "verb"
+      ],
+      "hint": "Separable verb: Ich lade das Foto hoch.",
+      "example": "Ich lade das Video hoch."
+    },
+    {
+      "id": "de-en-b1-te-011",
+      "packId": "de-en-b1-technology",
+      "front": "network",
+      "back": "das Netzwerk",
+      "tags": [
+        "technology",
+        "digital"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Netzwerk ist langsam."
+    },
+    {
+      "id": "de-en-b1-te-012",
+      "packId": "de-en-b1-technology",
+      "front": "printer",
+      "back": "der Drucker",
+      "tags": [
+        "technology",
+        "device"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Drucker funktioniert nicht."
+    },
+    {
+      "id": "de-en-b1-te-013",
+      "packId": "de-en-b1-technology",
+      "front": "to search / to google",
+      "back": "suchen / googeln",
+      "tags": [
+        "technology",
+        "verb"
+      ],
+      "hint": "suchen (general), googeln (informal)",
+      "example": "Ich google die Antwort."
+    },
+    {
+      "id": "de-en-b1-te-014",
+      "packId": "de-en-b1-technology",
+      "front": "artificial intelligence",
+      "back": "die künstliche Intelligenz (KI)",
+      "tags": [
+        "technology",
+        "concept"
+      ],
+      "hint": "Feminine noun, abbreviated as KI",
+      "example": "KI verändert die Welt."
+    },
+    {
+      "id": "de-en-b1-te-015",
+      "packId": "de-en-b1-technology",
+      "front": "update",
+      "back": "das Update / die Aktualisierung",
+      "tags": [
+        "technology",
+        "digital"
+      ],
+      "hint": "Update (anglicism), Aktualisierung (German)",
+      "example": "Es gibt ein neues Update."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-animals",
+    "name": "German A1: Animals",
+    "description": "Common animals and pets vocabulary.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "pawprint.fill",
+    "tags": [
+      "Nature"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-an-001",
+      "packId": "de-en-a1-animals",
+      "front": "dog",
+      "back": "der Hund",
+      "tags": [
+        "pet",
+        "mammal"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Hund bellt."
+    },
+    {
+      "id": "de-en-a1-an-002",
+      "packId": "de-en-a1-animals",
+      "front": "cat",
+      "back": "die Katze",
+      "tags": [
+        "pet",
+        "mammal"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Katze schläft."
+    },
+    {
+      "id": "de-en-a1-an-003",
+      "packId": "de-en-a1-animals",
+      "front": "bird",
+      "back": "der Vogel",
+      "tags": [
+        "wild",
+        "flying"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Vogel singt."
+    },
+    {
+      "id": "de-en-a1-an-004",
+      "packId": "de-en-a1-animals",
+      "front": "fish",
+      "back": "der Fisch",
+      "tags": [
+        "pet",
+        "water"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Fisch schwimmt."
+    },
+    {
+      "id": "de-en-a1-an-005",
+      "packId": "de-en-a1-animals",
+      "front": "horse",
+      "back": "das Pferd",
+      "tags": [
+        "farm",
+        "mammal"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Pferd läuft schnell."
+    },
+    {
+      "id": "de-en-a1-an-006",
+      "packId": "de-en-a1-animals",
+      "front": "cow",
+      "back": "die Kuh",
+      "tags": [
+        "farm",
+        "mammal"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Kuh gibt Milch."
+    },
+    {
+      "id": "de-en-a1-an-007",
+      "packId": "de-en-a1-animals",
+      "front": "pig",
+      "back": "das Schwein",
+      "tags": [
+        "farm",
+        "mammal"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Schwein ist rosa."
+    },
+    {
+      "id": "de-en-a1-an-008",
+      "packId": "de-en-a1-animals",
+      "front": "chicken",
+      "back": "das Huhn",
+      "tags": [
+        "farm",
+        "bird"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Huhn legt Eier."
+    },
+    {
+      "id": "de-en-a1-an-009",
+      "packId": "de-en-a1-animals",
+      "front": "mouse",
+      "back": "die Maus",
+      "tags": [
+        "small",
+        "mammal"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Maus ist klein."
+    },
+    {
+      "id": "de-en-a1-an-010",
+      "packId": "de-en-a1-animals",
+      "front": "rabbit",
+      "back": "das Kaninchen",
+      "tags": [
+        "pet",
+        "mammal"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Kaninchen hüpft."
+    },
+    {
+      "id": "de-en-a1-an-011",
+      "packId": "de-en-a1-animals",
+      "front": "elephant",
+      "back": "der Elefant",
+      "tags": [
+        "wild",
+        "zoo"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Elefant ist groß."
+    },
+    {
+      "id": "de-en-a1-an-012",
+      "packId": "de-en-a1-animals",
+      "front": "lion",
+      "back": "der Löwe",
+      "tags": [
+        "wild",
+        "zoo"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Löwe brüllt."
+    },
+    {
+      "id": "de-en-a1-an-013",
+      "packId": "de-en-a1-animals",
+      "front": "bear",
+      "back": "der Bär",
+      "tags": [
+        "wild",
+        "zoo"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Bär ist stark."
+    },
+    {
+      "id": "de-en-a1-an-014",
+      "packId": "de-en-a1-animals",
+      "front": "duck",
+      "back": "die Ente",
+      "tags": [
+        "farm",
+        "bird"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Ente schwimmt im See."
+    },
+    {
+      "id": "de-en-a1-an-015",
+      "packId": "de-en-a1-animals",
+      "front": "butterfly",
+      "back": "der Schmetterling",
+      "tags": [
+        "insect",
+        "nature"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Schmetterling ist bunt."
+    }
+  ]
+}

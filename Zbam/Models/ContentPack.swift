@@ -1,31 +1,5 @@
 import Foundation
 
-/// Categories for organizing content packs
-enum PackCategory: String, Codable, CaseIterable {
-    case basics
-    case vocabulary
-    case verbs
-    case themed
-
-    var displayName: String {
-        switch self {
-        case .basics: return "Basics"
-        case .vocabulary: return "Vocabulary"
-        case .verbs: return "Verbs"
-        case .themed: return "Themed"
-        }
-    }
-
-    var iconName: String {
-        switch self {
-        case .basics: return "star.fill"
-        case .vocabulary: return "text.book.closed.fill"
-        case .verbs: return "arrow.triangle.2.circlepath"
-        case .themed: return "sparkles"
-        }
-    }
-}
-
 /// Difficulty levels aligned with CEFR standards
 enum DifficultyLevel: String, Codable, CaseIterable, Comparable {
     case beginner    // A1
@@ -78,10 +52,10 @@ struct ContentPack: Identifiable, Codable, Equatable {
     let id: String
     let name: String
     let description: String
-    let category: PackCategory
     let difficultyLevel: DifficultyLevel
     let cardCount: Int
     let iconName: String
+    let tags: [String]
 
     static func == (lhs: ContentPack, rhs: ContentPack) -> Bool {
         lhs.id == rhs.id

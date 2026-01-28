@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-society",
+    "name": "German B1: Politics & Society",
+    "description": "Political and social vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "globe.europe.africa.fill",
+    "tags": [
+      "Society"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-so-001",
+      "packId": "de-en-b1-society",
+      "front": "government",
+      "back": "die Regierung",
+      "tags": [
+        "politics",
+        "institution"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Regierung hat entschieden."
+    },
+    {
+      "id": "de-en-b1-so-002",
+      "packId": "de-en-b1-society",
+      "front": "election",
+      "back": "die Wahl",
+      "tags": [
+        "politics",
+        "event"
+      ],
+      "hint": "Feminine noun (die), plural: die Wahlen",
+      "example": "Die nächste Wahl ist im September."
+    },
+    {
+      "id": "de-en-b1-so-003",
+      "packId": "de-en-b1-society",
+      "front": "law",
+      "back": "das Gesetz",
+      "tags": [
+        "politics",
+        "legal"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Gesetz wurde geändert."
+    },
+    {
+      "id": "de-en-b1-so-004",
+      "packId": "de-en-b1-society",
+      "front": "citizen",
+      "back": "der Bürger / die Bürgerin",
+      "tags": [
+        "society",
+        "person"
+      ],
+      "hint": "der Bürger (male) / die Bürgerin (female)",
+      "example": "Jeder Bürger hat das Recht zu wählen."
+    },
+    {
+      "id": "de-en-b1-so-005",
+      "packId": "de-en-b1-society",
+      "front": "democracy",
+      "back": "die Demokratie",
+      "tags": [
+        "politics",
+        "concept"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Deutschland ist eine Demokratie."
+    },
+    {
+      "id": "de-en-b1-so-006",
+      "packId": "de-en-b1-society",
+      "front": "party (political)",
+      "back": "die Partei",
+      "tags": [
+        "politics",
+        "organization"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Welche Partei wählst du?"
+    },
+    {
+      "id": "de-en-b1-so-007",
+      "packId": "de-en-b1-society",
+      "front": "society",
+      "back": "die Gesellschaft",
+      "tags": [
+        "society",
+        "concept"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Gesellschaft verändert sich."
+    },
+    {
+      "id": "de-en-b1-so-008",
+      "packId": "de-en-b1-society",
+      "front": "equality",
+      "back": "die Gleichberechtigung / die Gleichheit",
+      "tags": [
+        "society",
+        "concept"
+      ],
+      "hint": "Gleichberechtigung (equal rights), Gleichheit (equality)",
+      "example": "Gleichberechtigung ist wichtig."
+    },
+    {
+      "id": "de-en-b1-so-009",
+      "packId": "de-en-b1-society",
+      "front": "freedom",
+      "back": "die Freiheit",
+      "tags": [
+        "society",
+        "concept"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Freiheit ist ein Grundrecht."
+    },
+    {
+      "id": "de-en-b1-so-010",
+      "packId": "de-en-b1-society",
+      "front": "immigration",
+      "back": "die Einwanderung / die Zuwanderung",
+      "tags": [
+        "society",
+        "topic"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Einwanderung ist ein wichtiges Thema."
+    },
+    {
+      "id": "de-en-b1-so-011",
+      "packId": "de-en-b1-society",
+      "front": "volunteer",
+      "back": "der Freiwillige / die Freiwillige",
+      "tags": [
+        "society",
+        "person"
+      ],
+      "hint": "Adjective used as noun",
+      "example": "Viele Freiwillige helfen."
+    },
+    {
+      "id": "de-en-b1-so-012",
+      "packId": "de-en-b1-society",
+      "front": "protest",
+      "back": "der Protest / die Demonstration",
+      "tags": [
+        "society",
+        "event"
+      ],
+      "hint": "Demonstration abbreviated as Demo",
+      "example": "Es gibt eine Demonstration in der Stadt."
+    },
+    {
+      "id": "de-en-b1-so-013",
+      "packId": "de-en-b1-society",
+      "front": "right (legal)",
+      "back": "das Recht",
+      "tags": [
+        "politics",
+        "legal"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Jeder hat das Recht auf Bildung."
+    },
+    {
+      "id": "de-en-b1-so-014",
+      "packId": "de-en-b1-society",
+      "front": "poverty",
+      "back": "die Armut",
+      "tags": [
+        "society",
+        "topic"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Armut ist ein globales Problem."
+    },
+    {
+      "id": "de-en-b1-so-015",
+      "packId": "de-en-b1-society",
+      "front": "to vote",
+      "back": "wählen",
+      "tags": [
+        "politics",
+        "verb"
+      ],
+      "hint": "Regular verb, also means 'to choose'",
+      "example": "Ich wähle bei jeder Wahl."
+    }
+  ]
+}

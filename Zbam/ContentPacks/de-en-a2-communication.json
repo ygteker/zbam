@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-communication",
+    "name": "German A2: Communication",
+    "description": "Communication and conversation vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "bubble.left.and.bubble.right.fill",
+    "tags": [
+      "Culture"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-co-001",
+      "packId": "de-en-a2-communication",
+      "front": "to speak / to talk",
+      "back": "sprechen / reden",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "sprechen (strong), reden (regular)",
+      "example": "Sprechen Sie Deutsch?"
+    },
+    {
+      "id": "de-en-a2-co-002",
+      "packId": "de-en-a2-communication",
+      "front": "conversation",
+      "back": "das Gespräch",
+      "tags": [
+        "communication",
+        "noun"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das war ein gutes Gespräch."
+    },
+    {
+      "id": "de-en-a2-co-003",
+      "packId": "de-en-a2-communication",
+      "front": "question",
+      "back": "die Frage",
+      "tags": [
+        "communication",
+        "noun"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich habe eine Frage."
+    },
+    {
+      "id": "de-en-a2-co-004",
+      "packId": "de-en-a2-communication",
+      "front": "answer",
+      "back": "die Antwort",
+      "tags": [
+        "communication",
+        "noun"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Antwort ist richtig."
+    },
+    {
+      "id": "de-en-a2-co-005",
+      "packId": "de-en-a2-communication",
+      "front": "to understand",
+      "back": "verstehen",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "Strong verb: verstehen, verstand, verstanden",
+      "example": "Ich verstehe das nicht."
+    },
+    {
+      "id": "de-en-a2-co-006",
+      "packId": "de-en-a2-communication",
+      "front": "to explain",
+      "back": "erklären",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "Regular verb",
+      "example": "Können Sie das erklären?"
+    },
+    {
+      "id": "de-en-a2-co-007",
+      "packId": "de-en-a2-communication",
+      "front": "telephone",
+      "back": "das Telefon",
+      "tags": [
+        "communication",
+        "device"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Telefon klingelt."
+    },
+    {
+      "id": "de-en-a2-co-008",
+      "packId": "de-en-a2-communication",
+      "front": "to call (phone)",
+      "back": "anrufen",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "Separable verb: Ich rufe dich an.",
+      "example": "Ich rufe dich morgen an."
+    },
+    {
+      "id": "de-en-a2-co-009",
+      "packId": "de-en-a2-communication",
+      "front": "message",
+      "back": "die Nachricht",
+      "tags": [
+        "communication",
+        "noun"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich habe eine Nachricht bekommen."
+    },
+    {
+      "id": "de-en-a2-co-010",
+      "packId": "de-en-a2-communication",
+      "front": "letter",
+      "back": "der Brief",
+      "tags": [
+        "communication",
+        "noun"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich schreibe einen Brief."
+    },
+    {
+      "id": "de-en-a2-co-011",
+      "packId": "de-en-a2-communication",
+      "front": "to agree",
+      "back": "zustimmen",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "Separable verb: Ich stimme zu.",
+      "example": "Ich stimme dir zu."
+    },
+    {
+      "id": "de-en-a2-co-012",
+      "packId": "de-en-a2-communication",
+      "front": "to complain",
+      "back": "sich beschweren",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "Reflexive verb",
+      "example": "Er beschwert sich über das Essen."
+    },
+    {
+      "id": "de-en-a2-co-013",
+      "packId": "de-en-a2-communication",
+      "front": "opinion",
+      "back": "die Meinung",
+      "tags": [
+        "communication",
+        "noun"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Was ist deine Meinung?"
+    },
+    {
+      "id": "de-en-a2-co-014",
+      "packId": "de-en-a2-communication",
+      "front": "to invite",
+      "back": "einladen",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "Separable strong verb: Ich lade dich ein.",
+      "example": "Ich lade dich zum Essen ein."
+    },
+    {
+      "id": "de-en-a2-co-015",
+      "packId": "de-en-a2-communication",
+      "front": "to apologize",
+      "back": "sich entschuldigen",
+      "tags": [
+        "communication",
+        "verb"
+      ],
+      "hint": "Reflexive verb",
+      "example": "Ich entschuldige mich."
+    }
+  ]
+}

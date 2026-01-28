@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-time",
+    "name": "German A1: Time & Days",
+    "description": "Days of the week, months, and time expressions.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "clock.fill",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-tm-001",
+      "packId": "de-en-a1-time",
+      "front": "Monday",
+      "back": "der Montag",
+      "tags": [
+        "day",
+        "week"
+      ],
+      "hint": "All days are masculine (der)",
+      "example": "Am Montag arbeite ich."
+    },
+    {
+      "id": "de-en-a1-tm-002",
+      "packId": "de-en-a1-time",
+      "front": "Tuesday",
+      "back": "der Dienstag",
+      "tags": [
+        "day",
+        "week"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Dienstag habe ich frei."
+    },
+    {
+      "id": "de-en-a1-tm-003",
+      "packId": "de-en-a1-time",
+      "front": "Wednesday",
+      "back": "der Mittwoch",
+      "tags": [
+        "day",
+        "week"
+      ],
+      "hint": "Literally 'mid-week'",
+      "example": "Mittwoch ist die Mitte der Woche."
+    },
+    {
+      "id": "de-en-a1-tm-004",
+      "packId": "de-en-a1-time",
+      "front": "Saturday",
+      "back": "der Samstag",
+      "tags": [
+        "day",
+        "weekend"
+      ],
+      "hint": "Also: der Sonnabend in northern Germany",
+      "example": "Am Samstag gehe ich einkaufen."
+    },
+    {
+      "id": "de-en-a1-tm-005",
+      "packId": "de-en-a1-time",
+      "front": "Sunday",
+      "back": "der Sonntag",
+      "tags": [
+        "day",
+        "weekend"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Sonntag ist Ruhetag."
+    },
+    {
+      "id": "de-en-a1-tm-006",
+      "packId": "de-en-a1-time",
+      "front": "today",
+      "back": "heute",
+      "tags": [
+        "time",
+        "adverb"
+      ],
+      "hint": "Adverb",
+      "example": "Heute ist Montag."
+    },
+    {
+      "id": "de-en-a1-tm-007",
+      "packId": "de-en-a1-time",
+      "front": "tomorrow",
+      "back": "morgen",
+      "tags": [
+        "time",
+        "adverb"
+      ],
+      "hint": "Adverb (lowercase), der Morgen = morning",
+      "example": "Morgen komme ich."
+    },
+    {
+      "id": "de-en-a1-tm-008",
+      "packId": "de-en-a1-time",
+      "front": "yesterday",
+      "back": "gestern",
+      "tags": [
+        "time",
+        "adverb"
+      ],
+      "hint": "Adverb",
+      "example": "Gestern war ich müde."
+    },
+    {
+      "id": "de-en-a1-tm-009",
+      "packId": "de-en-a1-time",
+      "front": "morning",
+      "back": "der Morgen",
+      "tags": [
+        "time",
+        "day-part"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Am Morgen trinke ich Kaffee."
+    },
+    {
+      "id": "de-en-a1-tm-010",
+      "packId": "de-en-a1-time",
+      "front": "evening",
+      "back": "der Abend",
+      "tags": [
+        "time",
+        "day-part"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Am Abend sehe ich fern."
+    },
+    {
+      "id": "de-en-a1-tm-011",
+      "packId": "de-en-a1-time",
+      "front": "night",
+      "back": "die Nacht",
+      "tags": [
+        "time",
+        "day-part"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Gute Nacht!"
+    },
+    {
+      "id": "de-en-a1-tm-012",
+      "packId": "de-en-a1-time",
+      "front": "hour",
+      "back": "die Stunde",
+      "tags": [
+        "time",
+        "duration"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Eine Stunde hat 60 Minuten."
+    },
+    {
+      "id": "de-en-a1-tm-013",
+      "packId": "de-en-a1-time",
+      "front": "minute",
+      "back": "die Minute",
+      "tags": [
+        "time",
+        "duration"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Warte eine Minute!"
+    },
+    {
+      "id": "de-en-a1-tm-014",
+      "packId": "de-en-a1-time",
+      "front": "week",
+      "back": "die Woche",
+      "tags": [
+        "time",
+        "calendar"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Woche hat sieben Tage."
+    },
+    {
+      "id": "de-en-a1-tm-015",
+      "packId": "de-en-a1-time",
+      "front": "year",
+      "back": "das Jahr",
+      "tags": [
+        "time",
+        "calendar"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Jahr hat zwölf Monate."
+    }
+  ]
+}

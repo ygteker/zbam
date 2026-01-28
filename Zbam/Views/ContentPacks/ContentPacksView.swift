@@ -8,15 +8,17 @@ struct ContentPacksView: View {
 
     @StateObject private var loader = ContentPackLoader.shared
     @State private var packs: [ContentPack] = []
-    @State private var selectedCategory: PackCategory?
+    @State private var selectedTag: String?
     @State private var isLoading = true
     @State private var errorMessage: String?
 
+    private var availableTags: [String] {
+        Array(Set(packs.flatMap { $0.tags })).sorted()
+    }
+
     private var filteredPacks: [ContentPack] {
-        guard let category = selectedCategory else {
-            return packs
-        }
-        return packs.filter { $0.category == category }
+        guard let tag = selectedTag else { return packs }
+        return packs.filter { $0.tags.contains(tag) }
     }
 
     private func progressFor(packId: String) -> UserPackProgress? {
@@ -25,22 +27,22 @@ struct ContentPacksView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            // Category filter
+            // Tag filter
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 8) {
                     FilterChip(
                         title: "All",
-                        isSelected: selectedCategory == nil
+                        isSelected: selectedTag == nil
                     ) {
-                        selectedCategory = nil
+                        selectedTag = nil
                     }
 
-                    ForEach(PackCategory.allCases, id: \.self) { category in
+                    ForEach(availableTags, id: \.self) { tag in
                         FilterChip(
-                            title: category.displayName,
-                            isSelected: selectedCategory == category
+                            title: tag,
+                            isSelected: selectedTag == tag
                         ) {
-                            selectedCategory = category
+                            selectedTag = tag
                         }
                     }
                 }

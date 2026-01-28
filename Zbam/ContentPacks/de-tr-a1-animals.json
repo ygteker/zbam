@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-tr-a1-animals",
+    "name": "Almanca A1: Hayvanlar",
+    "description": "Yaygın hayvanlar ve evcil hayvan kelimeleri.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "pawprint.fill",
+    "tags": [
+      "Nature"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-tr-a1-an-001",
+      "packId": "de-tr-a1-animals",
+      "front": "köpek",
+      "back": "der Hund",
+      "tags": [
+        "evcil",
+        "memeli"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Hund bellt."
+    },
+    {
+      "id": "de-tr-a1-an-002",
+      "packId": "de-tr-a1-animals",
+      "front": "kedi",
+      "back": "die Katze",
+      "tags": [
+        "evcil",
+        "memeli"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Katze schläft."
+    },
+    {
+      "id": "de-tr-a1-an-003",
+      "packId": "de-tr-a1-animals",
+      "front": "kuş",
+      "back": "der Vogel",
+      "tags": [
+        "yaban",
+        "uçan"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Vogel singt."
+    },
+    {
+      "id": "de-tr-a1-an-004",
+      "packId": "de-tr-a1-animals",
+      "front": "balık",
+      "back": "der Fisch",
+      "tags": [
+        "evcil",
+        "su"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Fisch schwimmt."
+    },
+    {
+      "id": "de-tr-a1-an-005",
+      "packId": "de-tr-a1-animals",
+      "front": "at",
+      "back": "das Pferd",
+      "tags": [
+        "çiftlik",
+        "memeli"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Pferd läuft schnell."
+    },
+    {
+      "id": "de-tr-a1-an-006",
+      "packId": "de-tr-a1-animals",
+      "front": "inek",
+      "back": "die Kuh",
+      "tags": [
+        "çiftlik",
+        "memeli"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Kuh gibt Milch."
+    },
+    {
+      "id": "de-tr-a1-an-007",
+      "packId": "de-tr-a1-animals",
+      "front": "domuz",
+      "back": "das Schwein",
+      "tags": [
+        "çiftlik",
+        "memeli"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Schwein ist rosa."
+    },
+    {
+      "id": "de-tr-a1-an-008",
+      "packId": "de-tr-a1-animals",
+      "front": "tavuk",
+      "back": "das Huhn",
+      "tags": [
+        "çiftlik",
+        "kuş"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Huhn legt Eier."
+    },
+    {
+      "id": "de-tr-a1-an-009",
+      "packId": "de-tr-a1-animals",
+      "front": "fare",
+      "back": "die Maus",
+      "tags": [
+        "küçük",
+        "memeli"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Maus ist klein."
+    },
+    {
+      "id": "de-tr-a1-an-010",
+      "packId": "de-tr-a1-animals",
+      "front": "tavşan",
+      "back": "das Kaninchen",
+      "tags": [
+        "evcil",
+        "memeli"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Kaninchen hüpft."
+    },
+    {
+      "id": "de-tr-a1-an-011",
+      "packId": "de-tr-a1-animals",
+      "front": "fil",
+      "back": "der Elefant",
+      "tags": [
+        "yaban",
+        "hayvanat bahçesi"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Elefant ist groß."
+    },
+    {
+      "id": "de-tr-a1-an-012",
+      "packId": "de-tr-a1-animals",
+      "front": "aslan",
+      "back": "der Löwe",
+      "tags": [
+        "yaban",
+        "hayvanat bahçesi"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Löwe brüllt."
+    },
+    {
+      "id": "de-tr-a1-an-013",
+      "packId": "de-tr-a1-animals",
+      "front": "ayı",
+      "back": "der Bär",
+      "tags": [
+        "yaban",
+        "hayvanat bahçesi"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Bär ist stark."
+    },
+    {
+      "id": "de-tr-a1-an-014",
+      "packId": "de-tr-a1-animals",
+      "front": "ördek",
+      "back": "die Ente",
+      "tags": [
+        "çiftlik",
+        "kuş"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Ente schwimmt im See."
+    },
+    {
+      "id": "de-tr-a1-an-015",
+      "packId": "de-tr-a1-animals",
+      "front": "kelebek",
+      "back": "der Schmetterling",
+      "tags": [
+        "böcek",
+        "doğa"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Schmetterling ist bunt."
+    }
+  ]
+}

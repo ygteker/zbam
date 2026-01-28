@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-home",
+    "name": "German A2: Home & Living",
+    "description": "Home, rooms, and furniture vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "sofa.fill",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-hm-001",
+      "packId": "de-en-a2-home",
+      "front": "apartment",
+      "back": "die Wohnung",
+      "tags": [
+        "home",
+        "place"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Wohnung hat drei Zimmer."
+    },
+    {
+      "id": "de-en-a2-hm-002",
+      "packId": "de-en-a2-home",
+      "front": "room",
+      "back": "das Zimmer",
+      "tags": [
+        "home",
+        "place"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Zimmer ist hell."
+    },
+    {
+      "id": "de-en-a2-hm-003",
+      "packId": "de-en-a2-home",
+      "front": "kitchen",
+      "back": "die Küche",
+      "tags": [
+        "home",
+        "room"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich koche in der Küche."
+    },
+    {
+      "id": "de-en-a2-hm-004",
+      "packId": "de-en-a2-home",
+      "front": "bathroom",
+      "back": "das Badezimmer / das Bad",
+      "tags": [
+        "home",
+        "room"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Badezimmer ist sauber."
+    },
+    {
+      "id": "de-en-a2-hm-005",
+      "packId": "de-en-a2-home",
+      "front": "bedroom",
+      "back": "das Schlafzimmer",
+      "tags": [
+        "home",
+        "room"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Schlafzimmer ist ruhig."
+    },
+    {
+      "id": "de-en-a2-hm-006",
+      "packId": "de-en-a2-home",
+      "front": "living room",
+      "back": "das Wohnzimmer",
+      "tags": [
+        "home",
+        "room"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Wir sitzen im Wohnzimmer."
+    },
+    {
+      "id": "de-en-a2-hm-007",
+      "packId": "de-en-a2-home",
+      "front": "table",
+      "back": "der Tisch",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Tisch ist aus Holz."
+    },
+    {
+      "id": "de-en-a2-hm-008",
+      "packId": "de-en-a2-home",
+      "front": "chair",
+      "back": "der Stuhl",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "hint": "Masculine noun (der), plural: die Stühle",
+      "example": "Der Stuhl ist bequem."
+    },
+    {
+      "id": "de-en-a2-hm-009",
+      "packId": "de-en-a2-home",
+      "front": "bed",
+      "back": "das Bett",
+      "tags": [
+        "home",
+        "furniture"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Bett ist groß."
+    },
+    {
+      "id": "de-en-a2-hm-010",
+      "packId": "de-en-a2-home",
+      "front": "window",
+      "back": "das Fenster",
+      "tags": [
+        "home",
+        "building"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Öffne bitte das Fenster."
+    },
+    {
+      "id": "de-en-a2-hm-011",
+      "packId": "de-en-a2-home",
+      "front": "door",
+      "back": "die Tür",
+      "tags": [
+        "home",
+        "building"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Mach bitte die Tür zu."
+    },
+    {
+      "id": "de-en-a2-hm-012",
+      "packId": "de-en-a2-home",
+      "front": "stairs",
+      "back": "die Treppe",
+      "tags": [
+        "home",
+        "building"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich gehe die Treppe hoch."
+    },
+    {
+      "id": "de-en-a2-hm-013",
+      "packId": "de-en-a2-home",
+      "front": "rent",
+      "back": "die Miete",
+      "tags": [
+        "home",
+        "money"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Miete ist 800 Euro."
+    },
+    {
+      "id": "de-en-a2-hm-014",
+      "packId": "de-en-a2-home",
+      "front": "neighbor",
+      "back": "der Nachbar / die Nachbarin",
+      "tags": [
+        "home",
+        "person"
+      ],
+      "hint": "der Nachbar (male) / die Nachbarin (female)",
+      "example": "Mein Nachbar ist freundlich."
+    },
+    {
+      "id": "de-en-a2-hm-015",
+      "packId": "de-en-a2-home",
+      "front": "garden",
+      "back": "der Garten",
+      "tags": [
+        "home",
+        "place"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Wir sitzen im Garten."
+    }
+  ]
+}

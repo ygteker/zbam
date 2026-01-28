@@ -1,0 +1,242 @@
+{
+  "pack": {
+    "id": "de-tr-a1-colors-numbers",
+    "name": "Almanca A1: Renkler ve Sayılar",
+    "description": "Temel renkler ve 1-100 arası sayılar.",
+    "difficultyLevel": "beginner",
+    "cardCount": 20,
+    "iconName": "paintpalette.fill",
+    "tags": [
+      "Nature"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-tr-a1-cn-001",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "kırmızı",
+      "back": "rot",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat, yüklem olarak cinsiyet değişmez",
+      "example": "Das Auto ist rot."
+    },
+    {
+      "id": "de-tr-a1-cn-002",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "mavi",
+      "back": "blau",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat",
+      "example": "Der Himmel ist blau."
+    },
+    {
+      "id": "de-tr-a1-cn-003",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "yeşil",
+      "back": "grün",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat",
+      "example": "Das Gras ist grün."
+    },
+    {
+      "id": "de-tr-a1-cn-004",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "sarı",
+      "back": "gelb",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat",
+      "example": "Die Sonne ist gelb."
+    },
+    {
+      "id": "de-tr-a1-cn-005",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "siyah",
+      "back": "schwarz",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat",
+      "example": "Die Katze ist schwarz."
+    },
+    {
+      "id": "de-tr-a1-cn-006",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "beyaz",
+      "back": "weiß",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat",
+      "example": "Der Schnee ist weiß."
+    },
+    {
+      "id": "de-tr-a1-cn-007",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "turuncu",
+      "back": "orange",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat, İngilizce ile aynı",
+      "example": "Die Orange ist orange."
+    },
+    {
+      "id": "de-tr-a1-cn-008",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "pembe",
+      "back": "rosa / pink",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat, rosa daha geleneksel",
+      "example": "Das Kleid ist rosa."
+    },
+    {
+      "id": "de-tr-a1-cn-009",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "kahverengi",
+      "back": "braun",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat",
+      "example": "Der Hund ist braun."
+    },
+    {
+      "id": "de-tr-a1-cn-010",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "gri",
+      "back": "grau",
+      "tags": [
+        "renk"
+      ],
+      "hint": "Sıfat",
+      "example": "Das Wetter ist grau."
+    },
+    {
+      "id": "de-tr-a1-cn-011",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "bir",
+      "back": "eins",
+      "tags": [
+        "sayı",
+        "temel"
+      ],
+      "hint": "Sayarken: eins. İsimden önce: ein/eine",
+      "example": "Eins, zwei, drei!"
+    },
+    {
+      "id": "de-tr-a1-cn-012",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "iki",
+      "back": "zwei",
+      "tags": [
+        "sayı",
+        "temel"
+      ],
+      "hint": null,
+      "example": "Ich habe zwei Kinder."
+    },
+    {
+      "id": "de-tr-a1-cn-013",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "üç",
+      "back": "drei",
+      "tags": [
+        "sayı",
+        "temel"
+      ],
+      "hint": null,
+      "example": "Es ist drei Uhr."
+    },
+    {
+      "id": "de-tr-a1-cn-014",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "on",
+      "back": "zehn",
+      "tags": [
+        "sayı",
+        "temel"
+      ],
+      "hint": null,
+      "example": "Ich bin zehn Jahre alt."
+    },
+    {
+      "id": "de-tr-a1-cn-015",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "yirmi",
+      "back": "zwanzig",
+      "tags": [
+        "sayı"
+      ],
+      "hint": null,
+      "example": "Das kostet zwanzig Euro."
+    },
+    {
+      "id": "de-tr-a1-cn-016",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "elli",
+      "back": "fünfzig",
+      "tags": [
+        "sayı"
+      ],
+      "hint": null,
+      "example": "Er ist fünfzig Jahre alt."
+    },
+    {
+      "id": "de-tr-a1-cn-017",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "yüz",
+      "back": "hundert",
+      "tags": [
+        "sayı"
+      ],
+      "hint": null,
+      "example": "Das kostet hundert Euro."
+    },
+    {
+      "id": "de-tr-a1-cn-018",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "birinci",
+      "back": "erste",
+      "tags": [
+        "sıra sayısı",
+        "sayı"
+      ],
+      "hint": "Sıra sayısı, cinsiyete göre değişir",
+      "example": "Das ist mein erster Tag."
+    },
+    {
+      "id": "de-tr-a1-cn-019",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "ikinci",
+      "back": "zweite",
+      "tags": [
+        "sıra sayısı",
+        "sayı"
+      ],
+      "hint": "Sıra sayısı",
+      "example": "Das ist die zweite Straße."
+    },
+    {
+      "id": "de-tr-a1-cn-020",
+      "packId": "de-tr-a1-colors-numbers",
+      "front": "son / sonuncu",
+      "back": "letzte",
+      "tags": [
+        "sıra sayısı",
+        "sayı"
+      ],
+      "hint": "Sıfat, cinsiyete göre değişir",
+      "example": "Das ist der letzte Tag."
+    }
+  ]
+}

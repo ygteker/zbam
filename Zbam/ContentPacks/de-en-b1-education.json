@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-education",
+    "name": "German B1: Higher Education",
+    "description": "University and academic vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "book.fill",
+    "tags": [
+      "Education"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-ed-001",
+      "packId": "de-en-b1-education",
+      "front": "university",
+      "back": "die Universität / die Uni",
+      "tags": [
+        "education",
+        "institution"
+      ],
+      "hint": "Feminine noun (die), Uni is informal",
+      "example": "Ich studiere an der Universität."
+    },
+    {
+      "id": "de-en-b1-ed-002",
+      "packId": "de-en-b1-education",
+      "front": "to study (at university)",
+      "back": "studieren",
+      "tags": [
+        "education",
+        "verb"
+      ],
+      "hint": "Regular verb - only for university study",
+      "example": "Sie studiert Medizin."
+    },
+    {
+      "id": "de-en-b1-ed-003",
+      "packId": "de-en-b1-education",
+      "front": "lecture",
+      "back": "die Vorlesung",
+      "tags": [
+        "education",
+        "event"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Vorlesung beginnt um 8 Uhr."
+    },
+    {
+      "id": "de-en-b1-ed-004",
+      "packId": "de-en-b1-education",
+      "front": "professor",
+      "back": "der Professor / die Professorin",
+      "tags": [
+        "education",
+        "person"
+      ],
+      "hint": "der Professor (male) / die Professorin (female)",
+      "example": "Der Professor erklärt das Thema."
+    },
+    {
+      "id": "de-en-b1-ed-005",
+      "packId": "de-en-b1-education",
+      "front": "semester",
+      "back": "das Semester",
+      "tags": [
+        "education",
+        "time"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Semester dauert sechs Monate."
+    },
+    {
+      "id": "de-en-b1-ed-006",
+      "packId": "de-en-b1-education",
+      "front": "degree / diploma",
+      "back": "der Abschluss / das Diplom",
+      "tags": [
+        "education",
+        "qualification"
+      ],
+      "hint": "Abschluss (general), Diplom (specific degree type)",
+      "example": "Ich habe meinen Abschluss gemacht."
+    },
+    {
+      "id": "de-en-b1-ed-007",
+      "packId": "de-en-b1-education",
+      "front": "thesis",
+      "back": "die Arbeit / die Abschlussarbeit",
+      "tags": [
+        "education",
+        "document"
+      ],
+      "hint": "Abschlussarbeit = final thesis",
+      "example": "Ich schreibe meine Abschlussarbeit."
+    },
+    {
+      "id": "de-en-b1-ed-008",
+      "packId": "de-en-b1-education",
+      "front": "scholarship",
+      "back": "das Stipendium",
+      "tags": [
+        "education",
+        "finance"
+      ],
+      "hint": "Neuter noun (das), plural: die Stipendien",
+      "example": "Er hat ein Stipendium bekommen."
+    },
+    {
+      "id": "de-en-b1-ed-009",
+      "packId": "de-en-b1-education",
+      "front": "library (university)",
+      "back": "die Universitätsbibliothek",
+      "tags": [
+        "education",
+        "place"
+      ],
+      "hint": "Feminine noun (die), abbreviated as UB",
+      "example": "Ich lerne in der Universitätsbibliothek."
+    },
+    {
+      "id": "de-en-b1-ed-010",
+      "packId": "de-en-b1-education",
+      "front": "subject / major",
+      "back": "das Fach / das Studienfach",
+      "tags": [
+        "education",
+        "academic"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Welches Fach studierst du?"
+    },
+    {
+      "id": "de-en-b1-ed-011",
+      "packId": "de-en-b1-education",
+      "front": "seminar",
+      "back": "das Seminar",
+      "tags": [
+        "education",
+        "event"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Seminar ist am Donnerstag."
+    },
+    {
+      "id": "de-en-b1-ed-012",
+      "packId": "de-en-b1-education",
+      "front": "grade / mark",
+      "back": "die Note",
+      "tags": [
+        "education",
+        "assessment"
+      ],
+      "hint": "Feminine noun (die) - German grades: 1 (best) to 6 (worst)",
+      "example": "Ich habe eine gute Note bekommen."
+    },
+    {
+      "id": "de-en-b1-ed-013",
+      "packId": "de-en-b1-education",
+      "front": "to graduate",
+      "back": "abschließen / den Abschluss machen",
+      "tags": [
+        "education",
+        "verb"
+      ],
+      "hint": "Separable verb: Ich schließe das Studium ab.",
+      "example": "Er hat sein Studium abgeschlossen."
+    },
+    {
+      "id": "de-en-b1-ed-014",
+      "packId": "de-en-b1-education",
+      "front": "enrollment",
+      "back": "die Einschreibung / die Immatrikulation",
+      "tags": [
+        "education",
+        "process"
+      ],
+      "hint": "Immatrikulation is the formal term",
+      "example": "Die Einschreibung ist im Oktober."
+    },
+    {
+      "id": "de-en-b1-ed-015",
+      "packId": "de-en-b1-education",
+      "front": "student (university)",
+      "back": "der Student / die Studentin",
+      "tags": [
+        "education",
+        "person"
+      ],
+      "hint": "der Student (male) / die Studentin (female)",
+      "example": "Die Studentin lernt fleißig."
+    }
+  ]
+}

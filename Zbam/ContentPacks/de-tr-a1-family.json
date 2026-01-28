@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-tr-a1-family",
+    "name": "Almanca A1: Aile ve İnsanlar",
+    "description": "Aile üyeleri ve insanlarla ilgili kelimeler.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "person.3.fill",
+    "tags": [
+      "People"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-tr-a1-fm-001",
+      "packId": "de-tr-a1-family",
+      "front": "anne",
+      "back": "die Mutter",
+      "tags": [
+        "aile",
+        "ebeveyn"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Meine Mutter kocht gut."
+    },
+    {
+      "id": "de-tr-a1-fm-002",
+      "packId": "de-tr-a1-family",
+      "front": "baba",
+      "back": "der Vater",
+      "tags": [
+        "aile",
+        "ebeveyn"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Mein Vater arbeitet viel."
+    },
+    {
+      "id": "de-tr-a1-fm-003",
+      "packId": "de-tr-a1-family",
+      "front": "erkek kardeş / ağabey",
+      "back": "der Bruder",
+      "tags": [
+        "aile",
+        "kardeş"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Mein Bruder ist älter."
+    },
+    {
+      "id": "de-tr-a1-fm-004",
+      "packId": "de-tr-a1-family",
+      "front": "kız kardeş / abla",
+      "back": "die Schwester",
+      "tags": [
+        "aile",
+        "kardeş"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Meine Schwester studiert."
+    },
+    {
+      "id": "de-tr-a1-fm-005",
+      "packId": "de-tr-a1-family",
+      "front": "büyükanne / nine",
+      "back": "die Großmutter / die Oma",
+      "tags": [
+        "aile",
+        "büyükanne-büyükbaba"
+      ],
+      "hint": "Dişi isim (die), Oma günlük kullanım",
+      "example": "Meine Oma backt Kuchen."
+    },
+    {
+      "id": "de-tr-a1-fm-006",
+      "packId": "de-tr-a1-family",
+      "front": "büyükbaba / dede",
+      "back": "der Großvater / der Opa",
+      "tags": [
+        "aile",
+        "büyükanne-büyükbaba"
+      ],
+      "hint": "Erkek isim (der), Opa günlük kullanım",
+      "example": "Mein Opa liest die Zeitung."
+    },
+    {
+      "id": "de-tr-a1-fm-007",
+      "packId": "de-tr-a1-family",
+      "front": "çocuk",
+      "back": "das Kind",
+      "tags": [
+        "aile",
+        "insanlar"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Kind spielt im Garten."
+    },
+    {
+      "id": "de-tr-a1-fm-008",
+      "packId": "de-tr-a1-family",
+      "front": "kadın",
+      "back": "die Frau",
+      "tags": [
+        "insanlar",
+        "yetişkin"
+      ],
+      "hint": "Dişi isim (die), ayrıca 'eş' anlamında",
+      "example": "Die Frau liest ein Buch."
+    },
+    {
+      "id": "de-tr-a1-fm-009",
+      "packId": "de-tr-a1-family",
+      "front": "erkek / adam",
+      "back": "der Mann",
+      "tags": [
+        "insanlar",
+        "yetişkin"
+      ],
+      "hint": "Erkek isim (der), ayrıca 'koca' anlamında",
+      "example": "Der Mann arbeitet im Büro."
+    },
+    {
+      "id": "de-tr-a1-fm-010",
+      "packId": "de-tr-a1-family",
+      "front": "oğlan",
+      "back": "der Junge",
+      "tags": [
+        "insanlar",
+        "çocuk"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Junge spielt Fußball."
+    },
+    {
+      "id": "de-tr-a1-fm-011",
+      "packId": "de-tr-a1-family",
+      "front": "kız",
+      "back": "das Mädchen",
+      "tags": [
+        "insanlar",
+        "çocuk"
+      ],
+      "hint": "Nötr isim (das) - tüm -chen küçültmeleri nötr",
+      "example": "Das Mädchen tanzt."
+    },
+    {
+      "id": "de-tr-a1-fm-012",
+      "packId": "de-tr-a1-family",
+      "front": "arkadaş (erkek)",
+      "back": "der Freund",
+      "tags": [
+        "insanlar",
+        "sosyal"
+      ],
+      "hint": "Erkek isim (der), ayrıca 'erkek arkadaş' anlamında",
+      "example": "Mein Freund kommt aus Berlin."
+    },
+    {
+      "id": "de-tr-a1-fm-013",
+      "packId": "de-tr-a1-family",
+      "front": "arkadaş (kadın)",
+      "back": "die Freundin",
+      "tags": [
+        "insanlar",
+        "sosyal"
+      ],
+      "hint": "Dişi isim (die), ayrıca 'kız arkadaş' anlamında",
+      "example": "Meine Freundin ist nett."
+    },
+    {
+      "id": "de-tr-a1-fm-014",
+      "packId": "de-tr-a1-family",
+      "front": "bebek",
+      "back": "das Baby",
+      "tags": [
+        "aile",
+        "çocuk"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Baby schläft."
+    },
+    {
+      "id": "de-tr-a1-fm-015",
+      "packId": "de-tr-a1-family",
+      "front": "aile",
+      "back": "die Familie",
+      "tags": [
+        "aile",
+        "grup"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Meine Familie ist groß."
+    }
+  ]
+}

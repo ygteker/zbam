@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-culture",
+    "name": "German B1: Culture & Arts",
+    "description": "Culture, arts, and history vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "theatermasks.fill",
+    "tags": [
+      "Culture"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-cu-001",
+      "packId": "de-en-b1-culture",
+      "front": "culture",
+      "back": "die Kultur",
+      "tags": [
+        "culture",
+        "general"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die deutsche Kultur ist vielfältig."
+    },
+    {
+      "id": "de-en-b1-cu-002",
+      "packId": "de-en-b1-culture",
+      "front": "art",
+      "back": "die Kunst",
+      "tags": [
+        "culture",
+        "art"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Moderne Kunst ist interessant."
+    },
+    {
+      "id": "de-en-b1-cu-003",
+      "packId": "de-en-b1-culture",
+      "front": "painting",
+      "back": "das Gemälde",
+      "tags": [
+        "culture",
+        "art"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Gemälde hängt im Museum."
+    },
+    {
+      "id": "de-en-b1-cu-004",
+      "packId": "de-en-b1-culture",
+      "front": "theater",
+      "back": "das Theater",
+      "tags": [
+        "culture",
+        "performance"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Wir gehen ins Theater."
+    },
+    {
+      "id": "de-en-b1-cu-005",
+      "packId": "de-en-b1-culture",
+      "front": "literature",
+      "back": "die Literatur",
+      "tags": [
+        "culture",
+        "writing"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Deutsche Literatur ist weltbekannt."
+    },
+    {
+      "id": "de-en-b1-cu-006",
+      "packId": "de-en-b1-culture",
+      "front": "author / writer",
+      "back": "der Autor / die Autorin",
+      "tags": [
+        "culture",
+        "person"
+      ],
+      "hint": "der Autor (male) / die Autorin (female)",
+      "example": "Der Autor hat viele Bücher geschrieben."
+    },
+    {
+      "id": "de-en-b1-cu-007",
+      "packId": "de-en-b1-culture",
+      "front": "tradition",
+      "back": "die Tradition",
+      "tags": [
+        "culture",
+        "custom"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Diese Tradition ist sehr alt."
+    },
+    {
+      "id": "de-en-b1-cu-008",
+      "packId": "de-en-b1-culture",
+      "front": "festival / celebration",
+      "back": "das Fest / das Festival",
+      "tags": [
+        "culture",
+        "event"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Oktoberfest ist weltberühmt."
+    },
+    {
+      "id": "de-en-b1-cu-009",
+      "packId": "de-en-b1-culture",
+      "front": "history",
+      "back": "die Geschichte",
+      "tags": [
+        "culture",
+        "subject"
+      ],
+      "hint": "Feminine noun (die) - also means 'story'",
+      "example": "Die Geschichte Deutschlands ist komplex."
+    },
+    {
+      "id": "de-en-b1-cu-010",
+      "packId": "de-en-b1-culture",
+      "front": "philosopher",
+      "back": "der Philosoph / die Philosophin",
+      "tags": [
+        "culture",
+        "person"
+      ],
+      "hint": "der Philosoph (male) / die Philosophin (female)",
+      "example": "Kant war ein berühmter Philosoph."
+    },
+    {
+      "id": "de-en-b1-cu-011",
+      "packId": "de-en-b1-culture",
+      "front": "exhibition",
+      "back": "die Ausstellung",
+      "tags": [
+        "culture",
+        "event"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Ausstellung ist bis März geöffnet."
+    },
+    {
+      "id": "de-en-b1-cu-012",
+      "packId": "de-en-b1-culture",
+      "front": "sculpture",
+      "back": "die Skulptur",
+      "tags": [
+        "culture",
+        "art"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Skulptur ist aus Marmor."
+    },
+    {
+      "id": "de-en-b1-cu-013",
+      "packId": "de-en-b1-culture",
+      "front": "religion",
+      "back": "die Religion",
+      "tags": [
+        "culture",
+        "belief"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "In Deutschland gibt es viele Religionen."
+    },
+    {
+      "id": "de-en-b1-cu-014",
+      "packId": "de-en-b1-culture",
+      "front": "architecture",
+      "back": "die Architektur",
+      "tags": [
+        "culture",
+        "art"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Architektur in Wien ist beeindruckend."
+    },
+    {
+      "id": "de-en-b1-cu-015",
+      "packId": "de-en-b1-culture",
+      "front": "heritage",
+      "back": "das Erbe / das Kulturerbe",
+      "tags": [
+        "culture",
+        "concept"
+      ],
+      "hint": "Neuter noun (das), Kulturerbe = cultural heritage",
+      "example": "Das Kulturerbe muss bewahrt werden."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-emotions",
+    "name": "German A2: Emotions",
+    "description": "Emotions and feelings vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "face.smiling.fill",
+    "tags": [
+      "People"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-em-001",
+      "packId": "de-en-a2-emotions",
+      "front": "happy",
+      "back": "glücklich / froh",
+      "tags": [
+        "emotions",
+        "positive"
+      ],
+      "hint": "glücklich (deeply happy), froh (glad)",
+      "example": "Ich bin sehr glücklich."
+    },
+    {
+      "id": "de-en-a2-em-002",
+      "packId": "de-en-a2-emotions",
+      "front": "sad",
+      "back": "traurig",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "Adjective",
+      "example": "Er ist traurig."
+    },
+    {
+      "id": "de-en-a2-em-003",
+      "packId": "de-en-a2-emotions",
+      "front": "angry",
+      "back": "wütend / böse",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "wütend (furious), böse (angry/mad)",
+      "example": "Sie ist wütend auf mich."
+    },
+    {
+      "id": "de-en-a2-em-004",
+      "packId": "de-en-a2-emotions",
+      "front": "afraid / scared",
+      "back": "Angst haben",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "die Angst (fear) + haben",
+      "example": "Ich habe Angst vor Spinnen."
+    },
+    {
+      "id": "de-en-a2-em-005",
+      "packId": "de-en-a2-emotions",
+      "front": "tired",
+      "back": "müde",
+      "tags": [
+        "emotions",
+        "state"
+      ],
+      "hint": "Adjective",
+      "example": "Ich bin sehr müde."
+    },
+    {
+      "id": "de-en-a2-em-006",
+      "packId": "de-en-a2-emotions",
+      "front": "excited",
+      "back": "aufgeregt",
+      "tags": [
+        "emotions",
+        "positive"
+      ],
+      "hint": "Adjective (past participle of aufregen)",
+      "example": "Die Kinder sind aufgeregt."
+    },
+    {
+      "id": "de-en-a2-em-007",
+      "packId": "de-en-a2-emotions",
+      "front": "bored",
+      "back": "gelangweilt",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "Adjective (past participle of langweilen)",
+      "example": "Mir ist langweilig."
+    },
+    {
+      "id": "de-en-a2-em-008",
+      "packId": "de-en-a2-emotions",
+      "front": "surprised",
+      "back": "überrascht",
+      "tags": [
+        "emotions",
+        "neutral"
+      ],
+      "hint": "Adjective (past participle of überraschen)",
+      "example": "Ich bin überrascht!"
+    },
+    {
+      "id": "de-en-a2-em-009",
+      "packId": "de-en-a2-emotions",
+      "front": "proud",
+      "back": "stolz",
+      "tags": [
+        "emotions",
+        "positive"
+      ],
+      "hint": "Adjective, stolz auf = proud of",
+      "example": "Ich bin stolz auf dich."
+    },
+    {
+      "id": "de-en-a2-em-010",
+      "packId": "de-en-a2-emotions",
+      "front": "nervous",
+      "back": "nervös",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "Adjective",
+      "example": "Ich bin nervös vor der Prüfung."
+    },
+    {
+      "id": "de-en-a2-em-011",
+      "packId": "de-en-a2-emotions",
+      "front": "lonely",
+      "back": "einsam",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "Adjective",
+      "example": "Er fühlt sich einsam."
+    },
+    {
+      "id": "de-en-a2-em-012",
+      "packId": "de-en-a2-emotions",
+      "front": "grateful",
+      "back": "dankbar",
+      "tags": [
+        "emotions",
+        "positive"
+      ],
+      "hint": "Adjective",
+      "example": "Ich bin sehr dankbar."
+    },
+    {
+      "id": "de-en-a2-em-013",
+      "packId": "de-en-a2-emotions",
+      "front": "jealous",
+      "back": "eifersüchtig / neidisch",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "eifersüchtig (romantic), neidisch (envious)",
+      "example": "Er ist eifersüchtig."
+    },
+    {
+      "id": "de-en-a2-em-014",
+      "packId": "de-en-a2-emotions",
+      "front": "worried",
+      "back": "besorgt",
+      "tags": [
+        "emotions",
+        "negative"
+      ],
+      "hint": "Adjective",
+      "example": "Die Mutter ist besorgt."
+    },
+    {
+      "id": "de-en-a2-em-015",
+      "packId": "de-en-a2-emotions",
+      "front": "calm / relaxed",
+      "back": "ruhig / entspannt",
+      "tags": [
+        "emotions",
+        "positive"
+      ],
+      "hint": "ruhig (calm), entspannt (relaxed)",
+      "example": "Bleib ruhig!"
+    }
+  ]
+}

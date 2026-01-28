@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-tr-a1-food",
+    "name": "Almanca A1: Yiyecek ve İçecek",
+    "description": "Günlük hayat için temel yiyecek ve içecek kelimeleri.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "fork.knife",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-tr-a1-fd-001",
+      "packId": "de-tr-a1-food",
+      "front": "ekmek",
+      "back": "das Brot",
+      "tags": [
+        "yiyecek",
+        "fırın"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Brot ist frisch."
+    },
+    {
+      "id": "de-tr-a1-fd-002",
+      "packId": "de-tr-a1-food",
+      "front": "su",
+      "back": "das Wasser",
+      "tags": [
+        "içecek",
+        "temel"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Ich trinke Wasser."
+    },
+    {
+      "id": "de-tr-a1-fd-003",
+      "packId": "de-tr-a1-food",
+      "front": "elma",
+      "back": "der Apfel",
+      "tags": [
+        "meyve",
+        "sağlıklı"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Apfel ist rot."
+    },
+    {
+      "id": "de-tr-a1-fd-004",
+      "packId": "de-tr-a1-food",
+      "front": "süt",
+      "back": "die Milch",
+      "tags": [
+        "içecek",
+        "süt ürünü"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Milch ist kalt."
+    },
+    {
+      "id": "de-tr-a1-fd-005",
+      "packId": "de-tr-a1-food",
+      "front": "kahve",
+      "back": "der Kaffee",
+      "tags": [
+        "içecek",
+        "sıcak"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Ich trinke gern Kaffee."
+    },
+    {
+      "id": "de-tr-a1-fd-006",
+      "packId": "de-tr-a1-food",
+      "front": "çay",
+      "back": "der Tee",
+      "tags": [
+        "içecek",
+        "sıcak"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Möchten Sie Tee?"
+    },
+    {
+      "id": "de-tr-a1-fd-007",
+      "packId": "de-tr-a1-food",
+      "front": "peynir",
+      "back": "der Käse",
+      "tags": [
+        "yiyecek",
+        "süt ürünü"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Käse schmeckt gut."
+    },
+    {
+      "id": "de-tr-a1-fd-008",
+      "packId": "de-tr-a1-food",
+      "front": "yumurta",
+      "back": "das Ei",
+      "tags": [
+        "yiyecek",
+        "kahvaltı"
+      ],
+      "hint": "Nötr isim (das), çoğul: die Eier",
+      "example": "Ich esse ein Ei zum Frühstück."
+    },
+    {
+      "id": "de-tr-a1-fd-009",
+      "packId": "de-tr-a1-food",
+      "front": "et",
+      "back": "das Fleisch",
+      "tags": [
+        "yiyecek",
+        "protein"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Fleisch ist teuer."
+    },
+    {
+      "id": "de-tr-a1-fd-010",
+      "packId": "de-tr-a1-food",
+      "front": "balık",
+      "back": "der Fisch",
+      "tags": [
+        "yiyecek",
+        "protein"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Fisch ist frisch."
+    },
+    {
+      "id": "de-tr-a1-fd-011",
+      "packId": "de-tr-a1-food",
+      "front": "pirinç",
+      "back": "der Reis",
+      "tags": [
+        "yiyecek",
+        "tahıl"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Ich esse Reis mit Gemüse."
+    },
+    {
+      "id": "de-tr-a1-fd-012",
+      "packId": "de-tr-a1-food",
+      "front": "sebze",
+      "back": "das Gemüse",
+      "tags": [
+        "yiyecek",
+        "sağlıklı"
+      ],
+      "hint": "Nötr isim (das) - topluluk ismi",
+      "example": "Gemüse ist gesund."
+    },
+    {
+      "id": "de-tr-a1-fd-013",
+      "packId": "de-tr-a1-food",
+      "front": "meyve",
+      "back": "das Obst",
+      "tags": [
+        "yiyecek",
+        "sağlıklı"
+      ],
+      "hint": "Nötr isim (das) - topluluk ismi",
+      "example": "Ich esse viel Obst."
+    },
+    {
+      "id": "de-tr-a1-fd-014",
+      "packId": "de-tr-a1-food",
+      "front": "şeker",
+      "back": "der Zucker",
+      "tags": [
+        "yiyecek",
+        "tatlı"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Kaffee mit Zucker, bitte."
+    },
+    {
+      "id": "de-tr-a1-fd-015",
+      "packId": "de-tr-a1-food",
+      "front": "tuz",
+      "back": "das Salz",
+      "tags": [
+        "yiyecek",
+        "baharat"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Gib mir das Salz, bitte."
+    }
+  ]
+}

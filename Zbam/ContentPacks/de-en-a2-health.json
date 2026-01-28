@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-health",
+    "name": "German A2: Health",
+    "description": "Health, medical, and wellness vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "heart.fill",
+    "tags": [
+      "Health"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-he-001",
+      "packId": "de-en-a2-health",
+      "front": "doctor",
+      "back": "der Arzt / die Ärztin",
+      "tags": [
+        "health",
+        "profession"
+      ],
+      "hint": "der Arzt (male) / die Ärztin (female)",
+      "example": "Ich gehe zum Arzt."
+    },
+    {
+      "id": "de-en-a2-he-002",
+      "packId": "de-en-a2-health",
+      "front": "hospital",
+      "back": "das Krankenhaus",
+      "tags": [
+        "health",
+        "place"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Er ist im Krankenhaus."
+    },
+    {
+      "id": "de-en-a2-he-003",
+      "packId": "de-en-a2-health",
+      "front": "pharmacy",
+      "back": "die Apotheke",
+      "tags": [
+        "health",
+        "place"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich kaufe Medikamente in der Apotheke."
+    },
+    {
+      "id": "de-en-a2-he-004",
+      "packId": "de-en-a2-health",
+      "front": "medicine",
+      "back": "das Medikament",
+      "tags": [
+        "health",
+        "treatment"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich nehme ein Medikament."
+    },
+    {
+      "id": "de-en-a2-he-005",
+      "packId": "de-en-a2-health",
+      "front": "pain",
+      "back": "der Schmerz",
+      "tags": [
+        "health",
+        "symptom"
+      ],
+      "hint": "Masculine noun (der), plural: die Schmerzen",
+      "example": "Ich habe Schmerzen."
+    },
+    {
+      "id": "de-en-a2-he-006",
+      "packId": "de-en-a2-health",
+      "front": "headache",
+      "back": "die Kopfschmerzen",
+      "tags": [
+        "health",
+        "symptom"
+      ],
+      "hint": "Feminine plural (die)",
+      "example": "Ich habe Kopfschmerzen."
+    },
+    {
+      "id": "de-en-a2-he-007",
+      "packId": "de-en-a2-health",
+      "front": "fever",
+      "back": "das Fieber",
+      "tags": [
+        "health",
+        "symptom"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Sie hat Fieber."
+    },
+    {
+      "id": "de-en-a2-he-008",
+      "packId": "de-en-a2-health",
+      "front": "cold (illness)",
+      "back": "die Erkältung",
+      "tags": [
+        "health",
+        "illness"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich habe eine Erkältung."
+    },
+    {
+      "id": "de-en-a2-he-009",
+      "packId": "de-en-a2-health",
+      "front": "healthy",
+      "back": "gesund",
+      "tags": [
+        "health",
+        "adjective"
+      ],
+      "hint": "Adjective",
+      "example": "Obst ist gesund."
+    },
+    {
+      "id": "de-en-a2-he-010",
+      "packId": "de-en-a2-health",
+      "front": "sick / ill",
+      "back": "krank",
+      "tags": [
+        "health",
+        "adjective"
+      ],
+      "hint": "Adjective",
+      "example": "Ich bin krank."
+    },
+    {
+      "id": "de-en-a2-he-011",
+      "packId": "de-en-a2-health",
+      "front": "appointment (medical)",
+      "back": "der Arzttermin",
+      "tags": [
+        "health",
+        "time"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich habe einen Arzttermin."
+    },
+    {
+      "id": "de-en-a2-he-012",
+      "packId": "de-en-a2-health",
+      "front": "prescription",
+      "back": "das Rezept",
+      "tags": [
+        "health",
+        "document"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Der Arzt gibt mir ein Rezept."
+    },
+    {
+      "id": "de-en-a2-he-013",
+      "packId": "de-en-a2-health",
+      "front": "insurance",
+      "back": "die Versicherung",
+      "tags": [
+        "health",
+        "document"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Haben Sie eine Versicherung?"
+    },
+    {
+      "id": "de-en-a2-he-014",
+      "packId": "de-en-a2-health",
+      "front": "nurse",
+      "back": "der Krankenpfleger / die Krankenschwester",
+      "tags": [
+        "health",
+        "profession"
+      ],
+      "hint": "Krankenpfleger (male) / Krankenschwester (female)",
+      "example": "Die Krankenschwester hilft dem Patienten."
+    },
+    {
+      "id": "de-en-a2-he-015",
+      "packId": "de-en-a2-health",
+      "front": "emergency",
+      "back": "der Notfall",
+      "tags": [
+        "health",
+        "urgent"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Das ist ein Notfall!"
+    }
+  ]
+}

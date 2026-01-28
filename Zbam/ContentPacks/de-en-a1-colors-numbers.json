@@ -1,0 +1,242 @@
+{
+  "pack": {
+    "id": "de-en-a1-colors-numbers",
+    "name": "German A1: Colors & Numbers",
+    "description": "Basic colors and numbers from 1-100.",
+    "difficultyLevel": "beginner",
+    "cardCount": 20,
+    "iconName": "paintpalette.fill",
+    "tags": [
+      "Nature"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-cn-001",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "red",
+      "back": "rot",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective, no gender change when predicative",
+      "example": "Das Auto ist rot."
+    },
+    {
+      "id": "de-en-a1-cn-002",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "blue",
+      "back": "blau",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective",
+      "example": "Der Himmel ist blau."
+    },
+    {
+      "id": "de-en-a1-cn-003",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "green",
+      "back": "grün",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective",
+      "example": "Das Gras ist grün."
+    },
+    {
+      "id": "de-en-a1-cn-004",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "yellow",
+      "back": "gelb",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective",
+      "example": "Die Sonne ist gelb."
+    },
+    {
+      "id": "de-en-a1-cn-005",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "black",
+      "back": "schwarz",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective",
+      "example": "Die Katze ist schwarz."
+    },
+    {
+      "id": "de-en-a1-cn-006",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "white",
+      "back": "weiß",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective",
+      "example": "Der Schnee ist weiß."
+    },
+    {
+      "id": "de-en-a1-cn-007",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "orange",
+      "back": "orange",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective, same as English",
+      "example": "Die Orange ist orange."
+    },
+    {
+      "id": "de-en-a1-cn-008",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "pink",
+      "back": "rosa / pink",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective, rosa is more traditional",
+      "example": "Das Kleid ist rosa."
+    },
+    {
+      "id": "de-en-a1-cn-009",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "brown",
+      "back": "braun",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective",
+      "example": "Der Hund ist braun."
+    },
+    {
+      "id": "de-en-a1-cn-010",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "gray",
+      "back": "grau",
+      "tags": [
+        "color"
+      ],
+      "hint": "Adjective",
+      "example": "Das Wetter ist grau."
+    },
+    {
+      "id": "de-en-a1-cn-011",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "one",
+      "back": "eins",
+      "tags": [
+        "number",
+        "basic"
+      ],
+      "hint": "When counting: eins. Before noun: ein/eine",
+      "example": "Eins, zwei, drei!"
+    },
+    {
+      "id": "de-en-a1-cn-012",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "two",
+      "back": "zwei",
+      "tags": [
+        "number",
+        "basic"
+      ],
+      "hint": null,
+      "example": "Ich habe zwei Kinder."
+    },
+    {
+      "id": "de-en-a1-cn-013",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "three",
+      "back": "drei",
+      "tags": [
+        "number",
+        "basic"
+      ],
+      "hint": null,
+      "example": "Es ist drei Uhr."
+    },
+    {
+      "id": "de-en-a1-cn-014",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "ten",
+      "back": "zehn",
+      "tags": [
+        "number",
+        "basic"
+      ],
+      "hint": null,
+      "example": "Ich bin zehn Jahre alt."
+    },
+    {
+      "id": "de-en-a1-cn-015",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "twenty",
+      "back": "zwanzig",
+      "tags": [
+        "number"
+      ],
+      "hint": null,
+      "example": "Das kostet zwanzig Euro."
+    },
+    {
+      "id": "de-en-a1-cn-016",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "fifty",
+      "back": "fünfzig",
+      "tags": [
+        "number"
+      ],
+      "hint": null,
+      "example": "Er ist fünfzig Jahre alt."
+    },
+    {
+      "id": "de-en-a1-cn-017",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "hundred",
+      "back": "hundert",
+      "tags": [
+        "number"
+      ],
+      "hint": null,
+      "example": "Das kostet hundert Euro."
+    },
+    {
+      "id": "de-en-a1-cn-018",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "first",
+      "back": "erste",
+      "tags": [
+        "ordinal",
+        "number"
+      ],
+      "hint": "Ordinal number, changes with gender",
+      "example": "Das ist mein erster Tag."
+    },
+    {
+      "id": "de-en-a1-cn-019",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "second",
+      "back": "zweite",
+      "tags": [
+        "ordinal",
+        "number"
+      ],
+      "hint": "Ordinal number",
+      "example": "Das ist die zweite Straße."
+    },
+    {
+      "id": "de-en-a1-cn-020",
+      "packId": "de-en-a1-colors-numbers",
+      "front": "last",
+      "back": "letzte",
+      "tags": [
+        "ordinal",
+        "number"
+      ],
+      "hint": "Adjective, changes with gender",
+      "example": "Das ist der letzte Tag."
+    }
+  ]
+}

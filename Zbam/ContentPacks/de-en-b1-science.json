@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-science",
+    "name": "German B1: Science",
+    "description": "Scientific and research vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "atom",
+    "tags": [
+      "Science"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-sc-001",
+      "packId": "de-en-b1-science",
+      "front": "science",
+      "back": "die Wissenschaft",
+      "tags": [
+        "science",
+        "general"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Wissenschaft macht Fortschritte."
+    },
+    {
+      "id": "de-en-b1-sc-002",
+      "packId": "de-en-b1-science",
+      "front": "research",
+      "back": "die Forschung",
+      "tags": [
+        "science",
+        "activity"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Forschung ist wichtig."
+    },
+    {
+      "id": "de-en-b1-sc-003",
+      "packId": "de-en-b1-science",
+      "front": "experiment",
+      "back": "das Experiment / der Versuch",
+      "tags": [
+        "science",
+        "method"
+      ],
+      "hint": "Experiment (formal), Versuch (also means attempt)",
+      "example": "Das Experiment war erfolgreich."
+    },
+    {
+      "id": "de-en-b1-sc-004",
+      "packId": "de-en-b1-science",
+      "front": "scientist",
+      "back": "der Wissenschaftler / die Wissenschaftlerin",
+      "tags": [
+        "science",
+        "person"
+      ],
+      "hint": "der Wissenschaftler (male) / die Wissenschaftlerin (female)",
+      "example": "Die Wissenschaftlerin hat eine Entdeckung gemacht."
+    },
+    {
+      "id": "de-en-b1-sc-005",
+      "packId": "de-en-b1-science",
+      "front": "discovery",
+      "back": "die Entdeckung",
+      "tags": [
+        "science",
+        "result"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Das war eine wichtige Entdeckung."
+    },
+    {
+      "id": "de-en-b1-sc-006",
+      "packId": "de-en-b1-science",
+      "front": "theory",
+      "back": "die Theorie",
+      "tags": [
+        "science",
+        "concept"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Theorie muss bewiesen werden."
+    },
+    {
+      "id": "de-en-b1-sc-007",
+      "packId": "de-en-b1-science",
+      "front": "result",
+      "back": "das Ergebnis",
+      "tags": [
+        "science",
+        "outcome"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Ergebnis ist überraschend."
+    },
+    {
+      "id": "de-en-b1-sc-008",
+      "packId": "de-en-b1-science",
+      "front": "laboratory",
+      "back": "das Labor",
+      "tags": [
+        "science",
+        "place"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Die Proben sind im Labor."
+    },
+    {
+      "id": "de-en-b1-sc-009",
+      "packId": "de-en-b1-science",
+      "front": "chemistry",
+      "back": "die Chemie",
+      "tags": [
+        "science",
+        "subject"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Chemie ist mein Lieblingsfach."
+    },
+    {
+      "id": "de-en-b1-sc-010",
+      "packId": "de-en-b1-science",
+      "front": "physics",
+      "back": "die Physik",
+      "tags": [
+        "science",
+        "subject"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Physik erklärt die Naturgesetze."
+    },
+    {
+      "id": "de-en-b1-sc-011",
+      "packId": "de-en-b1-science",
+      "front": "biology",
+      "back": "die Biologie",
+      "tags": [
+        "science",
+        "subject"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Biologie ist das Studium des Lebens."
+    },
+    {
+      "id": "de-en-b1-sc-012",
+      "packId": "de-en-b1-science",
+      "front": "mathematics",
+      "back": "die Mathematik / die Mathe",
+      "tags": [
+        "science",
+        "subject"
+      ],
+      "hint": "Feminine noun (die), Mathe is informal",
+      "example": "Mathe ist nicht leicht."
+    },
+    {
+      "id": "de-en-b1-sc-013",
+      "packId": "de-en-b1-science",
+      "front": "to prove",
+      "back": "beweisen",
+      "tags": [
+        "science",
+        "verb"
+      ],
+      "hint": "Strong verb: beweisen, bewies, bewiesen",
+      "example": "Die Theorie wurde bewiesen."
+    },
+    {
+      "id": "de-en-b1-sc-014",
+      "packId": "de-en-b1-science",
+      "front": "study (academic)",
+      "back": "die Studie",
+      "tags": [
+        "science",
+        "research"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Studie zeigt interessante Ergebnisse."
+    },
+    {
+      "id": "de-en-b1-sc-015",
+      "packId": "de-en-b1-science",
+      "front": "to develop",
+      "back": "entwickeln",
+      "tags": [
+        "science",
+        "verb"
+      ],
+      "hint": "Regular verb (inseparable prefix)",
+      "example": "Sie haben eine neue Methode entwickelt."
+    }
+  ]
+}

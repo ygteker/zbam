@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-business",
+    "name": "German B1: Business",
+    "description": "Business and professional vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "chart.line.uptrend.xyaxis",
+    "tags": [
+      "Career"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-bu-001",
+      "packId": "de-en-b1-business",
+      "front": "turnover / revenue",
+      "back": "der Umsatz",
+      "tags": [
+        "business",
+        "finance"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Umsatz ist gestiegen."
+    },
+    {
+      "id": "de-en-b1-bu-002",
+      "packId": "de-en-b1-business",
+      "front": "profit",
+      "back": "der Gewinn",
+      "tags": [
+        "business",
+        "finance"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Die Firma hat einen hohen Gewinn."
+    },
+    {
+      "id": "de-en-b1-bu-003",
+      "packId": "de-en-b1-business",
+      "front": "loss",
+      "back": "der Verlust",
+      "tags": [
+        "business",
+        "finance"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Das Unternehmen macht Verlust."
+    },
+    {
+      "id": "de-en-b1-bu-004",
+      "packId": "de-en-b1-business",
+      "front": "investment",
+      "back": "die Investition",
+      "tags": [
+        "business",
+        "finance"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Investition hat sich gelohnt."
+    },
+    {
+      "id": "de-en-b1-bu-005",
+      "packId": "de-en-b1-business",
+      "front": "competition",
+      "back": "die Konkurrenz / der Wettbewerb",
+      "tags": [
+        "business",
+        "market"
+      ],
+      "hint": "Konkurrenz (competitors), Wettbewerb (competition)",
+      "example": "Die Konkurrenz ist stark."
+    },
+    {
+      "id": "de-en-b1-bu-006",
+      "packId": "de-en-b1-business",
+      "front": "advertisement",
+      "back": "die Werbung",
+      "tags": [
+        "business",
+        "marketing"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Werbung ist überall."
+    },
+    {
+      "id": "de-en-b1-bu-007",
+      "packId": "de-en-b1-business",
+      "front": "tax",
+      "back": "die Steuer",
+      "tags": [
+        "business",
+        "finance"
+      ],
+      "hint": "Feminine noun (die), plural: die Steuern",
+      "example": "Die Steuern sind hoch."
+    },
+    {
+      "id": "de-en-b1-bu-008",
+      "packId": "de-en-b1-business",
+      "front": "budget",
+      "back": "das Budget / der Haushalt",
+      "tags": [
+        "business",
+        "finance"
+      ],
+      "hint": "Budget (project), Haushalt (government/household)",
+      "example": "Wir müssen das Budget einhalten."
+    },
+    {
+      "id": "de-en-b1-bu-009",
+      "packId": "de-en-b1-business",
+      "front": "negotiation",
+      "back": "die Verhandlung",
+      "tags": [
+        "business",
+        "communication"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Verhandlung war erfolgreich."
+    },
+    {
+      "id": "de-en-b1-bu-010",
+      "packId": "de-en-b1-business",
+      "front": "employee",
+      "back": "der Mitarbeiter / die Mitarbeiterin",
+      "tags": [
+        "business",
+        "person"
+      ],
+      "hint": "der Mitarbeiter (male) / die Mitarbeiterin (female)",
+      "example": "Die Firma hat 200 Mitarbeiter."
+    },
+    {
+      "id": "de-en-b1-bu-011",
+      "packId": "de-en-b1-business",
+      "front": "application (job)",
+      "back": "die Bewerbung",
+      "tags": [
+        "business",
+        "career"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich schicke meine Bewerbung."
+    },
+    {
+      "id": "de-en-b1-bu-012",
+      "packId": "de-en-b1-business",
+      "front": "interview (job)",
+      "back": "das Vorstellungsgespräch",
+      "tags": [
+        "business",
+        "career"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich habe morgen ein Vorstellungsgespräch."
+    },
+    {
+      "id": "de-en-b1-bu-013",
+      "packId": "de-en-b1-business",
+      "front": "goal / target",
+      "back": "das Ziel",
+      "tags": [
+        "business",
+        "strategy"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Wir haben unser Ziel erreicht."
+    },
+    {
+      "id": "de-en-b1-bu-014",
+      "packId": "de-en-b1-business",
+      "front": "management",
+      "back": "die Geschäftsführung / das Management",
+      "tags": [
+        "business",
+        "organization"
+      ],
+      "hint": "Geschäftsführung (German), Management (anglicism)",
+      "example": "Die Geschäftsführung entscheidet."
+    },
+    {
+      "id": "de-en-b1-bu-015",
+      "packId": "de-en-b1-business",
+      "front": "trade / commerce",
+      "back": "der Handel",
+      "tags": [
+        "business",
+        "economy"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der internationale Handel wächst."
+    }
+  ]
+}

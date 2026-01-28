@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-relationships",
+    "name": "German B1: Relationships",
+    "description": "Social relationships and interactions.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "heart.circle.fill",
+    "tags": [
+      "People"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-re-001",
+      "packId": "de-en-b1-relationships",
+      "front": "friendship",
+      "back": "die Freundschaft",
+      "tags": [
+        "relationships",
+        "social"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Unsere Freundschaft ist stark."
+    },
+    {
+      "id": "de-en-b1-re-002",
+      "packId": "de-en-b1-relationships",
+      "front": "relationship",
+      "back": "die Beziehung",
+      "tags": [
+        "relationships",
+        "social"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Sie sind in einer Beziehung."
+    },
+    {
+      "id": "de-en-b1-re-003",
+      "packId": "de-en-b1-relationships",
+      "front": "wedding",
+      "back": "die Hochzeit",
+      "tags": [
+        "relationships",
+        "event"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Hochzeit war wunderschön."
+    },
+    {
+      "id": "de-en-b1-re-004",
+      "packId": "de-en-b1-relationships",
+      "front": "to marry",
+      "back": "heiraten",
+      "tags": [
+        "relationships",
+        "verb"
+      ],
+      "hint": "Regular verb",
+      "example": "Sie heiraten im Juni."
+    },
+    {
+      "id": "de-en-b1-re-005",
+      "packId": "de-en-b1-relationships",
+      "front": "divorce",
+      "back": "die Scheidung",
+      "tags": [
+        "relationships",
+        "legal"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Scheidung war schwierig."
+    },
+    {
+      "id": "de-en-b1-re-006",
+      "packId": "de-en-b1-relationships",
+      "front": "trust",
+      "back": "das Vertrauen",
+      "tags": [
+        "relationships",
+        "emotion"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Vertrauen ist die Basis jeder Beziehung."
+    },
+    {
+      "id": "de-en-b1-re-007",
+      "packId": "de-en-b1-relationships",
+      "front": "to argue / to quarrel",
+      "back": "streiten",
+      "tags": [
+        "relationships",
+        "verb"
+      ],
+      "hint": "Strong verb: streiten, stritt, gestritten",
+      "example": "Wir streiten uns manchmal."
+    },
+    {
+      "id": "de-en-b1-re-008",
+      "packId": "de-en-b1-relationships",
+      "front": "to forgive",
+      "back": "vergeben / verzeihen",
+      "tags": [
+        "relationships",
+        "verb"
+      ],
+      "hint": "Both strong verbs",
+      "example": "Kannst du mir vergeben?"
+    },
+    {
+      "id": "de-en-b1-re-009",
+      "packId": "de-en-b1-relationships",
+      "front": "love",
+      "back": "die Liebe",
+      "tags": [
+        "relationships",
+        "emotion"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Liebe ist das Wichtigste."
+    },
+    {
+      "id": "de-en-b1-re-010",
+      "packId": "de-en-b1-relationships",
+      "front": "respect",
+      "back": "der Respekt",
+      "tags": [
+        "relationships",
+        "value"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Respekt ist sehr wichtig."
+    },
+    {
+      "id": "de-en-b1-re-011",
+      "packId": "de-en-b1-relationships",
+      "front": "partner",
+      "back": "der Partner / die Partnerin",
+      "tags": [
+        "relationships",
+        "person"
+      ],
+      "hint": "der Partner (male) / die Partnerin (female)",
+      "example": "Mein Partner unterstützt mich."
+    },
+    {
+      "id": "de-en-b1-re-012",
+      "packId": "de-en-b1-relationships",
+      "front": "to break up",
+      "back": "sich trennen",
+      "tags": [
+        "relationships",
+        "verb"
+      ],
+      "hint": "Reflexive verb: Wir trennen uns.",
+      "example": "Sie haben sich getrennt."
+    },
+    {
+      "id": "de-en-b1-re-013",
+      "packId": "de-en-b1-relationships",
+      "front": "loyalty",
+      "back": "die Treue",
+      "tags": [
+        "relationships",
+        "value"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Treue ist ihm wichtig."
+    },
+    {
+      "id": "de-en-b1-re-014",
+      "packId": "de-en-b1-relationships",
+      "front": "to support",
+      "back": "unterstützen",
+      "tags": [
+        "relationships",
+        "verb"
+      ],
+      "hint": "Regular verb (inseparable prefix)",
+      "example": "Ich unterstütze dich immer."
+    },
+    {
+      "id": "de-en-b1-re-015",
+      "packId": "de-en-b1-relationships",
+      "front": "compromise",
+      "back": "der Kompromiss",
+      "tags": [
+        "relationships",
+        "concept"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Wir müssen einen Kompromiss finden."
+    }
+  ]
+}

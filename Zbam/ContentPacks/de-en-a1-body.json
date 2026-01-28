@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-body",
+    "name": "German A1: Body Parts",
+    "description": "Parts of the human body.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "figure.stand",
+    "tags": [
+      "Health"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-bd-001",
+      "packId": "de-en-a1-body",
+      "front": "head",
+      "back": "der Kopf",
+      "tags": [
+        "body",
+        "upper"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Mein Kopf tut weh."
+    },
+    {
+      "id": "de-en-a1-bd-002",
+      "packId": "de-en-a1-body",
+      "front": "eye",
+      "back": "das Auge",
+      "tags": [
+        "body",
+        "face"
+      ],
+      "hint": "Neuter noun (das), plural: die Augen",
+      "example": "Sie hat blaue Augen."
+    },
+    {
+      "id": "de-en-a1-bd-003",
+      "packId": "de-en-a1-body",
+      "front": "ear",
+      "back": "das Ohr",
+      "tags": [
+        "body",
+        "face"
+      ],
+      "hint": "Neuter noun (das), plural: die Ohren",
+      "example": "Ich höre mit den Ohren."
+    },
+    {
+      "id": "de-en-a1-bd-004",
+      "packId": "de-en-a1-body",
+      "front": "nose",
+      "back": "die Nase",
+      "tags": [
+        "body",
+        "face"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Nase ist in der Mitte des Gesichts."
+    },
+    {
+      "id": "de-en-a1-bd-005",
+      "packId": "de-en-a1-body",
+      "front": "mouth",
+      "back": "der Mund",
+      "tags": [
+        "body",
+        "face"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Öffne den Mund!"
+    },
+    {
+      "id": "de-en-a1-bd-006",
+      "packId": "de-en-a1-body",
+      "front": "hand",
+      "back": "die Hand",
+      "tags": [
+        "body",
+        "limb"
+      ],
+      "hint": "Feminine noun (die), plural: die Hände",
+      "example": "Wasch dir die Hände!"
+    },
+    {
+      "id": "de-en-a1-bd-007",
+      "packId": "de-en-a1-body",
+      "front": "arm",
+      "back": "der Arm",
+      "tags": [
+        "body",
+        "limb"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Mein Arm ist lang."
+    },
+    {
+      "id": "de-en-a1-bd-008",
+      "packId": "de-en-a1-body",
+      "front": "leg",
+      "back": "das Bein",
+      "tags": [
+        "body",
+        "limb"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich habe zwei Beine."
+    },
+    {
+      "id": "de-en-a1-bd-009",
+      "packId": "de-en-a1-body",
+      "front": "foot",
+      "back": "der Fuß",
+      "tags": [
+        "body",
+        "limb"
+      ],
+      "hint": "Masculine noun (der), plural: die Füße",
+      "example": "Mein Fuß tut weh."
+    },
+    {
+      "id": "de-en-a1-bd-010",
+      "packId": "de-en-a1-body",
+      "front": "finger",
+      "back": "der Finger",
+      "tags": [
+        "body",
+        "hand"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich habe zehn Finger."
+    },
+    {
+      "id": "de-en-a1-bd-011",
+      "packId": "de-en-a1-body",
+      "front": "hair",
+      "back": "das Haar / die Haare",
+      "tags": [
+        "body",
+        "head"
+      ],
+      "hint": "Singular: das Haar, usually plural: die Haare",
+      "example": "Sie hat blonde Haare."
+    },
+    {
+      "id": "de-en-a1-bd-012",
+      "packId": "de-en-a1-body",
+      "front": "tooth",
+      "back": "der Zahn",
+      "tags": [
+        "body",
+        "mouth"
+      ],
+      "hint": "Masculine noun (der), plural: die Zähne",
+      "example": "Putz dir die Zähne!"
+    },
+    {
+      "id": "de-en-a1-bd-013",
+      "packId": "de-en-a1-body",
+      "front": "heart",
+      "back": "das Herz",
+      "tags": [
+        "body",
+        "organ"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Herz schlägt."
+    },
+    {
+      "id": "de-en-a1-bd-014",
+      "packId": "de-en-a1-body",
+      "front": "back",
+      "back": "der Rücken",
+      "tags": [
+        "body",
+        "torso"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Mein Rücken tut weh."
+    },
+    {
+      "id": "de-en-a1-bd-015",
+      "packId": "de-en-a1-body",
+      "front": "stomach",
+      "back": "der Bauch",
+      "tags": [
+        "body",
+        "torso"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich habe Bauchschmerzen."
+    }
+  ]
+}

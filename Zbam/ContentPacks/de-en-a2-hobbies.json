@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-hobbies",
+    "name": "German A2: Hobbies & Leisure",
+    "description": "Hobbies, sports, and free time activities.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "sportscourt.fill",
+    "tags": [
+      "Culture"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-ho-001",
+      "packId": "de-en-a2-hobbies",
+      "front": "hobby",
+      "back": "das Hobby",
+      "tags": [
+        "hobbies",
+        "general"
+      ],
+      "hint": "Neuter noun (das), plural: die Hobbys",
+      "example": "Was sind deine Hobbys?"
+    },
+    {
+      "id": "de-en-a2-ho-002",
+      "packId": "de-en-a2-hobbies",
+      "front": "sport",
+      "back": "der Sport",
+      "tags": [
+        "hobbies",
+        "activity"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich treibe gerne Sport."
+    },
+    {
+      "id": "de-en-a2-ho-003",
+      "packId": "de-en-a2-hobbies",
+      "front": "soccer / football",
+      "back": "der Fußball",
+      "tags": [
+        "hobbies",
+        "sport"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Wir spielen Fußball."
+    },
+    {
+      "id": "de-en-a2-ho-004",
+      "packId": "de-en-a2-hobbies",
+      "front": "to swim",
+      "back": "schwimmen",
+      "tags": [
+        "hobbies",
+        "sport"
+      ],
+      "hint": "Strong verb: schwimmen, schwamm, geschwommen",
+      "example": "Ich schwimme gerne im Sommer."
+    },
+    {
+      "id": "de-en-a2-ho-005",
+      "packId": "de-en-a2-hobbies",
+      "front": "to run / to jog",
+      "back": "laufen / joggen",
+      "tags": [
+        "hobbies",
+        "sport"
+      ],
+      "hint": "laufen (strong verb), joggen (regular)",
+      "example": "Ich laufe jeden Morgen."
+    },
+    {
+      "id": "de-en-a2-ho-006",
+      "packId": "de-en-a2-hobbies",
+      "front": "to read",
+      "back": "lesen",
+      "tags": [
+        "hobbies",
+        "activity"
+      ],
+      "hint": "Strong verb: lesen, las, gelesen",
+      "example": "Ich lese gerne Bücher."
+    },
+    {
+      "id": "de-en-a2-ho-007",
+      "packId": "de-en-a2-hobbies",
+      "front": "music",
+      "back": "die Musik",
+      "tags": [
+        "hobbies",
+        "art"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich höre gerne Musik."
+    },
+    {
+      "id": "de-en-a2-ho-008",
+      "packId": "de-en-a2-hobbies",
+      "front": "to cook",
+      "back": "kochen",
+      "tags": [
+        "hobbies",
+        "activity"
+      ],
+      "hint": "Regular verb",
+      "example": "Am Wochenende koche ich gerne."
+    },
+    {
+      "id": "de-en-a2-ho-009",
+      "packId": "de-en-a2-hobbies",
+      "front": "movie / film",
+      "back": "der Film",
+      "tags": [
+        "hobbies",
+        "entertainment"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Film war toll."
+    },
+    {
+      "id": "de-en-a2-ho-010",
+      "packId": "de-en-a2-hobbies",
+      "front": "game",
+      "back": "das Spiel",
+      "tags": [
+        "hobbies",
+        "entertainment"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Spiel macht Spaß."
+    },
+    {
+      "id": "de-en-a2-ho-011",
+      "packId": "de-en-a2-hobbies",
+      "front": "to travel",
+      "back": "reisen",
+      "tags": [
+        "hobbies",
+        "activity"
+      ],
+      "hint": "Regular verb",
+      "example": "Ich reise gerne nach Italien."
+    },
+    {
+      "id": "de-en-a2-ho-012",
+      "packId": "de-en-a2-hobbies",
+      "front": "to dance",
+      "back": "tanzen",
+      "tags": [
+        "hobbies",
+        "activity"
+      ],
+      "hint": "Regular verb",
+      "example": "Wir tanzen am Wochenende."
+    },
+    {
+      "id": "de-en-a2-ho-013",
+      "packId": "de-en-a2-hobbies",
+      "front": "to paint / to draw",
+      "back": "malen / zeichnen",
+      "tags": [
+        "hobbies",
+        "art"
+      ],
+      "hint": "malen (paint), zeichnen (draw) - both regular",
+      "example": "Sie malt gerne Bilder."
+    },
+    {
+      "id": "de-en-a2-ho-014",
+      "packId": "de-en-a2-hobbies",
+      "front": "to sing",
+      "back": "singen",
+      "tags": [
+        "hobbies",
+        "art"
+      ],
+      "hint": "Strong verb: singen, sang, gesungen",
+      "example": "Er singt sehr gut."
+    },
+    {
+      "id": "de-en-a2-ho-015",
+      "packId": "de-en-a2-hobbies",
+      "front": "bicycle",
+      "back": "das Fahrrad",
+      "tags": [
+        "hobbies",
+        "sport"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich fahre gerne Fahrrad."
+    }
+  ]
+}

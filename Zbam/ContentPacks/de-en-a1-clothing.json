@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-clothing",
+    "name": "German A1: Clothing",
+    "description": "Common clothing and accessories.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "tshirt.fill",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-cl-001",
+      "packId": "de-en-a1-clothing",
+      "front": "shirt",
+      "back": "das Hemd",
+      "tags": [
+        "clothing",
+        "top"
+      ],
+      "hint": "Neuter noun (das) - usually button-up",
+      "example": "Das Hemd ist weiß."
+    },
+    {
+      "id": "de-en-a1-cl-002",
+      "packId": "de-en-a1-clothing",
+      "front": "T-shirt",
+      "back": "das T-Shirt",
+      "tags": [
+        "clothing",
+        "top"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich trage ein T-Shirt."
+    },
+    {
+      "id": "de-en-a1-cl-003",
+      "packId": "de-en-a1-clothing",
+      "front": "pants / trousers",
+      "back": "die Hose",
+      "tags": [
+        "clothing",
+        "bottom"
+      ],
+      "hint": "Feminine noun (die) - singular in German",
+      "example": "Die Hose ist blau."
+    },
+    {
+      "id": "de-en-a1-cl-004",
+      "packId": "de-en-a1-clothing",
+      "front": "dress",
+      "back": "das Kleid",
+      "tags": [
+        "clothing",
+        "women"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Kleid ist schön."
+    },
+    {
+      "id": "de-en-a1-cl-005",
+      "packId": "de-en-a1-clothing",
+      "front": "skirt",
+      "back": "der Rock",
+      "tags": [
+        "clothing",
+        "women"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Rock ist kurz."
+    },
+    {
+      "id": "de-en-a1-cl-006",
+      "packId": "de-en-a1-clothing",
+      "front": "jacket",
+      "back": "die Jacke",
+      "tags": [
+        "clothing",
+        "outerwear"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Zieh deine Jacke an!"
+    },
+    {
+      "id": "de-en-a1-cl-007",
+      "packId": "de-en-a1-clothing",
+      "front": "coat",
+      "back": "der Mantel",
+      "tags": [
+        "clothing",
+        "outerwear"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Mantel ist warm."
+    },
+    {
+      "id": "de-en-a1-cl-008",
+      "packId": "de-en-a1-clothing",
+      "front": "shoe",
+      "back": "der Schuh",
+      "tags": [
+        "clothing",
+        "footwear"
+      ],
+      "hint": "Masculine noun (der), plural: die Schuhe",
+      "example": "Die Schuhe sind neu."
+    },
+    {
+      "id": "de-en-a1-cl-009",
+      "packId": "de-en-a1-clothing",
+      "front": "hat",
+      "back": "der Hut",
+      "tags": [
+        "clothing",
+        "accessory"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Hut ist schwarz."
+    },
+    {
+      "id": "de-en-a1-cl-010",
+      "packId": "de-en-a1-clothing",
+      "front": "socks",
+      "back": "die Socken",
+      "tags": [
+        "clothing",
+        "footwear"
+      ],
+      "hint": "Feminine plural (die), singular: die Socke",
+      "example": "Wo sind meine Socken?"
+    },
+    {
+      "id": "de-en-a1-cl-011",
+      "packId": "de-en-a1-clothing",
+      "front": "sweater",
+      "back": "der Pullover",
+      "tags": [
+        "clothing",
+        "top"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Pullover ist warm."
+    },
+    {
+      "id": "de-en-a1-cl-012",
+      "packId": "de-en-a1-clothing",
+      "front": "jeans",
+      "back": "die Jeans",
+      "tags": [
+        "clothing",
+        "bottom"
+      ],
+      "hint": "Feminine noun (die) - same singular and plural",
+      "example": "Die Jeans passt gut."
+    },
+    {
+      "id": "de-en-a1-cl-013",
+      "packId": "de-en-a1-clothing",
+      "front": "belt",
+      "back": "der Gürtel",
+      "tags": [
+        "clothing",
+        "accessory"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Gürtel ist aus Leder."
+    },
+    {
+      "id": "de-en-a1-cl-014",
+      "packId": "de-en-a1-clothing",
+      "front": "gloves",
+      "back": "die Handschuhe",
+      "tags": [
+        "clothing",
+        "accessory"
+      ],
+      "hint": "Plural, singular: der Handschuh",
+      "example": "Im Winter trage ich Handschuhe."
+    },
+    {
+      "id": "de-en-a1-cl-015",
+      "packId": "de-en-a1-clothing",
+      "front": "scarf",
+      "back": "der Schal",
+      "tags": [
+        "clothing",
+        "accessory"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Schal ist bunt."
+    }
+  ]
+}

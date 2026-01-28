@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-school",
+    "name": "German A1: School",
+    "description": "School-related vocabulary and classroom items.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "graduationcap.fill",
+    "tags": [
+      "Education"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-sc-001",
+      "packId": "de-en-a1-school",
+      "front": "school",
+      "back": "die Schule",
+      "tags": [
+        "education",
+        "building"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich gehe zur Schule."
+    },
+    {
+      "id": "de-en-a1-sc-002",
+      "packId": "de-en-a1-school",
+      "front": "book",
+      "back": "das Buch",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Neuter noun (das), plural: die Bücher",
+      "example": "Das Buch ist interessant."
+    },
+    {
+      "id": "de-en-a1-sc-003",
+      "packId": "de-en-a1-school",
+      "front": "pen",
+      "back": "der Kugelschreiber / der Kuli",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Masculine noun (der), Kuli is informal",
+      "example": "Hast du einen Kuli?"
+    },
+    {
+      "id": "de-en-a1-sc-004",
+      "packId": "de-en-a1-school",
+      "front": "pencil",
+      "back": "der Bleistift",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Bleistift ist spitz."
+    },
+    {
+      "id": "de-en-a1-sc-005",
+      "packId": "de-en-a1-school",
+      "front": "notebook",
+      "back": "das Heft",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Schreib das in dein Heft!"
+    },
+    {
+      "id": "de-en-a1-sc-006",
+      "packId": "de-en-a1-school",
+      "front": "teacher (male)",
+      "back": "der Lehrer",
+      "tags": [
+        "education",
+        "person"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Lehrer erklärt die Aufgabe."
+    },
+    {
+      "id": "de-en-a1-sc-007",
+      "packId": "de-en-a1-school",
+      "front": "teacher (female)",
+      "back": "die Lehrerin",
+      "tags": [
+        "education",
+        "person"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Lehrerin ist nett."
+    },
+    {
+      "id": "de-en-a1-sc-008",
+      "packId": "de-en-a1-school",
+      "front": "student",
+      "back": "der Schüler / die Schülerin",
+      "tags": [
+        "education",
+        "person"
+      ],
+      "hint": "der Schüler (male) / die Schülerin (female)",
+      "example": "Die Schüler lernen Deutsch."
+    },
+    {
+      "id": "de-en-a1-sc-009",
+      "packId": "de-en-a1-school",
+      "front": "class / classroom",
+      "back": "die Klasse",
+      "tags": [
+        "education",
+        "place"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Klasse hat 20 Schüler."
+    },
+    {
+      "id": "de-en-a1-sc-010",
+      "packId": "de-en-a1-school",
+      "front": "blackboard",
+      "back": "die Tafel",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Der Lehrer schreibt an die Tafel."
+    },
+    {
+      "id": "de-en-a1-sc-011",
+      "packId": "de-en-a1-school",
+      "front": "homework",
+      "back": "die Hausaufgaben",
+      "tags": [
+        "education",
+        "task"
+      ],
+      "hint": "Feminine plural (die)",
+      "example": "Ich mache meine Hausaufgaben."
+    },
+    {
+      "id": "de-en-a1-sc-012",
+      "packId": "de-en-a1-school",
+      "front": "test / exam",
+      "back": "die Prüfung",
+      "tags": [
+        "education",
+        "task"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Morgen habe ich eine Prüfung."
+    },
+    {
+      "id": "de-en-a1-sc-013",
+      "packId": "de-en-a1-school",
+      "front": "eraser",
+      "back": "der Radiergummi",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich brauche einen Radiergummi."
+    },
+    {
+      "id": "de-en-a1-sc-014",
+      "packId": "de-en-a1-school",
+      "front": "ruler",
+      "back": "das Lineal",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Lineal ist 30 cm lang."
+    },
+    {
+      "id": "de-en-a1-sc-015",
+      "packId": "de-en-a1-school",
+      "front": "backpack",
+      "back": "der Rucksack",
+      "tags": [
+        "education",
+        "object"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Mein Rucksack ist schwer."
+    }
+  ]
+}

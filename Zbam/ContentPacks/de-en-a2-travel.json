@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-travel",
+    "name": "German A2: Travel & Transport",
+    "description": "Vocabulary for traveling and transportation.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "airplane",
+    "tags": [
+      "Travel"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-tr-001",
+      "packId": "de-en-a2-travel",
+      "front": "train station",
+      "back": "der Bahnhof",
+      "tags": [
+        "travel",
+        "place"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Bahnhof ist in der Nähe."
+    },
+    {
+      "id": "de-en-a2-tr-002",
+      "packId": "de-en-a2-travel",
+      "front": "airport",
+      "back": "der Flughafen",
+      "tags": [
+        "travel",
+        "place"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Wir fahren zum Flughafen."
+    },
+    {
+      "id": "de-en-a2-tr-003",
+      "packId": "de-en-a2-travel",
+      "front": "ticket",
+      "back": "die Fahrkarte",
+      "tags": [
+        "travel",
+        "document"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich brauche eine Fahrkarte nach Berlin."
+    },
+    {
+      "id": "de-en-a2-tr-004",
+      "packId": "de-en-a2-travel",
+      "front": "train",
+      "back": "der Zug",
+      "tags": [
+        "transport",
+        "vehicle"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Zug kommt um 10 Uhr."
+    },
+    {
+      "id": "de-en-a2-tr-005",
+      "packId": "de-en-a2-travel",
+      "front": "plane",
+      "back": "das Flugzeug",
+      "tags": [
+        "transport",
+        "vehicle"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Flugzeug startet bald."
+    },
+    {
+      "id": "de-en-a2-tr-006",
+      "packId": "de-en-a2-travel",
+      "front": "bus",
+      "back": "der Bus",
+      "tags": [
+        "transport",
+        "vehicle"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Bus fährt alle 10 Minuten."
+    },
+    {
+      "id": "de-en-a2-tr-007",
+      "packId": "de-en-a2-travel",
+      "front": "vacation",
+      "back": "der Urlaub",
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich bin im Urlaub."
+    },
+    {
+      "id": "de-en-a2-tr-008",
+      "packId": "de-en-a2-travel",
+      "front": "passport",
+      "back": "der Reisepass",
+      "tags": [
+        "travel",
+        "document"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Vergiss deinen Reisepass nicht!"
+    },
+    {
+      "id": "de-en-a2-tr-009",
+      "packId": "de-en-a2-travel",
+      "front": "suitcase",
+      "back": "der Koffer",
+      "tags": [
+        "travel",
+        "luggage"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Mein Koffer ist schwer."
+    },
+    {
+      "id": "de-en-a2-tr-010",
+      "packId": "de-en-a2-travel",
+      "front": "hotel",
+      "back": "das Hotel",
+      "tags": [
+        "travel",
+        "accommodation"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Hotel ist zentral gelegen."
+    },
+    {
+      "id": "de-en-a2-tr-011",
+      "packId": "de-en-a2-travel",
+      "front": "reservation",
+      "back": "die Reservierung",
+      "tags": [
+        "travel",
+        "booking"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich habe eine Reservierung."
+    },
+    {
+      "id": "de-en-a2-tr-012",
+      "packId": "de-en-a2-travel",
+      "front": "departure",
+      "back": "die Abfahrt / der Abflug",
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "hint": "Abfahrt (train/bus), Abflug (plane)",
+      "example": "Die Abfahrt ist um 8 Uhr."
+    },
+    {
+      "id": "de-en-a2-tr-013",
+      "packId": "de-en-a2-travel",
+      "front": "arrival",
+      "back": "die Ankunft",
+      "tags": [
+        "travel",
+        "time"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Ankunft ist um 12 Uhr."
+    },
+    {
+      "id": "de-en-a2-tr-014",
+      "packId": "de-en-a2-travel",
+      "front": "platform",
+      "back": "der Bahnsteig / das Gleis",
+      "tags": [
+        "travel",
+        "place"
+      ],
+      "hint": "Bahnsteig = platform, Gleis = track",
+      "example": "Der Zug fährt von Gleis 3."
+    },
+    {
+      "id": "de-en-a2-tr-015",
+      "packId": "de-en-a2-travel",
+      "front": "map",
+      "back": "die Karte / der Stadtplan",
+      "tags": [
+        "travel",
+        "navigation"
+      ],
+      "hint": "Karte = map, Stadtplan = city map",
+      "example": "Hast du eine Karte?"
+    }
+  ]
+}

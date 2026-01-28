@@ -71,12 +71,9 @@ struct PackDetailView: View {
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
 
-                            HStack(spacing: 16) {
-                                Label(pack.difficultyLevel.displayName, systemImage: "chart.bar.fill")
-                                Label(pack.category.displayName, systemImage: pack.category.iconName)
-                            }
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+                            Label(pack.difficultyLevel.displayName, systemImage: "chart.bar.fill")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
 
                             // Progress bar
                             if !cards.isEmpty {
@@ -297,10 +294,10 @@ struct PackCardRowView: View {
                 id: "test",
                 name: "Test Pack",
                 description: "A test pack for preview",
-                category: .basics,
                 difficultyLevel: .beginner,
                 cardCount: 10,
-                iconName: "star.fill"
+                iconName: "star.fill",
+                tags: ["Daily Life"]
             ),
             progress: nil
         )

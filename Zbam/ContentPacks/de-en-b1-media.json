@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-media",
+    "name": "German B1: Media & Entertainment",
+    "description": "Media, news, and entertainment vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "play.tv.fill",
+    "tags": [
+      "Culture"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-me-001",
+      "packId": "de-en-b1-media",
+      "front": "news",
+      "back": "die Nachrichten",
+      "tags": [
+        "media",
+        "information"
+      ],
+      "hint": "Feminine plural (die)",
+      "example": "Ich schaue die Nachrichten."
+    },
+    {
+      "id": "de-en-b1-me-002",
+      "packId": "de-en-b1-media",
+      "front": "newspaper",
+      "back": "die Zeitung",
+      "tags": [
+        "media",
+        "print"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich lese die Zeitung."
+    },
+    {
+      "id": "de-en-b1-me-003",
+      "packId": "de-en-b1-media",
+      "front": "magazine",
+      "back": "die Zeitschrift",
+      "tags": [
+        "media",
+        "print"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Zeitschrift erscheint monatlich."
+    },
+    {
+      "id": "de-en-b1-me-004",
+      "packId": "de-en-b1-media",
+      "front": "article",
+      "back": "der Artikel",
+      "tags": [
+        "media",
+        "text"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Artikel ist interessant."
+    },
+    {
+      "id": "de-en-b1-me-005",
+      "packId": "de-en-b1-media",
+      "front": "journalist",
+      "back": "der Journalist / die Journalistin",
+      "tags": [
+        "media",
+        "person"
+      ],
+      "hint": "der Journalist (male) / die Journalistin (female)",
+      "example": "Die Journalistin schreibt über Politik."
+    },
+    {
+      "id": "de-en-b1-me-006",
+      "packId": "de-en-b1-media",
+      "front": "broadcast / show",
+      "back": "die Sendung",
+      "tags": [
+        "media",
+        "television"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Sendung kommt um 20 Uhr."
+    },
+    {
+      "id": "de-en-b1-me-007",
+      "packId": "de-en-b1-media",
+      "front": "series (TV)",
+      "back": "die Serie",
+      "tags": [
+        "media",
+        "entertainment"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Serie hat zehn Folgen."
+    },
+    {
+      "id": "de-en-b1-me-008",
+      "packId": "de-en-b1-media",
+      "front": "documentary",
+      "back": "die Dokumentation / der Dokumentarfilm",
+      "tags": [
+        "media",
+        "film"
+      ],
+      "hint": "Abbreviated as Doku",
+      "example": "Die Doku war sehr informativ."
+    },
+    {
+      "id": "de-en-b1-me-009",
+      "packId": "de-en-b1-media",
+      "front": "interview",
+      "back": "das Interview",
+      "tags": [
+        "media",
+        "communication"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Interview dauerte eine Stunde."
+    },
+    {
+      "id": "de-en-b1-me-010",
+      "packId": "de-en-b1-media",
+      "front": "social media",
+      "back": "die sozialen Medien",
+      "tags": [
+        "media",
+        "digital"
+      ],
+      "hint": "Plural",
+      "example": "Soziale Medien beeinflussen die Gesellschaft."
+    },
+    {
+      "id": "de-en-b1-me-011",
+      "packId": "de-en-b1-media",
+      "front": "report",
+      "back": "der Bericht",
+      "tags": [
+        "media",
+        "text"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Bericht wurde veröffentlicht."
+    },
+    {
+      "id": "de-en-b1-me-012",
+      "packId": "de-en-b1-media",
+      "front": "audience / viewer",
+      "back": "der Zuschauer / die Zuschauerin",
+      "tags": [
+        "media",
+        "person"
+      ],
+      "hint": "der Zuschauer (male) / die Zuschauerin (female)",
+      "example": "Die Sendung hat viele Zuschauer."
+    },
+    {
+      "id": "de-en-b1-me-013",
+      "packId": "de-en-b1-media",
+      "front": "headline",
+      "back": "die Schlagzeile",
+      "tags": [
+        "media",
+        "text"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Schlagzeile war schockierend."
+    },
+    {
+      "id": "de-en-b1-me-014",
+      "packId": "de-en-b1-media",
+      "front": "concert",
+      "back": "das Konzert",
+      "tags": [
+        "media",
+        "entertainment"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Konzert war ausverkauft."
+    },
+    {
+      "id": "de-en-b1-me-015",
+      "packId": "de-en-b1-media",
+      "front": "to publish",
+      "back": "veröffentlichen",
+      "tags": [
+        "media",
+        "verb"
+      ],
+      "hint": "Regular verb (inseparable prefix)",
+      "example": "Das Buch wurde letztes Jahr veröffentlicht."
+    }
+  ]
+}

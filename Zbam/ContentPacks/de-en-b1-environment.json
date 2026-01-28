@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-b1-environment",
+    "name": "German B1: Environment",
+    "description": "Environmental and ecological vocabulary.",
+    "difficultyLevel": "intermediate",
+    "cardCount": 15,
+    "iconName": "leaf.fill",
+    "tags": [
+      "Nature"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-b1-en-001",
+      "packId": "de-en-b1-environment",
+      "front": "environment",
+      "back": "die Umwelt",
+      "tags": [
+        "environment",
+        "general"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Wir müssen die Umwelt schützen."
+    },
+    {
+      "id": "de-en-b1-en-002",
+      "packId": "de-en-b1-environment",
+      "front": "climate",
+      "back": "das Klima",
+      "tags": [
+        "environment",
+        "nature"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Klima verändert sich."
+    },
+    {
+      "id": "de-en-b1-en-003",
+      "packId": "de-en-b1-environment",
+      "front": "pollution",
+      "back": "die Verschmutzung",
+      "tags": [
+        "environment",
+        "problem"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Verschmutzung der Luft ist ein Problem."
+    },
+    {
+      "id": "de-en-b1-en-004",
+      "packId": "de-en-b1-environment",
+      "front": "recycling",
+      "back": "das Recycling / die Wiederverwertung",
+      "tags": [
+        "environment",
+        "action"
+      ],
+      "hint": "Recycling (anglicism), Wiederverwertung (German)",
+      "example": "Recycling ist in Deutschland wichtig."
+    },
+    {
+      "id": "de-en-b1-en-005",
+      "packId": "de-en-b1-environment",
+      "front": "waste / garbage",
+      "back": "der Müll / der Abfall",
+      "tags": [
+        "environment",
+        "problem"
+      ],
+      "hint": "Müll (everyday), Abfall (formal)",
+      "example": "Bitte den Müll trennen."
+    },
+    {
+      "id": "de-en-b1-en-006",
+      "packId": "de-en-b1-environment",
+      "front": "energy",
+      "back": "die Energie",
+      "tags": [
+        "environment",
+        "resource"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Erneuerbare Energie ist die Zukunft."
+    },
+    {
+      "id": "de-en-b1-en-007",
+      "packId": "de-en-b1-environment",
+      "front": "renewable",
+      "back": "erneuerbar",
+      "tags": [
+        "environment",
+        "adjective"
+      ],
+      "hint": "Adjective",
+      "example": "Erneuerbare Energien sind wichtig."
+    },
+    {
+      "id": "de-en-b1-en-008",
+      "packId": "de-en-b1-environment",
+      "front": "sustainability",
+      "back": "die Nachhaltigkeit",
+      "tags": [
+        "environment",
+        "concept"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Nachhaltigkeit wird immer wichtiger."
+    },
+    {
+      "id": "de-en-b1-en-009",
+      "packId": "de-en-b1-environment",
+      "front": "to protect",
+      "back": "schützen",
+      "tags": [
+        "environment",
+        "verb"
+      ],
+      "hint": "Regular verb",
+      "example": "Wir müssen die Natur schützen."
+    },
+    {
+      "id": "de-en-b1-en-010",
+      "packId": "de-en-b1-environment",
+      "front": "species",
+      "back": "die Art",
+      "tags": [
+        "environment",
+        "biology"
+      ],
+      "hint": "Feminine noun (die), plural: die Arten",
+      "example": "Viele Arten sind bedroht."
+    },
+    {
+      "id": "de-en-b1-en-011",
+      "packId": "de-en-b1-environment",
+      "front": "solar energy",
+      "back": "die Solarenergie / die Sonnenenergie",
+      "tags": [
+        "environment",
+        "energy"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Solarenergie ist sauber."
+    },
+    {
+      "id": "de-en-b1-en-012",
+      "packId": "de-en-b1-environment",
+      "front": "carbon dioxide (CO2)",
+      "back": "das Kohlendioxid (CO2)",
+      "tags": [
+        "environment",
+        "science"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Wir müssen den CO2-Ausstoß reduzieren."
+    },
+    {
+      "id": "de-en-b1-en-013",
+      "packId": "de-en-b1-environment",
+      "front": "flood",
+      "back": "die Überschwemmung / das Hochwasser",
+      "tags": [
+        "environment",
+        "disaster"
+      ],
+      "hint": "Überschwemmung (flooding), Hochwasser (high water)",
+      "example": "Die Überschwemmung hat viel Schaden verursacht."
+    },
+    {
+      "id": "de-en-b1-en-014",
+      "packId": "de-en-b1-environment",
+      "front": "organic",
+      "back": "biologisch / bio",
+      "tags": [
+        "environment",
+        "adjective"
+      ],
+      "hint": "Bio is the common abbreviation",
+      "example": "Ich kaufe Bio-Lebensmittel."
+    },
+    {
+      "id": "de-en-b1-en-015",
+      "packId": "de-en-b1-environment",
+      "front": "to save / to conserve",
+      "back": "sparen",
+      "tags": [
+        "environment",
+        "verb"
+      ],
+      "hint": "Regular verb - also means to save money",
+      "example": "Wir müssen Wasser sparen."
+    }
+  ]
+}

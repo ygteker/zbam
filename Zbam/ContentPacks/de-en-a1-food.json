@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-food",
+    "name": "German A1: Food & Drinks",
+    "description": "Essential food and beverage vocabulary for daily life.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "fork.knife",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-fd-001",
+      "packId": "de-en-a1-food",
+      "front": "bread",
+      "back": "das Brot",
+      "tags": [
+        "food",
+        "bakery"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Brot ist frisch."
+    },
+    {
+      "id": "de-en-a1-fd-002",
+      "packId": "de-en-a1-food",
+      "front": "water",
+      "back": "das Wasser",
+      "tags": [
+        "drink",
+        "basic"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich trinke Wasser."
+    },
+    {
+      "id": "de-en-a1-fd-003",
+      "packId": "de-en-a1-food",
+      "front": "apple",
+      "back": "der Apfel",
+      "tags": [
+        "fruit",
+        "healthy"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Apfel ist rot."
+    },
+    {
+      "id": "de-en-a1-fd-004",
+      "packId": "de-en-a1-food",
+      "front": "milk",
+      "back": "die Milch",
+      "tags": [
+        "drink",
+        "dairy"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Milch ist kalt."
+    },
+    {
+      "id": "de-en-a1-fd-005",
+      "packId": "de-en-a1-food",
+      "front": "coffee",
+      "back": "der Kaffee",
+      "tags": [
+        "drink",
+        "hot"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich trinke gern Kaffee."
+    },
+    {
+      "id": "de-en-a1-fd-006",
+      "packId": "de-en-a1-food",
+      "front": "tea",
+      "back": "der Tee",
+      "tags": [
+        "drink",
+        "hot"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Möchten Sie Tee?"
+    },
+    {
+      "id": "de-en-a1-fd-007",
+      "packId": "de-en-a1-food",
+      "front": "cheese",
+      "back": "der Käse",
+      "tags": [
+        "food",
+        "dairy"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Käse schmeckt gut."
+    },
+    {
+      "id": "de-en-a1-fd-008",
+      "packId": "de-en-a1-food",
+      "front": "egg",
+      "back": "das Ei",
+      "tags": [
+        "food",
+        "breakfast"
+      ],
+      "hint": "Neuter noun (das), plural: die Eier",
+      "example": "Ich esse ein Ei zum Frühstück."
+    },
+    {
+      "id": "de-en-a1-fd-009",
+      "packId": "de-en-a1-food",
+      "front": "meat",
+      "back": "das Fleisch",
+      "tags": [
+        "food",
+        "protein"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Fleisch ist teuer."
+    },
+    {
+      "id": "de-en-a1-fd-010",
+      "packId": "de-en-a1-food",
+      "front": "fish",
+      "back": "der Fisch",
+      "tags": [
+        "food",
+        "protein"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Fisch ist frisch."
+    },
+    {
+      "id": "de-en-a1-fd-011",
+      "packId": "de-en-a1-food",
+      "front": "rice",
+      "back": "der Reis",
+      "tags": [
+        "food",
+        "grain"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich esse Reis mit Gemüse."
+    },
+    {
+      "id": "de-en-a1-fd-012",
+      "packId": "de-en-a1-food",
+      "front": "vegetable",
+      "back": "das Gemüse",
+      "tags": [
+        "food",
+        "healthy"
+      ],
+      "hint": "Neuter noun (das) - collective noun",
+      "example": "Gemüse ist gesund."
+    },
+    {
+      "id": "de-en-a1-fd-013",
+      "packId": "de-en-a1-food",
+      "front": "fruit",
+      "back": "das Obst",
+      "tags": [
+        "food",
+        "healthy"
+      ],
+      "hint": "Neuter noun (das) - collective noun",
+      "example": "Ich esse viel Obst."
+    },
+    {
+      "id": "de-en-a1-fd-014",
+      "packId": "de-en-a1-food",
+      "front": "sugar",
+      "back": "der Zucker",
+      "tags": [
+        "food",
+        "sweet"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Kaffee mit Zucker, bitte."
+    },
+    {
+      "id": "de-en-a1-fd-015",
+      "packId": "de-en-a1-food",
+      "front": "salt",
+      "back": "das Salz",
+      "tags": [
+        "food",
+        "seasoning"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Gib mir das Salz, bitte."
+    }
+  ]
+}

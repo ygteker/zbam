@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-weather",
+    "name": "German A2: Weather & Nature",
+    "description": "Weather conditions and nature vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "cloud.sun.fill",
+    "tags": [
+      "Nature"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-we-001",
+      "packId": "de-en-a2-weather",
+      "front": "weather",
+      "back": "das Wetter",
+      "tags": [
+        "weather",
+        "general"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Wie ist das Wetter heute?"
+    },
+    {
+      "id": "de-en-a2-we-002",
+      "packId": "de-en-a2-weather",
+      "front": "sun",
+      "back": "die Sonne",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Sonne scheint."
+    },
+    {
+      "id": "de-en-a2-we-003",
+      "packId": "de-en-a2-weather",
+      "front": "rain",
+      "back": "der Regen",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Es gibt heute Regen."
+    },
+    {
+      "id": "de-en-a2-we-004",
+      "packId": "de-en-a2-weather",
+      "front": "snow",
+      "back": "der Schnee",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Im Winter fällt Schnee."
+    },
+    {
+      "id": "de-en-a2-we-005",
+      "packId": "de-en-a2-weather",
+      "front": "cloud",
+      "back": "die Wolke",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "hint": "Feminine noun (die), plural: die Wolken",
+      "example": "Heute gibt es viele Wolken."
+    },
+    {
+      "id": "de-en-a2-we-006",
+      "packId": "de-en-a2-weather",
+      "front": "wind",
+      "back": "der Wind",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Wind ist stark."
+    },
+    {
+      "id": "de-en-a2-we-007",
+      "packId": "de-en-a2-weather",
+      "front": "storm",
+      "back": "der Sturm",
+      "tags": [
+        "weather",
+        "nature"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ein Sturm kommt."
+    },
+    {
+      "id": "de-en-a2-we-008",
+      "packId": "de-en-a2-weather",
+      "front": "warm",
+      "back": "warm",
+      "tags": [
+        "weather",
+        "adjective"
+      ],
+      "hint": "Adjective, same as English",
+      "example": "Es ist warm draußen."
+    },
+    {
+      "id": "de-en-a2-we-009",
+      "packId": "de-en-a2-weather",
+      "front": "cold",
+      "back": "kalt",
+      "tags": [
+        "weather",
+        "adjective"
+      ],
+      "hint": "Adjective",
+      "example": "Im Winter ist es kalt."
+    },
+    {
+      "id": "de-en-a2-we-010",
+      "packId": "de-en-a2-weather",
+      "front": "tree",
+      "back": "der Baum",
+      "tags": [
+        "nature",
+        "plant"
+      ],
+      "hint": "Masculine noun (der), plural: die Bäume",
+      "example": "Der Baum ist groß."
+    },
+    {
+      "id": "de-en-a2-we-011",
+      "packId": "de-en-a2-weather",
+      "front": "flower",
+      "back": "die Blume",
+      "tags": [
+        "nature",
+        "plant"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Die Blume ist schön."
+    },
+    {
+      "id": "de-en-a2-we-012",
+      "packId": "de-en-a2-weather",
+      "front": "river",
+      "back": "der Fluss",
+      "tags": [
+        "nature",
+        "water"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Fluss ist lang."
+    },
+    {
+      "id": "de-en-a2-we-013",
+      "packId": "de-en-a2-weather",
+      "front": "mountain",
+      "back": "der Berg",
+      "tags": [
+        "nature",
+        "landscape"
+      ],
+      "hint": "Masculine noun (der), plural: die Berge",
+      "example": "Wir wandern auf den Berg."
+    },
+    {
+      "id": "de-en-a2-we-014",
+      "packId": "de-en-a2-weather",
+      "front": "lake",
+      "back": "der See",
+      "tags": [
+        "nature",
+        "water"
+      ],
+      "hint": "Masculine noun (der) - die See means 'sea'",
+      "example": "Wir schwimmen im See."
+    },
+    {
+      "id": "de-en-a2-we-015",
+      "packId": "de-en-a2-weather",
+      "front": "forest",
+      "back": "der Wald",
+      "tags": [
+        "nature",
+        "landscape"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Wir gehen im Wald spazieren."
+    }
+  ]
+}

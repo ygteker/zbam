@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-shopping",
+    "name": "German A2: Shopping",
+    "description": "Shopping and retail vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "cart.fill",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-sh-001",
+      "packId": "de-en-a2-shopping",
+      "front": "shop / store",
+      "back": "das Geschäft / der Laden",
+      "tags": [
+        "shopping",
+        "place"
+      ],
+      "hint": "Geschäft (formal), Laden (informal)",
+      "example": "Das Geschäft öffnet um 9 Uhr."
+    },
+    {
+      "id": "de-en-a2-sh-002",
+      "packId": "de-en-a2-shopping",
+      "front": "supermarket",
+      "back": "der Supermarkt",
+      "tags": [
+        "shopping",
+        "place"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich gehe zum Supermarkt."
+    },
+    {
+      "id": "de-en-a2-sh-003",
+      "packId": "de-en-a2-shopping",
+      "front": "price",
+      "back": "der Preis",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Der Preis ist zu hoch."
+    },
+    {
+      "id": "de-en-a2-sh-004",
+      "packId": "de-en-a2-shopping",
+      "front": "cash register",
+      "back": "die Kasse",
+      "tags": [
+        "shopping",
+        "place"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Bitte zahlen Sie an der Kasse."
+    },
+    {
+      "id": "de-en-a2-sh-005",
+      "packId": "de-en-a2-shopping",
+      "front": "receipt",
+      "back": "die Quittung / der Kassenbon",
+      "tags": [
+        "shopping",
+        "document"
+      ],
+      "hint": "Quittung (formal), Kassenbon (common)",
+      "example": "Brauchen Sie die Quittung?"
+    },
+    {
+      "id": "de-en-a2-sh-006",
+      "packId": "de-en-a2-shopping",
+      "front": "discount",
+      "back": "der Rabatt",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Es gibt 20 Prozent Rabatt."
+    },
+    {
+      "id": "de-en-a2-sh-007",
+      "packId": "de-en-a2-shopping",
+      "front": "offer / sale",
+      "back": "das Angebot",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das ist ein gutes Angebot."
+    },
+    {
+      "id": "de-en-a2-sh-008",
+      "packId": "de-en-a2-shopping",
+      "front": "bag",
+      "back": "die Tüte / die Tasche",
+      "tags": [
+        "shopping",
+        "object"
+      ],
+      "hint": "Tüte (plastic/paper), Tasche (reusable)",
+      "example": "Brauchen Sie eine Tüte?"
+    },
+    {
+      "id": "de-en-a2-sh-009",
+      "packId": "de-en-a2-shopping",
+      "front": "to pay",
+      "back": "bezahlen",
+      "tags": [
+        "shopping",
+        "verb"
+      ],
+      "hint": "Regular verb",
+      "example": "Kann ich mit Karte bezahlen?"
+    },
+    {
+      "id": "de-en-a2-sh-010",
+      "packId": "de-en-a2-shopping",
+      "front": "expensive",
+      "back": "teuer",
+      "tags": [
+        "shopping",
+        "adjective"
+      ],
+      "hint": "Adjective",
+      "example": "Die Schuhe sind zu teuer."
+    },
+    {
+      "id": "de-en-a2-sh-011",
+      "packId": "de-en-a2-shopping",
+      "front": "cheap",
+      "back": "billig / günstig",
+      "tags": [
+        "shopping",
+        "adjective"
+      ],
+      "hint": "billig (cheap), günstig (affordable/good value)",
+      "example": "Das ist sehr günstig."
+    },
+    {
+      "id": "de-en-a2-sh-012",
+      "packId": "de-en-a2-shopping",
+      "front": "size",
+      "back": "die Größe",
+      "tags": [
+        "shopping",
+        "measurement"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Welche Größe haben Sie?"
+    },
+    {
+      "id": "de-en-a2-sh-013",
+      "packId": "de-en-a2-shopping",
+      "front": "to try on",
+      "back": "anprobieren",
+      "tags": [
+        "shopping",
+        "verb"
+      ],
+      "hint": "Separable verb: Ich probiere das an.",
+      "example": "Kann ich das anprobieren?"
+    },
+    {
+      "id": "de-en-a2-sh-014",
+      "packId": "de-en-a2-shopping",
+      "front": "bakery",
+      "back": "die Bäckerei",
+      "tags": [
+        "shopping",
+        "place"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich kaufe Brot in der Bäckerei."
+    },
+    {
+      "id": "de-en-a2-sh-015",
+      "packId": "de-en-a2-shopping",
+      "front": "change (money)",
+      "back": "das Wechselgeld",
+      "tags": [
+        "shopping",
+        "money"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Hier ist Ihr Wechselgeld."
+    }
+  ]
+}

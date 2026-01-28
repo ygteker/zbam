@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a1-greetings",
+    "name": "German A1: Greetings & Phrases",
+    "description": "Essential greetings and everyday phrases.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "hand.wave.fill",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a1-gr-001",
+      "packId": "de-en-a1-greetings",
+      "front": "Hello",
+      "back": "Hallo",
+      "tags": [
+        "greeting",
+        "informal"
+      ],
+      "hint": "Informal greeting, any time of day",
+      "example": "Hallo, wie geht's?"
+    },
+    {
+      "id": "de-en-a1-gr-002",
+      "packId": "de-en-a1-greetings",
+      "front": "Good morning",
+      "back": "Guten Morgen",
+      "tags": [
+        "greeting",
+        "formal"
+      ],
+      "hint": "Used until around noon",
+      "example": "Guten Morgen, Herr Müller!"
+    },
+    {
+      "id": "de-en-a1-gr-003",
+      "packId": "de-en-a1-greetings",
+      "front": "Good day",
+      "back": "Guten Tag",
+      "tags": [
+        "greeting",
+        "formal"
+      ],
+      "hint": "Formal, used during daytime",
+      "example": "Guten Tag, kann ich Ihnen helfen?"
+    },
+    {
+      "id": "de-en-a1-gr-004",
+      "packId": "de-en-a1-greetings",
+      "front": "Good evening",
+      "back": "Guten Abend",
+      "tags": [
+        "greeting",
+        "formal"
+      ],
+      "hint": "Used from late afternoon",
+      "example": "Guten Abend, willkommen!"
+    },
+    {
+      "id": "de-en-a1-gr-005",
+      "packId": "de-en-a1-greetings",
+      "front": "Goodbye",
+      "back": "Auf Wiedersehen",
+      "tags": [
+        "farewell",
+        "formal"
+      ],
+      "hint": "Formal goodbye",
+      "example": "Auf Wiedersehen, bis morgen!"
+    },
+    {
+      "id": "de-en-a1-gr-006",
+      "packId": "de-en-a1-greetings",
+      "front": "Bye",
+      "back": "Tschüss",
+      "tags": [
+        "farewell",
+        "informal"
+      ],
+      "hint": "Informal goodbye",
+      "example": "Tschüss, bis später!"
+    },
+    {
+      "id": "de-en-a1-gr-007",
+      "packId": "de-en-a1-greetings",
+      "front": "Thank you",
+      "back": "Danke",
+      "tags": [
+        "courtesy",
+        "essential"
+      ],
+      "hint": "Danke schön = thank you very much",
+      "example": "Danke für Ihre Hilfe!"
+    },
+    {
+      "id": "de-en-a1-gr-008",
+      "packId": "de-en-a1-greetings",
+      "front": "Please / You're welcome",
+      "back": "Bitte",
+      "tags": [
+        "courtesy",
+        "essential"
+      ],
+      "hint": "Context determines meaning",
+      "example": "Bitte schön!"
+    },
+    {
+      "id": "de-en-a1-gr-009",
+      "packId": "de-en-a1-greetings",
+      "front": "Excuse me / Sorry",
+      "back": "Entschuldigung",
+      "tags": [
+        "courtesy",
+        "apology"
+      ],
+      "hint": "Used to apologize or get attention",
+      "example": "Entschuldigung, wo ist der Bahnhof?"
+    },
+    {
+      "id": "de-en-a1-gr-010",
+      "packId": "de-en-a1-greetings",
+      "front": "How are you? (formal)",
+      "back": "Wie geht es Ihnen?",
+      "tags": [
+        "question",
+        "formal"
+      ],
+      "hint": "Use with strangers or superiors",
+      "example": "Guten Tag, wie geht es Ihnen?"
+    },
+    {
+      "id": "de-en-a1-gr-011",
+      "packId": "de-en-a1-greetings",
+      "front": "How are you? (informal)",
+      "back": "Wie geht's?",
+      "tags": [
+        "question",
+        "informal"
+      ],
+      "hint": "Use with friends and family",
+      "example": "Hey, wie geht's dir?"
+    },
+    {
+      "id": "de-en-a1-gr-012",
+      "packId": "de-en-a1-greetings",
+      "front": "I'm fine, thanks",
+      "back": "Mir geht es gut, danke",
+      "tags": [
+        "response",
+        "courtesy"
+      ],
+      "hint": "Standard response to 'How are you?'",
+      "example": "Mir geht es gut, danke. Und Ihnen?"
+    },
+    {
+      "id": "de-en-a1-gr-013",
+      "packId": "de-en-a1-greetings",
+      "front": "Yes",
+      "back": "Ja",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "hint": null,
+      "example": "Ja, ich verstehe."
+    },
+    {
+      "id": "de-en-a1-gr-014",
+      "packId": "de-en-a1-greetings",
+      "front": "No",
+      "back": "Nein",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "hint": null,
+      "example": "Nein, danke."
+    },
+    {
+      "id": "de-en-a1-gr-015",
+      "packId": "de-en-a1-greetings",
+      "front": "My name is...",
+      "back": "Ich heiße...",
+      "tags": [
+        "introduction",
+        "essential"
+      ],
+      "hint": "Literally 'I am called...'",
+      "example": "Ich heiße Anna."
+    }
+  ]
+}

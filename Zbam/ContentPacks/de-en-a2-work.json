@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-en-a2-work",
+    "name": "German A2: Work & Office",
+    "description": "Workplace and office vocabulary.",
+    "difficultyLevel": "elementary",
+    "cardCount": 15,
+    "iconName": "briefcase.fill",
+    "tags": [
+      "Career"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-en-a2-wk-001",
+      "packId": "de-en-a2-work",
+      "front": "office",
+      "back": "das Büro",
+      "tags": [
+        "work",
+        "place"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Ich arbeite im Büro."
+    },
+    {
+      "id": "de-en-a2-wk-002",
+      "packId": "de-en-a2-work",
+      "front": "boss",
+      "back": "der Chef / die Chefin",
+      "tags": [
+        "work",
+        "person"
+      ],
+      "hint": "der Chef (male) / die Chefin (female)",
+      "example": "Mein Chef ist freundlich."
+    },
+    {
+      "id": "de-en-a2-wk-003",
+      "packId": "de-en-a2-work",
+      "front": "colleague",
+      "back": "der Kollege / die Kollegin",
+      "tags": [
+        "work",
+        "person"
+      ],
+      "hint": "der Kollege (male) / die Kollegin (female)",
+      "example": "Meine Kollegin hilft mir."
+    },
+    {
+      "id": "de-en-a2-wk-004",
+      "packId": "de-en-a2-work",
+      "front": "meeting",
+      "back": "die Besprechung / das Meeting",
+      "tags": [
+        "work",
+        "event"
+      ],
+      "hint": "Feminine / Neuter noun",
+      "example": "Die Besprechung beginnt um 10 Uhr."
+    },
+    {
+      "id": "de-en-a2-wk-005",
+      "packId": "de-en-a2-work",
+      "front": "appointment",
+      "back": "der Termin",
+      "tags": [
+        "work",
+        "time"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich habe einen Termin um 14 Uhr."
+    },
+    {
+      "id": "de-en-a2-wk-006",
+      "packId": "de-en-a2-work",
+      "front": "email",
+      "back": "die E-Mail",
+      "tags": [
+        "work",
+        "communication"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich schreibe eine E-Mail."
+    },
+    {
+      "id": "de-en-a2-wk-007",
+      "packId": "de-en-a2-work",
+      "front": "salary",
+      "back": "das Gehalt",
+      "tags": [
+        "work",
+        "money"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Gehalt kommt am Ende des Monats."
+    },
+    {
+      "id": "de-en-a2-wk-008",
+      "packId": "de-en-a2-work",
+      "front": "job",
+      "back": "der Job / die Arbeit",
+      "tags": [
+        "work",
+        "general"
+      ],
+      "hint": "Job is informal, Arbeit is formal",
+      "example": "Ich suche einen Job."
+    },
+    {
+      "id": "de-en-a2-wk-009",
+      "packId": "de-en-a2-work",
+      "front": "company",
+      "back": "die Firma / das Unternehmen",
+      "tags": [
+        "work",
+        "organization"
+      ],
+      "hint": "Firma is smaller, Unternehmen is larger",
+      "example": "Die Firma hat 50 Mitarbeiter."
+    },
+    {
+      "id": "de-en-a2-wk-010",
+      "packId": "de-en-a2-work",
+      "front": "contract",
+      "back": "der Vertrag",
+      "tags": [
+        "work",
+        "document"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Ich unterschreibe den Vertrag."
+    },
+    {
+      "id": "de-en-a2-wk-011",
+      "packId": "de-en-a2-work",
+      "front": "deadline",
+      "back": "die Frist / der Termin",
+      "tags": [
+        "work",
+        "time"
+      ],
+      "hint": "Frist = deadline, Termin can also mean deadline",
+      "example": "Die Frist ist morgen."
+    },
+    {
+      "id": "de-en-a2-wk-012",
+      "packId": "de-en-a2-work",
+      "front": "customer",
+      "back": "der Kunde / die Kundin",
+      "tags": [
+        "work",
+        "person"
+      ],
+      "hint": "der Kunde (male) / die Kundin (female)",
+      "example": "Der Kunde ist zufrieden."
+    },
+    {
+      "id": "de-en-a2-wk-013",
+      "packId": "de-en-a2-work",
+      "front": "project",
+      "back": "das Projekt",
+      "tags": [
+        "work",
+        "task"
+      ],
+      "hint": "Neuter noun (das)",
+      "example": "Das Projekt ist fast fertig."
+    },
+    {
+      "id": "de-en-a2-wk-014",
+      "packId": "de-en-a2-work",
+      "front": "experience",
+      "back": "die Erfahrung",
+      "tags": [
+        "work",
+        "skill"
+      ],
+      "hint": "Feminine noun (die)",
+      "example": "Ich habe viel Erfahrung."
+    },
+    {
+      "id": "de-en-a2-wk-015",
+      "packId": "de-en-a2-work",
+      "front": "success",
+      "back": "der Erfolg",
+      "tags": [
+        "work",
+        "positive"
+      ],
+      "hint": "Masculine noun (der)",
+      "example": "Viel Erfolg bei der Arbeit!"
+    }
+  ]
+}

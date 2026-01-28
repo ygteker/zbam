@@ -1,0 +1,195 @@
+{
+  "pack": {
+    "id": "de-tr-a1-everyday",
+    "name": "Almanca A1: Günlük Eşyalar",
+    "description": "Yeni başlayanlar için günlük ev eşyaları.",
+    "difficultyLevel": "beginner",
+    "cardCount": 15,
+    "iconName": "house.fill",
+    "tags": [
+      "Daily Life"
+    ]
+  },
+  "cards": [
+    {
+      "id": "de-tr-a1-ev-001",
+      "packId": "de-tr-a1-everyday",
+      "front": "masa",
+      "back": "der Tisch",
+      "tags": [
+        "mobilya",
+        "ev"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Tisch ist groß."
+    },
+    {
+      "id": "de-tr-a1-ev-002",
+      "packId": "de-tr-a1-everyday",
+      "front": "sandalye",
+      "back": "der Stuhl",
+      "tags": [
+        "mobilya",
+        "ev"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Stuhl ist bequem."
+    },
+    {
+      "id": "de-tr-a1-ev-003",
+      "packId": "de-tr-a1-everyday",
+      "front": "kapı",
+      "back": "die Tür",
+      "tags": [
+        "ev",
+        "bina"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Tür ist offen."
+    },
+    {
+      "id": "de-tr-a1-ev-004",
+      "packId": "de-tr-a1-everyday",
+      "front": "pencere",
+      "back": "das Fenster",
+      "tags": [
+        "ev",
+        "bina"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Fenster ist groß."
+    },
+    {
+      "id": "de-tr-a1-ev-005",
+      "packId": "de-tr-a1-everyday",
+      "front": "yatak",
+      "back": "das Bett",
+      "tags": [
+        "mobilya",
+        "yatak odası"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Bett ist weich."
+    },
+    {
+      "id": "de-tr-a1-ev-006",
+      "packId": "de-tr-a1-everyday",
+      "front": "lamba",
+      "back": "die Lampe",
+      "tags": [
+        "mobilya",
+        "ışık"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Lampe ist hell."
+    },
+    {
+      "id": "de-tr-a1-ev-007",
+      "packId": "de-tr-a1-everyday",
+      "front": "telefon",
+      "back": "das Telefon",
+      "tags": [
+        "elektronik",
+        "iletişim"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Telefon klingelt."
+    },
+    {
+      "id": "de-tr-a1-ev-008",
+      "packId": "de-tr-a1-everyday",
+      "front": "bilgisayar",
+      "back": "der Computer",
+      "tags": [
+        "elektronik",
+        "iş"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Computer ist neu."
+    },
+    {
+      "id": "de-tr-a1-ev-009",
+      "packId": "de-tr-a1-everyday",
+      "front": "anahtar",
+      "back": "der Schlüssel",
+      "tags": [
+        "ev",
+        "güvenlik"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Wo ist der Schlüssel?"
+    },
+    {
+      "id": "de-tr-a1-ev-010",
+      "packId": "de-tr-a1-everyday",
+      "front": "çanta",
+      "back": "die Tasche",
+      "tags": [
+        "aksesuar",
+        "seyahat"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Tasche ist schwer."
+    },
+    {
+      "id": "de-tr-a1-ev-011",
+      "packId": "de-tr-a1-everyday",
+      "front": "saat",
+      "back": "die Uhr",
+      "tags": [
+        "zaman",
+        "ev"
+      ],
+      "hint": "Dişi isim (die)",
+      "example": "Die Uhr zeigt zehn Uhr."
+    },
+    {
+      "id": "de-tr-a1-ev-012",
+      "packId": "de-tr-a1-everyday",
+      "front": "resim",
+      "back": "das Bild",
+      "tags": [
+        "sanat",
+        "ev"
+      ],
+      "hint": "Nötr isim (das)",
+      "example": "Das Bild ist schön."
+    },
+    {
+      "id": "de-tr-a1-ev-013",
+      "packId": "de-tr-a1-everyday",
+      "front": "ayna",
+      "back": "der Spiegel",
+      "tags": [
+        "banyo",
+        "ev"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Der Spiegel ist im Bad."
+    },
+    {
+      "id": "de-tr-a1-ev-014",
+      "packId": "de-tr-a1-everyday",
+      "front": "şemsiye",
+      "back": "der Regenschirm",
+      "tags": [
+        "hava",
+        "aksesuar"
+      ],
+      "hint": "Erkek isim (der)",
+      "example": "Ich brauche einen Regenschirm."
+    },
+    {
+      "id": "de-tr-a1-ev-015",
+      "packId": "de-tr-a1-everyday",
+      "front": "gözlük",
+      "back": "die Brille",
+      "tags": [
+        "aksesuar",
+        "görme"
+      ],
+      "hint": "Dişi isim (die) - Almancada tekil",
+      "example": "Wo ist meine Brille?"
+    }
+  ]
+}
